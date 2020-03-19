@@ -1,0 +1,384 @@
+/* icon */
+[class^=icon-] {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
+[class^=icon-]:before,
+[class^=icon-]:after {
+	content: '';
+}
+/* icon main */
+.icon-main {
+	background: url(/assets/hcp/pc/img/main/spr_icon_main.png) no-repeat;
+}
+.icon-btnSearch {
+	width: 26px;
+	height: 26px;
+	background-position: -132px 0;
+}
+.icon-Menu {
+	width: 30px;
+	height: 30px;
+	background-position: 0 -78px;
+}
+.icon-mypage {
+	width: 25px;
+	height: 22px;
+	margin-right: 10px;
+	background-position: -263px -20px;
+}
+.icon-btnMore {
+	width: 20px;
+	height: 20px;
+	background-position: -239px 0;
+}
+[class*=icon-topMenu] {
+	width: 40px;
+	height: 40px;
+}
+.icon-topMenu01 {
+	background-position: 0 0;
+}
+.icon-topMenu02 {
+	background-position: -44px 0;
+}
+.icon-topMenu03 {
+	background-position: -88px 0;
+}
+[class*=icon-shortCut] {
+	width: 30px;
+	height: 30px;
+}
+.icon-shortCut01 {
+	background-position: 0 -44px;
+}
+.icon-shortCut02 {
+	background-position: -34px -44px;
+}
+.icon-shortCut03 {
+	background-position: -68px -44px;
+}
+.icon-shortCut04 {
+	background-position: -102px -44px;
+}
+.icon-shortCut05 {
+	background-position: -136px -44px;
+}
+.icon-shortCut06 {
+	background-position: -170px -44px;
+}
+.icon-shortCut07 {
+	background-position: -204px -44px;
+}
+.icon-shortCut08 {
+	background-position: -238px -44px;
+}
+/* arrow */
+[class*=icon-arrow] {
+	width: 9px;
+	height: 15px;
+}
+.icon-main.icon-arrow01 {
+	background-position: -188px -25px;
+}
+.icon-main.icon-arrow02 {
+	background-position: -201px -25px;
+}
+.icon-main.icon-arrow-up {
+	width: 11px;
+	height: 8px;
+	background-position: -282px 0;
+}
+.icon-main.icon-arrow-down {
+	width: 15px;
+	height: 10px;
+	background-position: -263px 0;
+}
+/* icon private */
+.icon-private01 {
+	width: 24px;
+	height: 21px;
+	background-position: -186px 0;
+}
+.icon-private02 {
+	width: 21px;
+	height: 21px;
+	background-position: -214px 0;
+}
+/* content icon */
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+	/* background-color: pink; */
+	background-image: url(/assets/hcp/pc/img/common/spr_icon.png);
+	background-repeat: no-repeat;
+}
+.icon-count {
+	width: 22px;
+	height: 14px;
+	margin-right: 5px;
+	background-position: 0 0
+	;
+}
+.icon-star {
+	width: 13px;
+	height: 15px;
+	background-position: -24px 0;
+}
+.icon-file01 {
+	width: 26px;
+	height: 26px;
+	background-position: 0 -34px;
+}
+.icon-file02 {
+	width: 26px;
+	height: 26px;
+	background-position: -27px -34px;
+}
+.icon-question01 {
+	width: 34px;
+	height: 32px;
+	margin-right: 20px;
+	background-position: -118px 0;
+}
+.icon-question02 {
+	width: 25px;
+	height: 24px;
+	background-position: -93px 0;
+}
+.icon-question03 {
+	width: 19px;
+	height: 23px;
+	background-position: -279px 0;
+}
+.icon-answer {
+	width: 33px;
+	height: 32px;
+	background-position: -153px 0;
+}
+/* 화살표 */
+[class*=icon-angle] {
+	position: relative;
+	width: 8px;
+	height: 10px;
+	margin: 0 5px;
+	background: none;
+}
+[class*=icon-angle]:before,
+[class*=icon-angle]:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 6px;
+	height: 2px;
+	border-radius: 20px;
+	background-color: #121212;
+}
+[class*=icon-angle]:before {
+	top: 2px;
+	transform: rotate(45deg);
+}
+[class*=icon-angle]:after {
+	bottom: 2px;
+	transform: rotate(-45deg);
+}
+/* 뱡향 */
+[class*=icon-angle].bottom {
+	width: 10px;
+	height: 7px;
+	margin: -3px 5px 0;
+}
+[class*=icon-angle].bottom:before {
+	top: 50%;
+	left: 0;
+}
+[class*=icon-angle].bottom:after {
+	top: 50%;
+	right: 0;
+	left: inherit;
+}
+/* 화살표 색상*/
+.icon-angle01:before,
+.icon-angle01:after {
+	background-color: #fff600;
+}
+.icon-angle02:before,
+.icon-angle02:after {
+	background-color: #999;
+}
+.icon-angle03:before,
+.icon-angle03:after {
+	background-color: #ce020b;
+}
+.icon-time {
+	width: 17px;
+	height: 16px;
+	background-position: -55px 0;
+}
+.icon-state {
+	width: 17px;
+	height: 16px;
+	background-position: -38px 0;
+}
+.icon-dotted {
+	width: 17px;
+	height: 16px;
+	background-position: -74px 0;
+}
+.icon-good {
+	width: 34px;
+	height: 33px;
+	background-position: 0 -61px;
+}
+.icon-write {
+	width: 33px;
+	height: 32px;
+	background-position: -34px -61px;
+}
+.icon-people {
+	width: 34px;
+	height: 32px;
+	background-position: -69px -61px;
+}
+.icon-complete {
+	width: 78px;
+	height: 74px;
+	background-position: 0 -95px;
+}
+.icon-plus {
+	width: 20px;
+	height: 20px;
+	background-position: -300px 0;
+}
+.icon-minus {
+	width: 20px;
+	height: 20px;
+	background-position: -322px 0;
+}
+.icon-play {
+	width: 27px;
+	height: 31px;
+	background-position: -235px 0;
+}
+.icon-tip {
+	width: 15px;
+	height: 14px;
+	background-position: -263px 0;
+}
+.icon-new {
+	width: 18px;
+	height: 16px;
+	background-position: -343px 0;
+}
+.icon-down {
+	width: 10px;
+	height: 15px;
+	background-position: -362px 0;
+}
+.icon-report {
+	width: 18px;
+	height: 15px;
+	margin-top: -4px;
+	background-position: -375px 0;
+}
+/* .icon-good:hover {
+	background-position: -105px -61px;
+}
+.icon-write:hover {
+	background-position: -140px -61px;
+}
+.icon-people:hover {
+	background-position: -175px -61px;
+} */
+.icon-bookmark {
+	width: 16px;
+	height: 18px;
+	background-position: -395px 0;
+}
+.active > .icon-bookmark,
+.icon-bookmark.active {
+	background-position: -411px 0;
+}
+.icon-like {
+	width: 20px;
+	height: 18px;
+	background-position: -427px 0;
+}
+.icon-like01 {
+	width: 50px;
+	height: 50px;
+	background-position: -80px -95px;
+}
+.icon-like02 {
+	width: 14px;
+	height: 12px;
+	background-position: -483px 0;
+}
+.icon-like03 {
+	width: 14px;
+	height: 12px;
+	background-position: -467px 0;
+}
+.icon-dislike {
+	width: 50px;
+	height: 50px;
+	background-position: -132px -95px;
+}
+.icon-sns01 {
+	width: 35px;
+	height: 35px;
+	background-position: -184px -95px;
+}
+.icon-sns02 {
+	width: 35px;
+	height: 35px;
+	background-position: -221px -95px;
+}
+.icon-sns03 {
+	width: 35px;
+	height: 35px;
+	background-position: -259px -95px;
+}
+.icon-sns03 {
+	width: 35px;
+	height: 35px;
+	background-position: -259px -95px;
+}
+.icon-medicine {
+	width: 25px;
+	height: 27px;
+	background-position: -210px -61px;
+}
+.icon-sms01 {
+	width: 22px;
+	height: 20px;
+	margin: -2px 5px 0 0;
+	background-position: -403px -34px;
+}
+.icon-link {
+	width: 22px;
+	height: 20px;
+	margin: -2px 5px 0 0;
+	background-position: -427px -34px;
+}
+.icon-weight {
+	width: 30px;
+	height: 30px;
+	background-position: -265px -61px;
+}
+.icon-bloodPressure {
+	width: 30px;
+	height: 30px;
+	background-position: -297px -61px;
+}
+.icon-bloodSugar {
+	width: 30px;
+	height: 30px;
+	background-position: -329px -61px;
+}
+.icon-refresh {
+	width: 18px;
+	height: 16px;
+	background-position: -314px -34px;
+}

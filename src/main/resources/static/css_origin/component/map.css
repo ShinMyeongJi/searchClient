@@ -1,0 +1,1882 @@
+@charset 'UTF-8';
+/* icon */
+[class*=icon-] {
+	display: inline-block;
+	position: relative;
+	top: -2px;
+	vertical-align: middle;
+	background-image: url(/static/img/common/spr_icon.png);
+	background-repeat: no-repeat;
+}
+.icon-pharmacy {
+	width: 24px;
+	height: 24px;
+	background-position: -26px 0;
+}
+.icon-hospital {
+	width: 24px;
+	height: 24px;
+	background-position: 0 0;
+}
+.icon-like {
+	width: 20px;
+	height: 20px;
+	background-position: -204px 0;
+}
+.icon-like02 {
+	width: 20px;
+	height: 20px;
+	background-position: -226px 0;
+}
+.icon-like03 {
+	width: 35px;
+	height: 35px;
+	background-position: -37px -346px;
+}
+.icon-location {
+	width: 20px;
+	height: 20px;
+	background-position: -182px 0;
+}
+.icon-badge01 {
+	width: 20px;
+	height: 20px;
+	background-position: -204px -22px;
+}
+.icon-badge02 {
+	width: 20px;
+	height: 20px;
+	background-position: -182px -22px;
+}
+.icon-parking {
+	width: 20px;
+	height: 20px;
+	background-position: -226px -22px;
+}
+.icon-book {
+	width: 20px;
+	height: 20px;
+	background-position: -248px -22px;
+}
+.current > .icon-book {
+	background-position: -270px -22px;
+}
+.icon-search01 {
+	width: 24px;
+	height: 24px;
+	background-position: -156px 0;
+}
+.icon-point01 {
+	width: 24px;
+	height: 24px;
+	background-position: -156px -26px;
+}
+.icon-write {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -52px;
+}
+.icon-write02 {
+	width: 35px;
+	height: 35px;
+	background-position: 0 -346px;
+	cursor: pointer;
+}
+.icon-share {
+	width: 24px;
+	height: 24px;
+	background-position: -104px -26px;
+}
+.icon-detail {
+	width: 24px;
+	height: 24px;
+	background-position: -130px -26px;
+}
+.icon-road {
+	width: 24px;
+	height: 24px;
+	background-position: -104px 0;
+}
+.icon-navi {
+	width: 24px;
+	height: 24px;
+	background-position: -78px -26px;
+}
+.icon-taxi {
+	width: 24px;
+	height: 24px;
+	background-position: -78px 0;
+}
+.icon-ask {
+	width: 24px;
+	height: 24px;
+	background-position: -130px 0;
+}
+.icon-back {
+	width: 24px;
+	height: 24px;
+	background-position: -26px -52px;
+}
+.icon-map-alim {
+	width: 30px;
+	height: 30px;
+	background-position: -315px -191px;
+}
+.icon-homepage {
+	width: 15px;
+	height: 15px;
+	background-position: -148px -323px;
+}
+/* 노선 */
+[class^=icon-locate-] {
+	position: relative;
+	top: -2px;
+	background-image: url(/static/img/common/spr_locate.png) !important;
+}
+/* sk - 서울,경기 */
+[class^=icon-locate-sk] {
+	width: 14px;
+	height: 14px;
+}
+.icon-locate-sk01 {
+	background-position: 0 0;
+}
+.icon-locate-sk02 {
+	background-position: -16px 0;
+}
+.icon-locate-sk03 {
+	background-position: -32px 0;
+}
+.icon-locate-sk04 {
+	background-position: -48px 0;
+}
+.icon-locate-sk05 {
+	background-position: -64px 0;
+}
+.icon-locate-sk06 {
+	background-position: -80px 0;
+}
+.icon-locate-sk07 {
+	background-position: 0 -16px;
+}
+.icon-locate-sk08 {
+	background-position: -16px -16px;
+}
+.icon-locate-sk09 {
+	background-position: -32px -16px;
+}
+.icon-locate-sk010 {
+	background-position: 0 -32px;
+}
+.icon-locate-sk011 {
+	background-position: -16px -32px;
+}
+.icon-locate-sk012 {
+	background-position: -32px -32px;
+}
+.icon-locate-sk013 {
+	background-position: -48px -32px;
+}
+.icon-locate-sk014 {
+	background-position: -64px -32px;
+}
+.icon-locate-sk015 {
+	background-position: -80px -32px;
+}
+.icon-locate-sk016 {
+	background-position: 0 -48px;
+}
+.icon-locate-parking {
+	width: 14px;
+	height: 14px;
+	background-position: -48px -16px;
+}
+/* tags */
+.tag-group .tags {
+	display: inline-block;
+	vertical-align: top;
+	height: 24px;
+	margin: 5px 3px;
+	padding: 0 14px;
+	border: 1px solid #ccc;
+	border-radius: 12px;
+	color: #666;
+	font-size: 12px;
+	line-height: 22px;
+	background-color: #f2f2f2;
+}
+.tag-group .tags:first-child {
+	margin-left: 0;
+}
+.time-of-day:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.time-of-day li {
+	float: left;
+	color: #999;
+}
+.time-of-day li strong {
+	margin-right: 10px;
+	color: #000;
+}
+/* table */
+.map .table td {
+	font-size: 14px;
+}
+/* circle-list */
+.circle-list ul:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.circle-list li {
+	float: left;
+	text-align: center;
+}
+.circle-list li + li {
+	margin-left: 50px;
+}
+.circle-list li a {
+	display: block;
+}
+.circle-list li img {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto 5px;
+	border: 1px solid #ccc;
+	border-radius: 100%;
+}
+.circle-list .more {
+	margin-top: 15px;
+	text-align: right;
+}
+.circle-list .more a {
+	position: relative;
+	padding-right: 11px;
+	font-weight: 700;
+}
+.circle-list .more a:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 7px;
+	height: 11px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -403px -44px;
+}
+/* map */
+.content.map-content {
+	padding: 0;
+}
+.navbar-fixed .content.map-content {
+	/*padding-top: 151px;*/
+}
+.map-group {
+	overflow: hidden;
+	height: 100%;
+	/*border-top: 1px solid #ccc;*/
+}
+.map-group:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.map-group .map-info {
+	float: left;
+	position: relative;
+	z-index: 15;
+	width: 400px;
+	height: 100%;
+	min-height: 730px;
+	box-shadow: 7px 0 7px -3px #ccc;
+}
+/* 왼쪽 지도 정보 */
+.map-info .map-info-head {
+	position: relative;
+	padding: 15px 20px;
+	background: -moz-linear-gradient(top, #ff5014 0%, #ed1b2e 100%);
+	background: -webkit-linear-gradient(top, #ff5014 0%, #ed1b2e 100%);
+	background: linear-gradient(to bottom, #ff5014 0%, #ed1b2e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5014', endColorstr='#ed1b2e',GradientType=0 ); /* IE6-9 */
+}
+.map-info .map-info-head > .tab {
+	width: 190px;
+	margin-bottom: 0;
+	border-radius: 17px;
+}
+.map-info .map-info-head > .tab li {
+	position: relative;
+	width: 95px;
+}
+.map-info .map-info-head > .tab a {
+	height: 34px;
+	border: 0;
+	color: #f6a8ac;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 34px;
+	background-color: #ed1a2e;
+}
+.map-info .map-info-head > .tab li:first-child a {
+	border-radius: 17px 0 0 17px;
+}
+.map-info .map-info-head > .tab li:last-child a {
+	border-radius: 0 17px 17px 0;
+}
+.map-info .map-info-head > .tab [class*=icon-] {
+	content: '';
+	margin-right: 5px;
+}
+.map-info .map-info-head > .tab li.current a {
+	height: 42px;
+	margin: -4px;
+	border: 4px solid #ffca00;
+	border-radius: 25px;
+	color: #000;
+	background-color: #fff;
+}
+.map-info .map-info-head > .tab .current .icon-hospital {
+	background-position: 0 -26px;
+}
+.map-info .map-info-head > .tab .current .icon-pharmacy {
+	background-position: -26px -26px;
+}
+.map-info .map-info-head .btn-compare {
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	color: #f6a8ac;
+	font-size: 16px;
+	line-height: 34px;
+}
+.map-info .map-info-head .btn-compare em {
+	color: #fff;
+	font-weight: 300;
+}
+.map-info .map-info-head .btn-compare em span {
+	font-size: 18px;
+	font-weight: 700;
+}
+/* .map-info .map-sort {
+	position: relative;
+	height: 76px;
+	padding: 0 24px 0 20px;
+	border-bottom: 1px solid #eee;
+}
+.map-info .map-sort:after {
+	content: '';
+	display: table;
+	clear: both;
+} */
+.map-info .paging-type01 {
+	padding-bottom: 50px;
+}
+.map-info .map-sort [class*=btn] {
+	position: absolute;
+	top: 20px;
+	right: 24px;
+}
+.map-info .map-sort [class*=btn] span {
+	color: #ed1a2e;
+}
+.map-info .map-sort ul {
+	float: left;
+	margin-top: 25px;
+}
+.map-info .map-sort li {
+	float: left;
+	position: relative;
+	min-width: 70px;
+	padding-left: 10px;
+}
+.map-info .map-sort li:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 4px;
+	height: 4px;
+	margin-top: -2px;
+	border-radius: 100%;
+	background-color: #ccc;
+}
+.map-info .map-sort li a {
+	color: #999;
+}
+.map-info .map-sort .current:before {
+	background-color: #ed1a2e;
+}
+.map-info .map-sort .current a {
+	color: #000;
+	font-weight: 700;
+}
+/* 지도 */
+.map-group .map {
+	position: relative;
+	min-height: 730px;
+	margin-left: 400px;
+}
+/* 지도 버튼 */
+.map-group .map-btn-group {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+.map-group .map-btn-group button {
+	display: block;
+	position: relative;
+	margin-top: 10px;
+	border: 0;
+	background: none;
+}
+.map-group .map-btn-group button:first-child {
+	margin-top: 0;
+}
+.map-group .map-btn-group button .label {
+	display: none;
+	position: absolute;
+	top: 50%;
+	right: 47px;
+	max-width: initial;
+	margin-top: -8px;
+}
+.map-group .map-btn-group button:hover .label {
+	display: block;
+}
+/* 병원/약국 및 위치 검색 */
+.map-search-form {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+}
+.map-search-form .inner {
+	width: 100%;
+	padding: 0;
+}
+.map-search-form .inner:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.map-search-form .inner > div {
+	float: left;
+	position: relative;
+	width: 43%;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+.map-search-form .inner > div:last-child {
+	width: 14%;
+}
+.map-search-form input {
+	display: block;
+	width: 100%;
+	height: 70px;
+	padding: 0 20px 0 46px;
+	border: 0;
+	font-size: 16px;
+}
+.map-search-form .selectize-control,
+.map-search-form .selectize-control .selectize-input {
+	height: 70px;
+	border: none;
+}
+.map-search-form .selectize-control .selectize-input {
+	padding: 22px 56px 22px 20px;
+}
+.map-search-form .selectize-control.single .selectize-input:after {
+	top: 50% !important;
+	margin-top: -24px !important;
+}
+.map-search-form .inner [class*=icon-] {
+	position: absolute;
+	top: 25px;
+	left: 12px;
+}
+.map-search-form .selectize-control .selectize-dropdown {
+	border-top: 1px solid #eee;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+}
+.input-search input {
+	padding-right: 120px;
+}
+.input-search button {
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 100px;
+	height: 50px;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+	background-color: #ed1a2e;
+}
+.map-search-form input:focus ~ button {
+	display: block;
+}
+.map-search-form [class*=input-] > .scrollbar {
+	display: none;
+	position: absolute;
+	top: 70px;
+	right: 0;
+	left: 0;
+	z-index: 20;
+	height: 190px;
+	border-top: 1px solid #eee;
+	background-color: #fff;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+}
+.map-search-form [class*=input-] > .scrollbar ul {
+	padding: 10px 0;
+}
+.map-search-form [class*=input-] > .scrollbar li {
+	height: 34px;
+	padding: 0 20px;
+	color: #999;
+	line-height: 34px;
+}
+.map-search-form [class*=input-] > .scrollbar li:hover,
+.map-search-form [class*=input-] > .scrollbar li:focus {
+	background-color: #f2f2f2;
+}
+.map-search-form [class*=input-] > .scrollbar li span {
+	margin-right: 10px;
+	color: #000;
+}
+.map-search-form [class*=input-] > .scrollbar li em {
+	color: #ed1a2e;
+}
+/* 조건검색 */
+.map-search {
+	position: relative;
+	width: 100%;
+	background-color: #f2f2f2;
+}
+.hnpTypeP .map-search {
+	display: none;
+}
+.map-search .title a {
+	display: block;
+	position: relative;
+	height: 60px;
+	padding: 0 60px 0 20px;
+	border-bottom: 1px solid #ccc;
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 59px;
+}
+.map-search .title a .icon-arrow {
+	position: absolute;
+	top: 50%;
+	left: 120px;
+	width: 21px;
+	height: 19px;
+	margin-top: -10px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -380px -23px;
+}
+.map-search .title a .icon-arrow:before,
+.map-search .title a .icon-arrow:after {
+	display: none;
+}
+.map-search.active .title a .icon-arrow {
+	background-position: -380px 0;
+}
+/* 조건검색 체크박스 */
+.map-search-body {
+	display: none;
+	padding: 20px;
+	border-bottom: 1px solid #989895;
+	box-shadow: 0 3px 5px -3px #989895;
+}
+.map-search-body .btn-group {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	margin-top: 0;
+}
+.map-search .item-group:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.map-search .item-group .item {
+	float: left;
+	width: 25%;
+	padding: 0 4px;
+}
+.map-search .item-group .item .name {
+	display: block;
+	margin-bottom: 10px;
+	color: #000;
+	font-weight: 700;
+}
+.map-search .item-group .btn-group {
+	clear: both;
+}
+.map-search .item-group .scroll-wrapper {
+	height: 206px;
+}
+.map-search .item-group .checkbox {
+	display: block;
+	height: 40px;
+	margin-top: -1px;
+	padding: 0 45px 0 15px;
+	border: 1px solid #ccc;
+	line-height: 40px;
+	background-color: #fff;
+}
+.map-search .item-group ul {
+	margin-top: -1px;
+}
+.map-search .item-group li:first-child .checkbox {
+	margin-top: 0;
+}
+.map-search .item-group .checkbox.checked {
+	position: relative;
+	z-index: 1;
+	border-color: #ed1a2e;
+}
+.map-search .item-group .checkbox .label {
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	color: #999;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.map-search .item-group .checkbox.checked .label {
+	color: #ed1a2e;
+	font-weight: 700;
+}
+.map-search .item-group .checkbox ins {
+	position: absolute;
+	top: 50%;
+	right: 12px;
+	width: 20px;
+	height: 20px;
+	margin-top: -10px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -248px 0;
+}
+.map-search .item-group .checkbox :checked ~ ins {
+	background-position: -270px 0;
+}
+/* 병원/약국 정보 item */
+.map-info [class*=map-info-item] {
+	position: relative;
+	padding: 30px 20px;
+	padding: 20px;
+	border-bottom: 1px solid #eee;
+}
+.map-info [class*=map-info-item].checked {
+	background-color: #f2f2f2;
+}
+[class*=map-info-item].checked .title .like {
+	color: #ed1a2e;
+}
+[class*=map-info-item].checked .icon-like {
+	background-position: -226px 0;
+}
+[class*=map-info-item] .checkbox {
+	position: absolute;
+	/*top: 30px;*/
+	top: 23px;
+	left: 20px;
+	margin: 0;
+}
+[class*=map-info-item] .thumb {
+	float: left;
+	position: relative;
+	margin: 0 10px 10px 0;
+	border: 1px solid #ccc;
+}
+[class*=map-info-item] .thumb .label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	padding: 0 5px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 20px;
+	background-color: #4ac448;
+}
+[class*=map-info-item],
+[class*=map-info-item] a {
+	color: #999;
+}
+[class*=map-info-item] .title {
+	position: relative;
+	font-size: 18px;
+}
+[class*=map-info-item] .title a {
+	display: inline-block;
+	overflow: hidden;
+	/*width: 100%;*/
+	max-width: 90%;
+	color: #000;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.map-pointer [class*=map-info-item] .title a {
+	max-width: 100%;
+	white-space: normal;
+}
+[class*=map-info-item] .title a strong {
+	display: inline-block;
+	vertical-align: top;
+	width: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+[class*=map-info-item] .title a span {
+	/*display: inline-block;*/
+	/*overflow: hidden;*/
+	/*vertical-align: top;*/
+	/*max-width: 80%;*/
+	/*width: 100%;*/
+	margin-left: 5px;
+	text-decoration: underline;
+	/*text-overflow: ellipsis;*/
+	/*white-space: nowrap;*/
+}
+[class*=map-info-item] .title .like {
+	position: absolute;
+	/*top: 8px;*/
+	top: 6px;
+	right: 0;
+	color: #999;
+	font-size: 12px;
+}
+[class*=map-info-item] .title + p {
+	/*margin-top: 10px;*/
+	margin-top: 0;
+}
+[class*=map-info-item] p {
+	overflow: hidden;
+	margin: 3px 0;
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+}
+[class*=map-info-item] p a {
+	margin-left: 8px;
+}
+[class*=map-info-item] p a:first-child {
+	margin-left: 0;
+}
+[class*=map-info-item] .state {
+	margin-left: 5px;
+	font-weight: 700;
+}
+[class*=map-info-item] .parking {
+	margin-right: 5px;
+}
+[class*=map-info-item] .url {
+	/*margin-top: 20px;*/
+	margin-top: 15px;
+}
+[class*=map-info-item] .url a {
+	text-decoration: underline;
+}
+[class*=map-info-item] .foot {
+	/*margin-top: 20px;*/
+	margin-top: 15px;
+}
+[class*=map-info-item] .foot:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+[class*=map-info-item] .foot .right {
+	float: right;
+}
+[class*=map-info-item] .etc {
+	display: table;
+	width: 100%;
+	margin-top: 9px;
+	border-width: 1px 0;
+	font-size: 0;
+}
+[class*=map-info-item] .etc > * {
+	display: table-cell;
+	vertical-align: top;
+	height: 40px;
+	padding: 0 2px;
+	border-width: 1px 1px 1px 0;
+	border-style: solid;
+	border-color: #ccc;
+	color: #666;
+	font-size: 12px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #fff;
+}
+[class*=map-info-item] .etc > *:first-child {
+	border-left: 1px solid #ccc;
+}
+[class*=map-info-item] .etc > .road {
+	width: 45px;
+}
+[class*=map-info-item] .etc [class*=icon-] + span {
+	margin-left: 7px;
+}
+[class*=map-info-item] .etc.etc-size03 > * {
+	width: 33.33%;
+}
+.map-info-item-check .sub {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	white-space: nowrap;
+}
+.map-info-item-check .address i {
+	margin-left: -4px;
+}
+.map-info-item-check .checkbox ins {
+	background: url(/static/img/common/spr_icon.png) no-repeat -52px 0;
+}
+.map-info-item-check .checkbox :checked ~ ins {
+	background-position: -52px -26px;
+}
+.map-info .map-info-item-check {
+	padding-left: 60px;
+}
+.map-info-item-check .address .icon-location {
+	margin-left: -4px;
+}
+/* 병원 선택 */
+.map-item-list {
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+	width: 200px;
+	padding: 15px;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+.map-item-list a {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	max-width: 150px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.map-item-list a:hover,
+.map-item-list a:focus {
+	text-decoration: underline;
+}
+.map-item-list b {
+	display: inline-block;
+	vertical-align: middle;
+	width: 12px;
+	margin-right: 5px;
+	font-size: 18px;
+	font-weight: 700;
+}
+/* 지도 상세 */
+.map-info-detail .scrollbar {
+	height: 660px;
+}
+.map-info-detail .detail-head {
+	position: relative;
+	padding: 25px 40px;
+}
+.map-info-detail .detail-head.share {
+	padding-right: 80px;
+}
+.map-info-detail .detail-head .title {
+	margin-left: -25px;
+}
+.map-info-detail .detail-head .title [class*=icon-] {
+	top: 0;
+	vertical-align: middle;
+}
+.map-info-detail .detail-head .title h2 {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	max-width: 90%;
+	margin: 0;
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+	letter-spacing: -1px;
+}
+.map-info-detail .detail-head .title h2 span {
+	font-weight: 400;
+}
+.map-info-detail .detail-head .btn-group {
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	margin: 0;
+}
+.map-info-detail .detail-head .btn-group li {
+	float: left;
+	margin-left: 5px;
+}
+.map-info-detail .detail-head .btn-group li:first-child {
+	margin-left: 0;
+}
+.map-info-detail .detail-head .btn-group li a {
+	display: block;
+	width: 24px;
+	height: 24px;
+}
+.map-info-detail .tab {
+	margin: 0;
+}
+.map-info-detail .tab li a {
+	position: relative;
+	height: 40px;
+	border-width: 1px 0 1px 0;
+	border-color: #eee;
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #fff;
+}
+.map-info-detail .tab li.current a {
+	border-color: #eee;
+	color: #ed1a2e;
+	font-weight: 700;
+}
+.map-info-detail .tab li.current a:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: -1px;
+	left: 0;
+	height: 2px;
+	background-color: #ed1a2e;
+}
+.map-info-detail .card {
+	margin-top: -20px;
+}
+.map-info-detail .card li {
+	margin-top: 20px;
+}
+.map-info-detail .card li:first-child {
+	margin-top: 0;
+}
+/* 지도 상세 슬라이드 */
+.map-detail-slide.slick-dotted.slick-slider {
+	margin-bottom: 0;
+}
+.map-detail-slide .slick-slide {
+	height: 214px;
+	background-color: #fcc;
+}
+.map-detail-slide .slick-dots {
+	bottom: 14px;
+}
+.map-detail-slide .slick-dots li {
+	width: auto;
+	height: auto;
+	margin: 0 3px;
+}
+.map-detail-slide .slick-dots li button {
+	width: 8px;
+	height: 8px;
+	padding: 0;
+	border-radius: 4px;
+	background-color: #fff;
+}
+.map-detail-slide .slick-dots li button:before {
+	display: none;
+}
+.map-detail-slide .slick-dots li.slick-active button {
+	width: 20px;
+	background-color: #ed1a2e;
+}
+.detail-slide-summary {
+	padding: 20px;
+}
+/* 지도 상세영역 */
+.map-detail-content .map-detail-section {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.map-detail-content .text-more {
+	/*display: -webkit-box;*/
+	display: block;
+	overflow: hidden;
+	height: 40px;
+	color: #000;
+	text-overflow: ellipsis;
+	/*-webkit-line-clamp: 2;*/
+	/*-webkit-box-orient: vertical;*/
+}
+.map-detail-content .text-more.line-size01 {
+	display: block;
+	height: auto;
+	white-space: nowrap;
+}
+.map-detail-content .text-more.line-size03 {
+	height: 60px;
+	-webkit-line-clamp: 3;
+}
+.map-detail-section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.map-detail-section.ptX {
+	padding-top: 0;
+}
+.map-detail-section legend + .heading-depth04,
+.map-detail-section .heading-depth04:first-child {
+	margin-top: 0;
+}
+.map-detail-section .heading-depth04 {
+	margin-top: 50px;
+}
+.map-detail-section .head {
+	margin-bottom: 10px;
+}
+.map-detail-section .head .right {
+	float: right;
+	margin: 0;
+}
+.map-detail-section .head .more {
+	position: relative;
+	padding-right: 11px;
+	font-weight: 700;
+}
+.map-detail-section .head .more:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 7px;
+	height: 11px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -403px -44px;
+}
+.map-detail-section .title {
+	display: inline-block;
+	margin: 0;
+	color: #000;
+	font-size: 16px;
+}
+.map-detail-section .full {
+	margin-right: -20px;
+	margin-left: -20px;
+}
+.map-detail-section .thumb-map {
+	height: 120px;
+	background-color: #fcc;
+}
+.map-detail-section .thumb-map + .btn-group02 {
+	margin-top: -20px;
+}
+.map-detail-section .address p {
+	margin-bottom: 5px;
+}
+.map-detail-section .btn-group {
+	margin-top: 30px;
+}
+.map-detail-section .btn-group02 {
+	margin-top: 30px;
+}
+.map-detail-section .foot {
+	margin-top: 15px;
+	color: #999;
+	font-size: 12px;
+}
+.map-detail-section .foot:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.map-detail-section .foot span {
+	margin-left: 10px;
+}
+.map-detail-section .foot .right {
+	float: right;
+	margin: 0;
+}
+.map-detail-section .foot .more {
+	position: relative;
+	padding-right: 11px;
+	font-weight: 700;
+}
+.map-detail-section .foot .more:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 7px;
+	height: 11px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -403px -44px;
+}
+.map-detail-section .message {
+	padding: 20px;
+}
+.map-detail-section .time-of-day {
+	margin-bottom: 11px;
+}
+.map-detail-section .time-of-day li {
+	width: 50%;
+	margin: 2px 0;
+}
+.map-detail-section .time {
+	color: #999;
+}
+.map-detail-section .time strong {
+	margin-right: 10px;
+	color: #000;
+}
+.map-detail-section .link a {
+	color: #157fdd;
+	text-decoration: underline;
+}
+.map-detail-section .campaign {
+	padding: 35px 30px;
+	border: 4px solid #48bb37;
+	background: url(/static/img/map/img_campaign.png) no-repeat 100% 100%;
+}
+.map-detail-section .campaign .name {
+	font-size: 26px;
+}
+.map-detail-section .campaign .name strong {
+	font-weight: 700;
+}
+.map-detail-section .campaign .text {
+	margin: 5px 0 10px;
+	color: #999;
+	font-size: 12px;
+	text-decoration: underline;
+}
+.map-detail-section .campaign .more {
+	position: relative;
+	padding-right: 11px;
+	color: #339d23;
+	font-weight: 700;
+}
+.map-detail-section .campaign .more:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 7px;
+	height: 11px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -403px -31px;
+}
+.map-detail-section .circle-list li + li {
+	margin-left: 60px;
+}
+.map-detail-section .btn-group.bottom {
+	margin-top: 0;
+}
+.map-detail-section .talk .head {
+	position: relative;
+	margin-bottom: 15px;
+	padding-right: 90px;
+}
+.map-detail-section .talk .head .title {
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+}
+.map-detail-section .talk .head .date {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #999;
+}
+.map-detail-section .talk .body p {
+	color: #000;
+	font-size: 16px;
+}
+.map-detail-section .talk .file-group {
+	margin-top: 20px;
+}
+.map-detail-section .talk .add-file {
+	position: relative;
+	padding-right: 30px;
+}
+.map-detail-section .talk .add-file img {
+	margin-right: 10px;
+}
+.map-detail-section .talk .add-file:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 24px;
+	height: 24px;
+	background: url(../../img/common/spr_icon.png) no-repeat -78px -52px;
+}
+.map-detail-section .talk .reply {
+	margin-top: 30px;
+	padding: 30px 20px;
+	background-color: #f2f2f2;
+}
+.map-detail-section .talk .reply .name {
+	display: block;
+	margin-bottom: 25px;
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+}
+.map-detail-section .talk .reply p {
+	position: relative;
+	padding-left: 25px;
+	color: #000;
+	font-size: 16px;
+}
+.map-detail-section .talk .reply p:before {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: 0;
+	width: 24px;
+	height: 24px;
+	background: url(../../img/common/spr_icon.png) no-repeat -260px -52px;
+}
+.map-detail-section .movie-group {
+	margin: 0 -20px;
+}
+.map-detail-section .movie-group .video-item {
+	position: relative;
+	width: 400px;
+	height: 214px;
+}
+.map-detail-section .movie-group .top-text {
+	padding: 20px;
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+}
+.map-detail-section .movie-group .movie + .movie {
+	margin-top: 40px;
+}
+.map-detail-section .movie-group .movie .body {
+	padding: 20px;
+}
+.map-detail-section .movie-group .movie .body strong {
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+}
+.map-detail-section .movie-group .movie .foot {
+	font-size: 14px;
+}
+.map-detail-section .movie-group .movie .foot span {
+	margin: 0;
+}
+.map-detail-section .movie-group .movie .foot span:before {
+	content: '';
+	display: inline-block;
+	position: relative;
+	top: -2px;
+	width: 1px;
+	height: 8px;
+	margin: 0 5px;
+	background-color: #ccc;
+}
+.map-detail-section .movie-group .movie .foot span img {
+	margin: -4px 5px 0 0;
+}
+/* 1:1 문의 */
+.map-detail-section .form-write .form-item {
+	margin-top: 10px;
+}
+.map-detail-section .form-write .form-item textarea {
+	height: 210px;
+}
+.map-detail-section .form-write .file-group {
+	margin-top: 20px;
+}
+.map-detail-section .form-write .file-group .file {
+	margin: 0;
+}
+.map-detail-section .form-write .file-list {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 20px 0 0;
+	border: 0;
+}
+.map-detail-section .form-write .form-tab {
+	margin-bottom: 30px;
+}
+.map-info-detail .feed:first-of-type,
+.map-info-detail .feed:first-child {
+	/*margin-top: 0;*/
+}
+/* 지도 영역 상세박스 */
+.map .map-info-item {
+	/* 개발팀 요청으로 삭제 */
+	/*
+	position: absolute;
+	bottom: 90px;
+	left: -24px;
+	border: 1px solid #000;
+	background-color: #fff;
+	*/
+	/*width: 365px;*/
+	width: 420px;
+	/*padding: 30px;*/
+	padding: 20px;
+}
+.map .map-info-item .title,
+.map .map-info-item .sub {
+	position: relative;
+}
+.map .map-info-item .right {
+	float: right;
+}
+.map .map-info-item:after {
+	/* 개발팀 요청으로 삭제 */
+	/*
+	content: '';
+	position: absolute;
+	bottom: -30px;
+	left: 40px;
+	width: 30px;
+	height: 30px;
+	background: url(/static/img/map/img_edge.png) no-repeat 0 0;
+	*/
+}
+.map .map-info-item .item {
+	position: relative;
+}
+.map .map-info-item .item:after,
+.map .map-info-item .sub:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.map .map-info-item .item > .desc {
+	float: right;
+	width: calc( 100% - 120px );
+}
+/* 지도 포인터 */
+.map-pointer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	height: calc( 100% + 1px );
+	border: 1px solid #000;
+}
+/* 병원 비교 팝업 */
+.comparison .card-group > .scrollbar {
+	max-width: none;
+	height: 580px;
+	max-height: none;
+	background-color: #f2f2f2;
+}
+.comparison .card {
+	margin: 30px 26px;
+}
+.comparison .card .item {
+	overflow: hidden;
+	margin: 0 5px;
+	border-radius: 8px;
+}
+.comparison .card .card-list-item,
+.comparison .card .card-img-list {
+	display: block !important;
+}
+.comparison .slick-prev,
+.comparison .slick-next,
+.comparison .slick-prev:hover,
+.comparison .slick-next:hover,
+.comparison .slick-prev:focus,
+.comparison .slick-next:focus {
+	width: 80px;
+	height: 80px;
+	background-color: #000;
+}
+.comparison .slick-prev {
+	left: -90px;
+}
+.comparison .slick-next {
+	right: -90px;
+}
+.comparison .slick-prev:before,
+.comparison .slick-next:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 27px;
+	height: 52px;
+	background: url(/static/img/common/spr_icon.png) no-repeat;
+	transform: translate(-50%, -50%);
+}
+.comparison .slick-prev:before {
+	background-position: -230px -78px;
+}
+.comparison .slick-next:before {
+	background-position: -259px -78px;
+}
+.comparison .slick-dots {
+	bottom: 40px;
+	left: 0;
+}
+.comparison .slick-dots li {
+	width: 15px;
+	height: 15px;
+	margin: 0 7px;
+}
+.comparison .slick-dots li button {
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background: #ccc;
+}
+.comparison .slick-dots li button:before {
+	display: none;
+}
+.comparison .slick-dots li.slick-active button {
+	background: #ed1a2e;
+}
+.comparison .slick-counter {
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+	color: #999;
+	font-size: 20px;
+	font-weight: 700;
+}
+.comparison .slick-counter .current-num {
+	padding-right: 7px;
+	color: #121212;
+}
+.comparison .slick-counter .total-num {
+	padding-left: 7px;
+}
+.comparison .slick-slide.slick-center .item {
+	border-width: 3px;
+	border-color: #ed1a2e;
+}
+.comparison .slick-slide .item .card-img img {
+	width: 368px;
+	height: 200px;
+}
+.comparison .slick-slide.slick-center .item .card-img img {
+	width: 364px;
+	height: 198px;
+}
+.comparison .slick-slide.slick-center .item .card-head {
+	padding: 20px 18px;
+}
+.comparison .slick-slide.slick-center .item .card-head .right {
+	right: 18px;
+}
+.comparison .slick-slide.slick-center .item .card-body {
+	padding: 20px 18px 18px;
+}
+/* 의료진 상세 */
+.doc-detail {
+	margin-top: 50px;
+}
+.doc-detail:first-child {
+	margin-top: 0;
+}
+.doc-detail:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.doc-detail .thumb {
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+.doc-detail .thumb img {
+	border: 1px solid #ccc;
+	border-radius: 100%;
+}
+.doc-detail .info {
+	margin-left: 100px;
+}
+.doc-detail .info .head {
+	margin: 15px 0 5px;
+}
+.doc-detail .info .head:first-child {
+	margin-top: 0;
+}
+.doc-detail .info .head:first-child .title {
+	font-size: 16px;
+}
+.doc-detail .info .head .title {
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+}
+.doc-detail .info .head .tag {
+	top: -2px;
+	height: 20px;
+	margin-left: 5px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.doc-detail .info .sub-class {
+	color: #999;
+}
+.doc-detail .info .list-type01 li {
+	margin-top: 4px;
+	color: #000;
+}
+.doc-detail .info .list-type01 li:first-child {
+	margin-top: 0;
+}
+.doc-detail .info .list-type01 li:before {
+	background-color: #ccc;
+}
+/* map-api */
+.map-api {
+	position: absolute;
+	top: 131px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.hnpTypeP .map-api {
+	top: 71px !important;
+}
+/* map-alim-group */
+.map-alim-group {
+	position: relative;
+	margin-top: 20px;
+	padding: 15px 100px 15px 40px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+}
+.map-detail-section .map-alim-group {
+	display: block;
+	margin: 0;
+	padding: 15px 40px 15px 20px;
+	border: 0;
+	background-color: #ffe1e4;
+}
+.map-alim-group .desc {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.map-alim-group .icon-map-alim {
+	margin-right: 10px;
+}
+.map-alim-group .icon-arrow {
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translate(0, -50%);
+}
+.map-alim-group .btn-text-more {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+}
+.map-alim-group .item {
+	display: none;
+}
+.map-alim-group.active .item {
+	display: block;
+}
+.icon-map-alim02 {
+	width: 36px;
+	height: 31px;
+	background-position: -347px -192px;
+}
+.map-alim-group.accordion-more {
+	padding: 16px 40px;
+	font-size: 16px;
+}
+.map-alim-group.accordion-more strong {
+	margin-left: 20px;
+	font-weight: 700;
+}
+.map-alim-group.accordion-more .item {
+	padding: 10px 0 0 60px;
+	color: #666;
+	font-size: 14px;
+}
+.map-alim-group.accordion-more .btn-text-more {
+	top: 9px;
+	right: 40px;
+	color: #666;
+	font-size: 14px;
+	font-weight: 300;
+}
+/* 병원/약국찾기 상세정보 title
+	map-detail-summary */
+.map-detail-summary {
+	position: relative;
+	padding: 20px;
+}
+.map-detail-summary .summary {
+	margin: 0 -2px;
+}
+.map-detail-summary .summary .state {
+	display: inline-block;
+	vertical-align: middle;
+	height: 20px;
+	margin: 0 2px;
+	padding: 0 5px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.map-detail-summary .state.type01 {
+	border-width: 1px;
+	border-style: solid;
+	line-height: 18px;
+}
+.map-detail-summary .state.type02 {
+	color: #fff;
+	line-height: 20px;
+}
+.map-detail-summary .state.type02 [class*=icon] {
+	margin-left: 12px;
+}
+.map-detail-summary .state.state-color01 {
+	border-color: #ed1a2e !important;
+	color: #ed1a2e !important;
+}
+.map-detail-summary .state.state-bg01 {
+	background-color: #ff802c;
+}
+.map-detail-summary .title {
+	margin-top: 4px;
+	padding-right: 120px;
+	padding-right: 120px;
+	color: #000;
+	font-size: 20px;
+}
+.link-honepage {
+	display: block;
+	position: absolute;
+	/*top: 40px;*/
+	top: 23px;
+	right: 20px;
+	height: 30px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	line-height: 28px;
+}
+.link-honepage [class*=icon] {
+	margin-right: 5px;
+}
+.map-detail-summary .address {
+	/*margin-top: 5px;*/
+	margin-top: 10px;
+}
+.map-detail-summary .address p {
+	overflow: hidden;
+	vertical-align: middle;
+	margin-bottom: 15px;
+	color: #000;
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+}
+.map-detail-summary .address span {
+	display: inline-block;
+	vertical-align: middle;
+}
+.map-detail-summary .address span + span {
+	margin-left: 30px;
+}
+/* .map-detail-summary .btn-group02 [class^=icon-] {
+	display: block;
+	margin: 16px auto 5px;
+} */
+.map-detail-section .summary.etc {
+	margin-top: 30px;
+	color: #999;
+}
+.map-detail-section .summary.etc:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.map-detail-section .summary.etc .right {
+	float: right;
+}
+.map-detail-section .summary.etc .right li {
+	cursor: pointer;
+}
+.map-detail-section .summary.etc .left {
+	float: left;
+	line-height: 35px;
+}
+.map-detail-section .summary.etc .more {
+	position: relative;
+	margin-left: 7px;
+}
+/* .map-detail-section .etc .more:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 5px;
+	height: 9px;
+	margin-top: -4px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -403px 0;
+} */
+.map-detail-section .summary.etc li {
+	display: inline-block;
+	position: relative;
+	width: 35px;
+	height: 35px;
+	margin-left: 2px;
+}
+.map-detail-section .etc li:first-child {
+	margin-left: 0;
+}
+.map-detail-section .summary.etc li span {
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 3px;
+	left: 0;
+	color: #121212;
+	font-size: 9px;
+	text-align: center;
+}
+.map-detail-section .summary.etc li.active .icon-like03 {
+	background-position: -74px -346px;
+	cursor: pointer;
+}
+.map-detail-section .ad-group {
+	border: 1px solid #ccc;
+}
+.map-detail-section .ad-group [class*=ad] {
+	font-size: 14px;
+}
+.map-detail-section .ad-group .ad02 {
+	border-top: 1px solid #ccc;
+}
+.map-detail-section .ad-group [class*=ad] em {
+	display: block;
+	margin-bottom: 5px;
+	color: #fff;
+	font-weight: 300;
+}
+.map-detail-section .ad-group [class*=ad] a {
+	display: table;
+	position: relative;
+	width: 100%;
+	width: 100%;
+	font-weight: 500;
+}
+.map-detail-section .ad-group [class*=ad] span {
+	display: table-cell;
+	vertical-align: middle;
+	height: 70px;
+	padding: 0 15px;
+}
+.map-detail-section .ad-group .icon-arrow {
+	width: 8px;
+	height: 13px;
+	margin: -3px 0 0 10px;
+	background-position: -189px 0;
+}
+.map-detail-section .ad-group .icon-arrow[class*=icon-arrow]:before,
+.map-detail-section .ad-group .icon-arrow[class*=icon-arrow]:after {
+	background-color: #666;
+}
+.map-detail-section .heading-depth04 + .formfield {
+	border-bottom: 0;
+}
+/* map-qna */
+.map-detail-section .map-qna .board-top .total {
+	margin-top: 6px;
+	font-size: 14px;
+}
+.map-detail-section .map-qna .board-top .right .selectize-control {
+	width: 110px;
+}
+.map-detail-section .map-qna .full {
+	margin: 0;
+}
+.map-detail-section .map-qna .board-top + .feed {
+	margin-top: 0;
+}
+.map-detail-section .map-qna .question,
+.map-detail-section .map-qna .answer {
+	display: block;
+	position: relative;
+	padding-left: 36px;
+}
+.map-detail-section .map-qna .answer {
+	margin-top: 15px;
+	color: #666;
+}
+.map-detail-section .map-qna .icon-question,
+.map-detail-section .map-qna .icon-answer {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 26px;
+	height: 25px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 23px;
+	background-image: none;
+}
+.map-detail-section .map-qna .icon-question {
+	background-color: #233043;
+}
+.map-detail-section .map-qna .icon-answer {
+	line-height: 25px;
+	background-color: #999;
+}
+.map-detail-section .map-qna .tags {
+	margin: 0;
+}
+.map-detail-section .map-qna .title {
+	margin-top: 3px;
+	font-size: 14px;
+}
+.map-detail-section .map-qna .title,
+.map-detail-section .map-qna .text {
+	display: block;
+	line-height: 1.3;
+}
+.map-detail-section .map-qna .answer [class*=icon-answer0] {
+	margin-right: 3px;
+}
+.map-detail-section .map-qna .info {
+	margin-top: 20px;
+}
+.map-detail-section .map-qna .info > p {
+	display: inline-block;
+}
+.map-detail-section .map-qna .info > p + p {
+	margin-left: 15px;
+}
+.map-detail-section .map-qna .info b {
+	margin-left: 5px;
+	color: #999;
+	font-weight: 400;
+}
+.map-detail-section .map-qna .info span {
+	margin-left: 3px;
+	color: #f15100;
+	letter-spacing: 0;
+}

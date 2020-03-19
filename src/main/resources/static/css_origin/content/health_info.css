@@ -1,0 +1,708 @@
+@charset 'UTF-8';
+.healUnit-layout .healUnit-tab-size06 .tab,
+.healUnit-layout .healUnit-tab-size08 .tab {
+	margin-bottom: 0;
+}
+.healUnit-layout .healUnit-tab-size06 li {
+	width: 16.6667%;
+}
+.healUnit-layout .healUnit-tab-size08 li {
+	width: 12.5%;
+}
+.healUnit-layout .healUnit-tab-size06 li > a,
+.healUnit-layout .healUnit-tab-size08 li > a,
+.healUnit-layout .healUnit-tab-size06 li > span,
+.healUnit-layout .healUnit-tab-size08 li > span {
+	overflow: hidden;
+	height: 44px;
+	font-size: 16px;
+	line-height: 40px;
+}
+.healUnit-layout .tab + .healUnit-tab-size06,
+.healUnit-layout .tab + .healUnit-tab-size08 {
+	margin: 0 0 45px 0;
+}
+.healUnit-layout .healUnit-tab-size06 li.current a,
+.healUnit-layout .healUnit-tab-size08 li.current a {
+	position: relative;
+	z-index: 10;
+	border: 1px solid #ed1a2e;
+	color: #ed1a2e;
+	background: #fff;
+}
+.healUnit-layout .healUnit-tab-size06 + .search,
+.healUnit-layout .healUnit-tab-size08 + .search {
+	margin-bottom: 60px;
+}
+.healUnit-layout .healUnit-tab-toggle {
+	display: none;
+	overflow: hidden;
+	padding: 23px 30px 23px 30px;
+	background: #fafafa;
+}
+.healUnit-layout .healUnit-tab-toggle li {
+	float: left;
+	width: 14.2%;
+	padding: 7px 0 7px 0;
+}
+.healUnit-layout .healUnit-tab-toggle li .label {
+	color: #999;
+	font-size: 14px;
+}
+.healUnit-layout .healUnit-tab-toggle .checkbox-type02 :checked ~ .label {
+	color: #ed1a2e;
+}
+.healUnit-search {
+	height: 110px;
+	margin-bottom: 60px;
+	padding: 30px 0 0 0;
+	background: #f2f2f2;
+}
+.healUnit-search .selectize-control {
+	width: 150px;
+}
+.healUnit-layout .healUnit-board {
+	border-top: 1px solid #000;
+}
+.healUnit-layout .healUnit-board > li {
+	padding: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.healUnit-layout .healUnit-board .healUnit-board-body {
+	overflow: hidden;
+}
+.healUnit-layout .healUnit-board .healUnit-tit {
+	margin: 0 0 10px 0;
+	font-size: 24px;
+	font-weight: 700;
+}
+.healUnit-layout .healUnit-board .healUnit-info-txt {
+	float: right;
+	width: 1020px;
+	color: #666;
+	font-size: 16px;
+}
+.healUnit-layout .healUnit-board .healUnit-info-txt li {
+	overflow: hidden;
+}
+.healUnit-layout .healUnit-board .healUnit-info-txt li > span {
+	/*position: absolute;*/
+	/*left: 0;*/
+	/*display: inline-block;*/
+	float: left;
+	width: 70px;
+	color: #000;
+	font-weight: 700;
+}
+.healUnit-layout .healUnit-board .healUnit-info-txt li > div {
+	float: left;
+	max-width: 90%;
+}
+.healUnit-layout .healUnit-board .healUnit-info-txt > ul > li {
+	position: relative;
+	/*padding: 0 0 0 80px;*/
+}
+.healUnit-layout .healUnit-board .healUnit-btn {
+	float: left;
+	width: 160px;
+}
+.healUnit-layout .healUnit-board .healUnit-btn .btn {
+	width: 100%;
+	margin: 0 0 7px 0;
+	font-size: 15px;
+	font-weight: 400;
+}
+.healUnit-layout .healUnit-board .healUnit-no-data {
+	padding: 100px 0 100px 0;
+	border: none;
+	color: #999;
+	font-size: 16px;
+	text-align: center;
+}
+.healUnit-layout .healUnit-board .healUnit-no-data:before {
+	content: '';
+	display: block;
+	width: 57px;
+	height: 76px;
+	margin: 0 auto 20px auto;
+	background: url(/static/img/health_info/spr_health_info.png) no-repeat -51px 0;
+}
+.healUnit-layout .healUnit-board-detali-top {
+	position: relative;
+}
+.healUnit-layout .healUnit-board-detali-top + .tab {
+	margin-top: 40px;
+}
+.healUnit-layout .healUnit-board-detali-top .healUnit-board-body {
+	overflow: hidden;
+}
+.healUnit-layout .healUnit-board-detali-top .healUnit-tit {
+	margin: 0 0 30px 0;
+	font-size: 35px;
+	font-weight: 700;
+}
+.healUnit-layout .healUnit-board-detali-top .healUnit-info-txt {
+	padding: 30px 40px 30px 40px;
+	border: 1px solid #ccc;
+	color: #666;
+	font-size: 16px;
+}
+.healUnit-layout .healUnit-board-detali-top .healUnit-info-txt span {
+	position: absolute;
+	left: 0;
+	width: 70px;
+	color: #000;
+	font-weight: 700;
+}
+.healUnit-layout .healUnit-board-detali-top .healUnit-info-txt > ul > li {
+	position: relative;
+	padding: 0 0 0 80px;
+}
+.healUnit-layout .healUnit-board-detali-top .healUnit-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.healUnit-layout .healUnit-board-detali-top .healUnit-btn .btn {
+	margin: 0 0 0 7px;
+	font-size: 15px;
+	font-weight: 400;
+}
+.healUnit-layout .healUnit-board-detali-top .healUnit-no-data {
+	padding: 100px 0 100px 0;
+	border: none;
+	color: #999;
+	font-size: 16px;
+	text-align: center;
+}
+.healUnit-layout .healUnit-board-detali-top .healUnit-no-data:before {
+	content: '';
+	display: block;
+	width: 57px;
+	height: 76px;
+	margin: 0 auto 20px auto;
+	background: url(/static/img/health_info/spr_health_info.png) no-repeat -51px 0;
+}
+.healUnit-layout .healUnit-board-detali-top + .healUnit-view-type02 {
+	margin-top: 40px;
+}
+.healUnit-card-top-bd-2 > li:first-child .item {
+	border-top: 2px solid #000;
+}
+.healUnit-layout .healUnit-view-type02 .board-head {
+	position: relative;
+}
+.healUnit-layout .healUnit-view-type02 .board-head .title {
+	display: block;
+	padding: 10px 0;
+}
+.healUnit-layout .healUnit-view-type02 .board-head .tags {
+	margin-top: -5px;
+	border-radius: 20px;
+	color: #fff;
+	line-height: 23px;
+	background: #999;
+}
+.healUnit-layout .healUnit-view-type02 .date {
+	overflow: hidden;
+}
+.healUnit-layout .healUnit-view-type02 .date .healUnit-major {
+	float: left;
+}
+.healUnit-layout .healUnit-view-type02 .date .healUnit-update {
+	float: right;
+}
+.healUnit-layout .healUnit-view-type02 .btn-book {
+	position: absolute;
+	top: 30px;
+	right: 20px;
+}
+.healUnit-layout .healUnit-view-type03 .board-head {
+	padding: 20px 0;
+}
+.healUnit-layout .healUnit-view-type03 .board-head .title .bar {
+	color: #999;
+}
+.healUnit-layout .healUnit-view-type03 .board-head .title .bar:before {
+	height: 25px;
+	margin: -4px 20px 0;
+	background: #000;
+}
+.healUnit-board-in-table + .tab {
+	margin-top: 50px;
+}
+.healUnit-board-in-table table {
+	border: none;
+}
+.healUnit-board-in-table tr th,
+.healUnit-board-in-table tr td {
+	border: none;
+	text-align: left;
+	background: none;
+}
+.healUnit-board-in-table tr td {
+	color: #999;
+}
+.healUnit-board-in-table .healUnit-drug-info {
+	position: relative;
+}
+.healUnit-board-in-table .healUnit-drug-info .btn-toggle {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.healUnit-layout .btn-toggle.active .bottom:before {
+	transform: rotate(-45deg);
+}
+.healUnit-layout .btn-toggle.active .bottom:after {
+	transform: rotate(45deg);
+}
+.healUnit-bd-table tr + tr {
+	border-top: 1px solid #eee;
+}
+.healUnit-layout .healUnit-card-wide > li {
+	width: 100%;
+}
+.healUnit-layout .healUnit-card-wide .card-img {
+	width: 260px;
+	height: 140px;
+}
+.healUnit-layout .healUnit-card-wide .title {
+	height: 30px;
+}
+.healUnit-layout .healUnit-card-wide .card-foot {
+	margin-top: 15px;
+}
+.healUnit-layout .healUnit-card-wide .healUnit-card-area {
+	color: #999;
+	font-size: 16px;
+}
+.healUnit-layout .healUnit-card-wide .healUnit-content-line-2x {
+	padding: 20px 0 10px 0;
+}
+.healUnit-layout .healUnit-card-wide .healUnit-content-line-2x {
+	color: #666;
+	font-size: 16px;
+}
+.healUnit-layout .healUnit-card-wide .healUnit-content-line-2x strong {
+	color: #000;
+}
+.healUnit-thumb-box > div {
+	float: right;
+}
+.healUnit-thumb-box > div:first-child {
+	float: left;
+}
+.healUnit-thumb-box .healUnit-board-in-table {
+	width: 100%;
+	padding: 0;
+	border-bottom: 1px solid #eee;
+}
+.healUnit-thumb + .healUnit-board-in-table {
+	width: 680px;
+	border-bottom: 0;
+}
+.healUnit-thumb-box .healUnit-board-in-table.table {
+	margin: 0;
+}
+.healUnit-thumb + .healUnit-board-in-table th,
+.healUnit-thumb + .healUnit-board-in-table td {
+	height: 50px;
+	padding: 10px 0;
+}
+.healUnit-layout .healUnit-card-wide02 {
+	margin: 0;
+	border-top: 1px solid #000;
+}
+.healUnit-layout .healUnit-card-wide02 > li {
+	width: 100%;
+	padding: 20px 10px 20px 20px;
+	border-bottom: 1px solid #ccc;
+}
+.healUnit-layout .healUnit-card-wide02 .item {
+	border: none;
+}
+.healUnit-layout .healUnit-card-wide02 .card-body {
+	padding: 26px 40px 26px 40px;
+}
+.healUnit-layout .healUnit-card-wide02 .card-img {
+	width: 312px;
+	height: 208px;
+}
+.healUnit-layout .healUnit-card-wide02 .title {
+	height: 35px;
+	font-size: 20px;
+}
+.healUnit-layout .healUnit-card-wide02 .card-foot {
+	margin-top: 15px;
+}
+.healUnit-layout .healUnit-card-wide02 .healUnit-card-area {
+	color: #999;
+	font-size: 16px;
+}
+.healUnit-layout .healUnit-card-wide02 .healUnit-card-content {
+	overflow: hidden;
+	height: 95px;
+	padding: 20px 0 0 0;
+	color: #666;
+	font-size: 16px;
+}
+.healUnit-layout .healUnit-notice {
+	margin: -10px 0 30px;
+	border-top: 2px solid #f0222a;
+	background-color: #fafafa;
+}
+.healUnit-layout .healUnit-notice + .healUnit-card-wide02 {
+	margin-top: 30px;
+}
+.healUnit-layout .healUnit-notice.card .item {
+	background-color: #fafafa;
+}
+.healUnit-layout .healUnit-card-wide03 > li {
+	width: 100%;
+}
+.healUnit-layout .healUnit-card-wide03 > li:first-child .item {
+	border-top: 2px solid #000;
+}
+.healUnit-layout .healUnit-card-wide03 .item {
+	padding: 20px 20px 20px 20px;
+	border: 1px solid #ccc;
+}
+.healUnit-layout .healUnit-card-wide03 .card-body {
+	padding: 10px 40px 10px 40px;
+}
+.healUnit-layout .healUnit-card-wide03 .card-img {
+	width: 280px;
+	height: 154px;
+}
+.healUnit-layout .healUnit-card-wide03 .title {
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: 35px;
+	font-size: 24px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.healUnit-layout .healUnit-card-wide03 .title strong .bar {
+	color: #999;
+	font-size: 20px;
+}
+.healUnit-layout .healUnit-card-wide03 .title strong .bar:before {
+	height: 20px;
+}
+.healUnit-layout .healUnit-card-wide03 .card-foot {
+	margin: 5px 0 0 0;
+	font-size: 16px;
+}
+.healUnit-layout .healUnit-card-wide03 .healUnit-card-content {
+	padding: 20px 0 0 0;
+	color: #666;
+	font-size: 16px;
+}
+.healUnit-layout .healUnit-heading-depth05 .title {
+	font-size: 22px;
+}
+.healUnit-layout .healUnit-heading-depth05 + .table {
+	margin-top: 0;
+}
+.healUnit-layout .healUnit-heading-depth06 .title {
+	font-size: 30px;
+}
+.healUnit-layout .btn-group + .healUnit-next-prev {
+	margin-top: 100px;
+}
+.healUnit-next-prev.list-latest .title {
+	vertical-align: baseline;
+	height: auto;
+	color: #666;
+	font-size: 16px;
+}
+.healUnit-next-prev.list-latest .title span {
+	vertical-align: middle;
+}
+.healUnit-layout .healUnit-next-prev .icon-angle.thin:before,
+.healUnit-layout .healUnit-next-prev .icon-angle.thin:after {
+	height: 2px;
+}
+.healUnit-layout .healUnit-next-prev .healUnit-next .icon-angle {
+	transform: rotate(-90deg);
+}
+.healUnit-layout .healUnit-next-prev .healUnit-prev .icon-angle {
+	transform: rotate(90deg);
+}
+.healUnit-layout .healUnit-default-info-box {
+	padding: 40px 20px 40px 20px;
+	border: 1px solid #ccc;
+	border-width: 1px 0 1px 0;
+}
+.healUnit-layout .healUnit-default-info-box p {
+	color: #999;
+	font-size: 16px;
+}
+.healUnit-layout .healUnit-card-2x > li:nth-child(1) .item,
+.healUnit-layout .healUnit-card-2x > li:nth-child(2) .item {
+	border-top: 2px solid #000;
+}
+.healUnit-layout .healUnit-card-2x .card-img {
+	width: 213px;
+	height: 133px;
+}
+.healUnit-layout .healUnit-card-2x .item {
+	min-height: 160px;
+	padding: 15px 20px;
+}
+.healUnit-layout .healUnit-card-2x .title {
+	/*height: 30px;*/
+	height: 33px;
+}
+.healUnit-layout .healUnit-card-2x .card-img + .card-body {
+	padding-bottom: 5px;
+	padding-left: 35px;
+}
+.healUnit-layout .healUnit-card-2x .healUnit-content-line-2x {
+	color: #666;
+	font-size: 16px;
+}
+.healUnit-layout .healUnit-card-2x .healUnit-content-line-2x strong {
+	color: #000;
+}
+.healUnit-layout .healUnit-card-2x .healUnit-content-line-2x li {
+	/*display: -webkit-box;*/
+	display: block;
+	overflow: hidden;
+	height: 25px;
+	text-overflow: ellipsis;
+	/*-webkit-line-clamp: 1;*/
+	/*-webkit-box-orient: vertical;*/
+}
+.healUnit-layout .healUnit-card-2x .healUnit-company {
+	padding: 5px 0 20px 0;
+	color: #999;
+	font-size: 18px;
+}
+.healUnit-layout .healUnit-card-2x .healUnit-item-pd0 {
+	padding: 0;
+}
+.healUnit-layout .healUnit-line-view-1 {
+	/*display: -webkit-box;*/
+	display: block;
+	overflow: hidden;
+	height: 25px;
+	text-overflow: ellipsis;
+	/*-webkit-line-clamp: 1;*/
+	/*-webkit-box-orient: vertical;*/
+}
+.healUnit-layout .healUnit-line-view-2 {
+	/*display: -webkit-box;*/
+	display: block;
+	overflow: hidden;
+	height: 50px;
+	text-overflow: ellipsis;
+	/*-webkit-line-clamp: 2;*/
+	/*-webkit-box-orient: vertical;*/
+}
+.healUnit-layout .card-type03 .healUnit-line-view-2 {
+	overflow: visible;
+	height: auto;
+	text-overflow: inherit;
+	-webkit-line-clamp: inherit;
+	-webkit-box-orient: inherit;
+}
+.healUnit-layout .card-type03 .ellipsis .healUnit-line-view-2 {
+	/*display: -webkit-box;*/
+	display: block;
+	overflow: hidden;
+	/*height: 50px;*/
+	max-height: 50px;
+	text-overflow: ellipsis;
+	/*-webkit-line-clamp: 2;*/
+	/*-webkit-box-orient: vertical;*/
+}
+.healUnit-layout .healUnit-ico:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	margin: -4px 6px 0 0;
+}
+.healUnit-layout .healUnit-ico-hospital:before {
+	width: 19px;
+	height: 18px;
+	background: url(/static/img/health_info/spr_health_info.png) no-repeat 0 -59px;
+}
+.healUnit-layout .healUnit-ico-qna:before {
+	width: 17px;
+	height: 17px;
+	background: url(/static/img/health_info/spr_health_info.png) no-repeat 0 -79px;
+}
+.healUnit-layout .healUnit-ico-cont:before {
+	width: 16px;
+	height: 16px;
+	background: url(/static/img/health_info/spr_health_info.png) no-repeat 0 -98px;
+}
+.healUnit-layout .healUnit-tit-line:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 2px;
+	height: 27px;
+	margin: -6px 0 0 20px;
+	background: #000;
+}
+.healUnit-card-common .card-body {
+	height: 153px;
+}
+.healUnit-card-common .title {
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.healUnit-card-common .tags-group {
+	overflow: hidden;
+	max-height: 24px;
+}
+.healUnit-card-common .healUnit-card-content {
+	/*display: -webkit-box;*/
+	display: block;
+	overflow: hidden;
+	height: 60px;
+	padding: 10px 0 0 0;
+	color: #666;
+	font-size: 16px;
+	text-overflow: ellipsis;
+	/*-webkit-line-clamp: 2;*/
+	/*-webkit-box-orient: vertical;*/
+}
+.healUnit-inline-group {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+.healUnit-tags-gray {
+	color: #fff !important;
+	background: #999 !important;
+}
+.healUnit-tags-red {
+	border: 1px solid #ed1a2e !important;
+	color: #ed1a2e !important;
+}
+.healUnit-tags-red.tags {
+	background: transparent !important;
+}
+.healUnit-bg-no {
+	background: none !important;
+}
+.tags-group.healUnit-bg-no .tags {
+	min-width: 0;
+	padding: 0;
+	text-align: left;
+	background: none !important;
+}
+.healUnit-icon-mediaPlay01 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 10;
+	width: 49px;
+	height: 57px;
+	margin: 0;
+	background: url(/static/img/health_info/spr_health_info.png) no-repeat 0 0;
+	transform: translate(-50%, -50%);
+}
+.icon-medicine-healUnit {
+	width: 25px;
+	height: 27px;
+	background: url(/static/img/health_info/spr_health_info.png) no-repeat -110px 0;
+}
+.healUnit-tit-24 {
+	font-size: 24px !important;
+}
+.healUnit-left-5x {
+	margin-left: 5px;
+}
+.healUnit-bd-black {
+	border: 1px solid #000;
+}
+.healUnit-medicine-toggle-group {
+	overflow: hidden;
+	height: 530px;
+	border-bottom: 1px solid #ccc;
+}
+.healUnit-medicine-toggle-group .item {
+	margin-top: -1px;
+	border-top: 2px solid #000;
+}
+.healUnit-medicine-toggle-group .item .btn-toggle {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 25px 11px;
+	padding-right: 36px;
+	border-bottom: 1px solid #000;
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	text-overflow: ellipsis;
+}
+.healUnit-medicine-toggle-group .item .btn-toggle:after {
+	content: '';
+	display: inline-block;
+	width: 13px;
+	height: 8px;
+	margin: 0 0 0 10px;
+	background: url(/assets/consumer/mobile/img/common/spr_icon.png) no-repeat;
+	background-position: -47px -280px;
+	background-size: 129px auto;
+	transition: all .3s;
+}
+.healUnit-medicine-toggle-group .item .btn-toggle.active:after {
+	transform: translateY(-50%) rotate(180deg);
+}
+.healUnit-medicine-toggle-group .toggle-cont {
+	overflow: auto;
+	max-height: 450px;
+	margin-top: 0;
+}
+.healUnit-medicine-toggle-group .toggle-cont.active {
+	display: block;
+}
+.healUnit-medicine-toggle-group .toggle-cont a {
+	display: block;
+	overflow: hidden;
+	padding: 20px 11px;
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	font-size: 16px;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.healUnit-medicine-toggle-group .toggle-cont a.current {
+	color: #000;
+	background: #f2f2f2;
+}
+.healUnit-medicine-toggle-3x > .item {
+	float: left;
+	width: 33.3%;
+}
+/* Modi */
+.modi-toggle-table tr {
+	display: none;
+}
+.modi-toggle-table tr.show,
+.modi-toggle-table table.active tr {
+	display: table-row;
+}
+.healUnit-drug-info .toggle-wrap {
+	display: none;
+}
+td.active .healUnit-drug-info .toggle-wrap {
+	display: block;
+}
+.healUnit-board-in-table .healUnit-drug-info .btn-toggle {
+	position: static;
+}

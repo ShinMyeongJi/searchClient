@@ -1,0 +1,58 @@
+@charset 'UTF-8';
+/* PROTOTYPE */
+.PROTOTYPE {
+	position: relative;
+	min-height: 500px;
+}
+.PROTOTYPE-bg {
+	overflow: hidden;
+	background-color: #333;
+}
+.PROTOTYPE-img {
+	display: block;
+	position: relative;
+	z-index: 5;
+}
+.PROTOTYPE-mobile .PROTOTYPE-img {
+	width: 320px;
+}
+.PROTOTYPE-mobile {
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 388px;
+	height: 709px;
+	margin: -354.5px 0 0 -194px;
+	background: url(/static/img/prototype/frame.png) no-repeat 0 0;
+}
+.PROTOTYPE-mobile .frame {
+	overflow: hidden;
+	position: absolute;
+	top: 92px;
+	left: 36px;
+	width: 320px;
+	height: 515px;
+	background-color: #fff;
+}
+.PROTOTYPE-mobile .scroll {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: relative;
+	width: 340px;
+	height: 515px;
+}
+/* map-content */
+.prototype.map-content {
+	min-width: 1920px;
+}
+.prototype.map-content .PROTOTYPE-img {
+	width: 100%;
+}
+.prototype .map-group .map {
+	padding-top: 0;
+	background-color: transparent;
+}
+.prototype .map-group .map .PROTOTYPE-img {
+	max-height: 730px;
+}

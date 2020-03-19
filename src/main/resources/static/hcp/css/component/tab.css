@@ -1,0 +1,92 @@
+@charset 'UTF-8';
+/* Tab */
+.tab {
+	overflow: hidden;
+	/*margin-bottom: 30px;*/
+	margin-bottom: 25px;
+}
+.tab li {
+	float: left;
+}
+.tab li > a,
+.tab li > span {
+	display: block;
+	/*height: 72px;*/
+	height: 65px;
+	color: #fff;
+	/*font-size: 20px;*/
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: -1px;
+	/*line-height: 70px;*/
+	line-height: 63px;
+	background-color: #ccc;
+}
+.tab .active {
+	background-color: #333;
+}
+.tab-type01 > li {
+	margin-top: -1px;
+}
+.tab-type01 > li > a,
+.tab-type01 > li > span {
+	/*height: 52px;*/
+	height: 47px;
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	color: #666;
+	/*font-size: 16px;*/
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: -.5px;
+	/*line-height: 50px;*/
+	line-height: 45px;
+}
+.tab-type01 > li:first-child > a {
+	border-left: 0;
+}
+.tab-type01 .active {
+	color: #fff;
+	background-color: #ce020b;
+}
+/* Tab: modify */
+h2 + .tab,
+.h2 + .tab {
+	/*margin-top: 50px;*/
+	margin-top: 45px;
+}
+.boardView + .tab {
+	/*margin-top: 80px;*/
+	margin-top: 70px;
+}
+/* size */
+.tab-size01 li {
+	width: 100%;
+}
+.tab-size02 li {
+	width: 50%;
+}
+.tab-size03 li {
+	width: 33.333333%;
+}
+.tab-size04 li {
+	width: 25%;
+}
+.tab-size05 li {
+	width: 20%;
+}
+.tab-size06 li {
+	width: 16.666666%;
+}
+
+.tab-size07 li {
+	width: 14.28%;
+}
+/* tab-line */
+.tab-line-bottom {
+	border-bottom: 1px solid #aaa;
+}
+.tab-line-first {
+	border-left: 0 !important;
+}

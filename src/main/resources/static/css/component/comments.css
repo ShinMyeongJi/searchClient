@@ -1,0 +1,222 @@
+@charset 'UTF-8';
+/* comment */
+/* 입력창 위에 input이 있는 경우 */
+.comment .btn-group {
+	position: relative;
+	/*height: 50px;*/
+	height: 45px;
+	margin: 0;
+}
+.comment .btn-group:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.comment .btn-group .btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	border: 0;
+}
+.comment .btn-group .textfield {
+	float: left;
+	width: 50%;
+	margin: 0;
+	border-bottom-color: transparent;
+}
+.comment .btn-group .textfield:first-child {
+	border-right-color: transparent;
+}
+.comment .btn-group .textfield:focus {
+	border-color: #000;
+}
+.comment .textarea-wrap {
+	position: relative;
+	/*padding-right: 140px;*/
+	padding-right: 125px;
+}
+.comment .textarea-wrap .textarea {
+	/*height: 118px;*/
+	height: 106px;
+}
+.comment .textarea-wrap .right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.comment .textarea-wrap p {
+	border-width: 0 1px 1px 0;
+	border-style: solid;
+	border-color: #ccc;
+	color: #999;
+	text-align: center;
+	/*line-height: 67px;*/
+	line-height: 60px;
+}
+.comment .file-group {
+	border: 1px solid #ddd;
+	border-top: 0;
+}
+.comment .file-group .file .btn-addPhoto {
+	width: 32px;
+	min-width: auto;
+	height: 28px;
+	background: url(/static/img/common/btn-addPhoto.png) no-repeat 0 0;
+}
+.comment .file-list {
+	width: calc(100% - 32px - 20px);
+	border: 0;
+}
+/* 입력창 아래에 input이 있는 경우 */
+.comment .textarea + .btn-group {
+	position: relative;
+	/*height: 50px;*/
+	height: 45px;
+	margin: 0;
+	/*padding-right: 140px;*/
+	padding-right: 126px;
+	border-width: 0 0 1px 1px;
+	border-style: solid;
+	border-color: #ccc;
+}
+.comment .textarea + .btn-group:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.comment .textarea + .btn-group .btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	border: 0;
+}
+.comment .textarea + .btn-group .textfield {
+	float: left;
+	width: 50%;
+	margin: 0;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: #ccc;
+}
+.comment .textarea + .btn-group .textfield:first-child {
+	border-left-color: transparent;
+}
+.comment .textarea + .btn-group .textfield:focus {
+	border-color: #000;
+}
+.comment ul {
+	/*margin-top: 30px;*/
+	margin-top: 25px;
+}
+.comment ul li {
+	/*padding: 25px 0;*/
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+.comment .head {
+	/*margin-bottom: 9px;*/
+	margin-bottom: 5px;
+	color: #999;
+}
+.comment .head strong {
+	color: #000;
+}
+.comment p {
+	color: #666;
+}
+.comment .btn-text {
+	/*margin-top: 20px;*/
+	margin-top: 15px;
+}
+.comment .btn-text .btn {
+	color: #999;
+}
+/* .comment .file-group {
+	text-align: left;
+}
+.comment .file-group + .btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+} */
+.comment > ul {
+	margin-top: 0;
+}
+.comment > ul .file-group li {
+	padding: 0;
+	border: 0;
+}
+.comment .msg-del {
+	/*margin: 25px 0;*/
+	margin: 20px 0;
+	font-style: italic;
+}
+.comment .form-del {
+	/*margin-top: 20px;*/
+	margin-top: 15px;
+}
+.comment .form-del p {
+	/*margin-bottom: 15px;*/
+	margin-bottom: 10px;
+}
+.comment .form-del span {
+	/*margin-left: 17px;*/
+	margin-left: 15px;
+}
+.comment .form-del .textfield {
+	display: inline-block;
+	/*width: 300px;*/
+	width: 270px;
+}
+.comment .form-del .form-group .btn {
+	margin-left: -2px;
+}
+.comment .btn-link {
+	/*margin-top: 75px;*/
+	margin-top: 70px;
+}
+.comment .btn-link + .toggle-group {
+	display: none;
+	/*margin-top: 35px;*/
+	margin-top: 30px;
+}
+.comment .btn-link.active + .toggle-group {
+	display: block;
+}
+.comment .btn-link.active .bottom:before,
+.comment .btn-link.active .bottom:after {
+	transition: all .3s;
+}
+.comment .btn-link.active .bottom:before {
+	transform: rotate(-45deg);
+}
+.comment .btn-link.active .bottom:after {
+	transform: rotate(45deg);
+}
+.comment .photo-prev {
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+	margin-bottom: 15px;
+}
+.comment .photo-prev a {
+	display: inline-block;
+	overflow: hidden;
+	/*width: 170px;*/
+	width: 153px;
+	/*height: 115px;*/
+	height: 103px;
+}
+.comment .photo-prev .photo {
+	float: left;
+	/*margin-top: 3px;*/
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.comment .photo-prev .btn {
+	vertical-align: top;
+	/*width: 20px;*/
+	width: 18px;
+	margin-left: -5px;
+}

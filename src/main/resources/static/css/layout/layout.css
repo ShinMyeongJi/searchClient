@@ -1,0 +1,92 @@
+@charset 'UTF-8';
+/* Layout */
+.wrap {
+	width: 100%;
+	/*min-width: 1400px;*/
+	min-width: 1260px;
+}
+.navbar-fixed .container {
+	/*padding-top: 151px;*/
+	/*padding-top: 136px;*/
+	padding-top: 134px;
+}
+.navbar-fixed .navbar-join + .container {
+	padding-top: 0;
+}
+.content {
+	/*padding: 0 10px 100px;*/
+	padding: 0 10px 90px;
+}
+.navbar-fixed .content {
+	/*padding-top: 151px;*/
+}
+.inner {
+	/*width: 1280px;*/
+	width: 1152px;
+	margin: 0 auto;
+}
+/* Notice banner */
+.notice-banner {
+	overflow: hidden;
+	/*height: 80px;*/
+	height: 72px;
+	border-bottom: 1px solid #ccc;
+}
+.notice-banner > .inner {
+	position: relative;
+	width: 100%;
+	/*max-width: 1280px;*/
+	max-width: 1152px;
+	/*height: 79px;*/
+	height: 71px;
+	/*padding: 10px;*/
+	text-align: center;
+}
+.notice-banner > .inner > a {
+	display: block;
+	/*height: 80px;*/
+	height: 72px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.notice-banner .title {
+	display: block;
+	/*font-size: 22px;*/
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	/*line-height: 80px;*/
+	line-height: 72px;
+}
+.notice-banner .text {
+	color: #fff;
+	text-align: center;
+}
+.notice-banner .btn-close {
+	position: absolute;
+	right: 15px;
+	bottom: 0;
+	width: 25px;
+	height: 24px;
+	border: 0;
+	background-color: rgba(0, 0, 0, .4);
+}
+.notice-banner .btn-close:before {
+	content: '';
+	position: absolute;
+	top: 9px;
+	left: 7px;
+	width: 11px;
+	height: 8px;
+	background: url(/static/img/main/spr_main.png) no-repeat -68px -25px;
+}
+.notice-banner.banner-color01 {
+	background: #fff;
+	/*background: #d82626;*/
+	/*background: -moz-linear-gradient(-45deg, #ec1a34 0%, #ff6300 100%);
+	background: -webkit-linear-gradient(-45deg, #ec1a34 0%,#ff6300 100%);
+	background: linear-gradient(135deg, #ec1a34 0%,#ff6300 100%);
+	background: url(/static/img/main/bg_notice_banner01.png) no-repeat center top;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec1a34', endColorstr='#ff6300',GradientType=1 );*/
+}

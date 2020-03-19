@@ -1,0 +1,44 @@
+plugins {
+    id 'org.springframework.boot' version '2.2.5.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    id 'java'
+    id 'war'
+}
+
+group = 'com.pcn'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+    implementation 'javax.servlet:jstl'
+    implementation 'org.apache.solr:solr-solrj:5.5.5'
+
+    implementation 'org.jsoup:jsoup:1.13.1'
+    implementation 'org.apache.commons:commons-lang3:3.0'
+    implementation 'org.springframework.boot:spring-boot-devtools'
+
+    implementation 'com.googlecode.json-simple:json-simple:1.1'
+    providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+apply plugin : 'war'
+
+bootWar{
+    archiveBaseName="ildong_demo_client"
+    archiveFileName="ildong_demo_client.war"
+    archiveVersion="1.0.0"
+}

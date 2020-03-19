@@ -1,0 +1,489 @@
+@charset 'UTF-8';
+/* base.css */
+/* common.css */
+.width-resize .breadcrumb {
+	position: absolute;
+	top: 30px;
+	right: 0;
+	z-index: 1;
+	margin-bottom: 30px;
+	padding: 5px 0;
+	font-size: 12px;
+	text-align: right;
+}
+.width-resize .breadcrumb .home {
+	margin-top: 0;
+}
+.width-resize .breadcrumb .bcLinkLayer {
+	padding: 15px;
+	text-align: left;
+}
+.width-resize .breadcrumb .bcLinkLayer li + li {
+	margin-top: 10px;
+}
+.width-resize .breadcrumb .active {
+	font-weight: 400;
+}
+.width-resize .breadcrumb .btn-bcLink .bottom {
+	margin-top: -10px;
+}
+/* layout.css */
+.width-resize .wrap {
+	/* Resize width(1300 > 1220) */
+	min-width: 1220px;
+}
+.width-resize .content > .inner,
+.width-resize .content > .bg > .inner {
+	position: relative;
+	/* Resize width(1280 > 1200) */
+	width: 1200px;
+}
+.width-resize .content {
+	min-height: 500px;
+	padding-bottom: 50px;
+}
+.width-resize .content > .bg {
+	padding-bottom: 30px;
+}
+.width-resize .content > .bg + .inner {
+	padding-top: 30px;
+}
+.width-resize .content.non-member {
+	width: 900px;
+	margin: 137px auto 50px;
+}
+.width-resize .content.non-member > .inner {
+	width: 900px;
+	padding: 50px 50px 0;
+}
+/* navbar.css */
+.width-resize .navbar > .inner,
+.width-resize .map-layer > .inner {
+	/* Resize width(1300 > 1220) */
+	width: 1220px;
+}
+.width-resize .navbar .navbar-nav,
+.width-resize .navbar-layer > .inner {
+	/* Resize width(1280 > 1200) */
+	width: 1200px;
+}
+.width-resize .navbar,
+.width-resize .navbar .navbar-nav {
+	min-height: 46px;
+}
+.width-resize .nav-item {
+	margin: 0 15px;
+}
+.width-resize .nav-item:first-child {
+	margin-left: 0;
+}
+.width-resize .nav-link {
+	height: 46px;
+	padding: 0 15px;
+	font-size: 16px;
+	line-height: 46px;
+}
+.width-resize .navbar-layer,
+.width-resize .map-layer {
+	top: 47px;
+}
+.width-resize .site-map .btn-map {
+	padding: 11px 3px;
+}
+.width-resize .navbar-layer .inner,
+.width-resize .map-layer .inner {
+	padding: 30px 0;
+}
+.width-resize .map-layer a {
+	font-size: 14px;
+}
+.width-resize .map-layer [class^=map-item] {
+	margin-left: 10px;
+}
+.width-resize .map-layer .map-item01 {
+	width: 120px;
+}
+.width-resize .map-layer .map-item02 {
+	width: 145px;
+}
+.width-resize .map-layer .map-item03 {
+	width: 105px;
+}
+.width-resize .map-layer .map-item04 {
+	width: 130px;
+}
+.width-resize .map-layer .map-item05 {
+	width: 160px;
+}
+.width-resize .map-layer .map-item06 {
+	width: 85px;
+}
+/* header.css */
+.width-resize .header .top > .inner {
+	/* Resize width(1300 > 1220) */
+	width: 1220px;
+	padding-top: 25px;
+}
+.width-resize .notice-banner > .inner {
+	/* Resize width(1280 > 1200) */
+	width: 1200px;
+}
+.width-resize .main-srh .search {
+	margin-bottom: 0;
+}
+/* footer.css */
+.width-resize .footer > .inner {
+	/* Resize width(1300 > 1220) */
+	width: 1220px;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/* button.css */
+.width-resize .btn-group,
+.width-resize .boardView + .btn-group + .heading {
+	margin-top: 30px;
+}
+.width-resize .heading + .btn-group {
+	margin-top: 20px;
+}
+/* form.css */
+.width-resize .formfield .ctg,
+.width-resize .formfield .group {
+	padding: 20px 30px;
+}
+.width-resize .tel-group input.textfield {
+	width: 154px;
+}
+/* gride.css */
+/* icon.css */
+/* tab.css */
+.width-resize .boardView + .tab {
+	margin-top: 50px;
+}
+.width-resize .tab {
+	margin-bottom: 20px;
+}
+/* table.css */
+.width-resize .table thead th {
+	padding: 20px 15px;
+}
+.width-resize .table tbody td {
+	padding: 10px 15px;
+}
+.width-resize .message + .table {
+	margin-top: 50px;
+}
+/* board.css */
+.width-resize .feed-body .tags-group,
+.width-resize .feed-body .file-group,
+.width-resize .feed-info,
+.width-resize .sr-only + .search,
+.width-resize .search-option {
+	margin-top: 20px;
+}
+.width-resize .boardView .file-group,
+.width-resize .boardView .file-group + .tags-group,
+.width-resize .boardView .txt + .tags-group {
+	margin-top: 25px;
+}
+.width-resize .message + .search,
+.width-resize .comment + .search,
+.width-resize .paging {
+	margin-top: 30px;
+}
+.width-resize .search + .board-top {
+	margin-top: 0;
+}
+.width-resize .search,
+.width-resize .search-option {
+	margin-bottom: 20px;
+}
+.width-resize .boardCard-type01,
+.width-resize .boardCard-size01 {
+	margin-bottom: 30px;
+}
+.width-resize .feed-info .list-bar {
+	margin: 5px 0 10px;
+}
+.width-resize .view-body {
+	padding: 30px;
+}
+.width-resize .feed-head,
+.width-resize .board-type01.qna-type .feed-head {
+	padding: 15px 150px 15px 82px;
+}
+.width-resize .feed-body {
+	padding: 15px 80px;
+}
+.width-resize .feed-head > .icon,
+.width-resize .feed-body > .icon {
+	top: 15px;
+}
+.width-resize .boardCard-size01 .item-img {
+	width: 290px;
+	height: 166px;
+}
+/* typography.css */
+.width-resize .heading-depth01 {
+	overflow: hidden;
+	max-width: 60%;
+	padding: 20px 0;
+}
+.width-resize .heading-depth01 .title {
+	float: left;
+	margin-bottom: 0;
+	font-size: 30px;
+}
+.width-resize .heading-depth01 p {
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+	max-width: 60%;
+	margin: 11px 0 0 10px;
+	font-size: 16px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.width-resize .heading-depth01 p br {
+	display: none;
+}
+.width-resize .message + .board-top,
+.width-resize [class*=heading-depth]:first-child {
+	margin-top: 0;
+}
+.width-resize .message + .tab {
+	margin-top: 20px;
+}
+.width-resize .message {
+	margin-bottom: 0;
+}
+.width-resize .heading-depth02 {
+	margin: 30px 0 20px;
+}
+.width-resize .heading-depth03,
+.width-resize .grid-row + .heading-depth03,
+.width-resize .grid-row + .heading-depth03 ~ .heading-depth03 {
+	margin: 30px 0 10px;
+}
+.width-resize .heading-depth04 {
+	margin-top: 30px;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/* modal-modify.css */
+/* select-modify.css */
+/* scrollbar-modify.css */
+/* main.css */
+/* join.css */
+.width-resize .join-form tbody td {
+	padding: 0;
+	padding-bottom: 20px;
+}
+.width-resize .login-content .btn-group {
+	margin-top: 10px;
+}
+/* content.css */
+.width-resize .gridBox {
+	margin: 0 0 20px;
+}
+.width-resize .search-filter {
+	margin: 30px 0;
+}
+.width-resize .sns-group,
+.width-resize .comment .btn-group {
+	margin-top: 0;
+}
+.width-resize .comment .btn-text {
+	margin-top: 15px;
+}
+.width-resize .comment .btn-link + .toggle-group {
+	margin-top: 20px;
+}
+.width-resize .board-mylife01 {
+	margin-bottom: 30px;
+}
+.width-resize .gridBox .box-inner {
+	padding: 20px 30px;
+}
+.width-resize .comment ul li {
+	padding: 20px 0;
+}
+.width-resize .search-filter .item-group .item {
+	padding: 0 30px 30px;
+}
+.width-resize .gridBox > div {
+	height: 197px;
+}
+.width-resize .gridBox dl {
+	height: 57px;
+	padding: 11px 30px;
+}
+.width-resize .notice-group .notice-item {
+	padding: 20px;
+}
+.width-resize .total-group {
+	margin-top: 50px;
+}
+/* mypage.css */
+.width-resize .my-layout .my-box .heading-depth03:first-child {
+	margin-top: 0;
+}
+.width-resize .my-layout .my-menu .heading-depth03 {
+	margin-top: 10px;
+}
+.width-resize .hosMoContent,
+.width-resize .comment ul,
+.width-resize .comment .btn-link + .toggle-group
+.width-resize .my-layout .my-boardCard-type03 + .tab {
+	margin-top: 20px;
+}
+.width-resize .comment .btn-link,
+.width-resize .my-layout .tab + .board-top,
+.width-resize .my-layout .my-tab-s-menu + .board-top,
+.width-resize .my-layout .my-tab-s-menu + .board-header,
+.width-resize .my-layout .comment + .my-info-txt-box,
+.width-resize .my-layout .mypage-main > div:nth-child(2) ~ div {
+	margin-top: 30px;
+}
+.width-resize .grid-row .grid-item .table + .heading {
+	margin-top: 60px;
+}
+.width-resize .my-layout .heading-depth02 {
+	margin-bottom: 15px;
+}
+.width-resize .hosMoContent .view.active {
+	margin-left: 2px;
+}
+.width-resize .my-layout .my-lnb {
+	width: 280px;
+	padding-top: 25px;
+}
+.width-resize .my-layout .my-contents {
+	width: 920px;
+}
+.width-resize .my-layout .mypage-main .my-menu > ul > li {
+	height: 148px;
+	padding: 20px;
+}
+.width-resize .my-layout .mypage-main .my-qna-list {
+	padding: 20px 30px;
+}
+.width-resize .my-layout .my-tab-s-menu {
+	padding-top: 20px;
+}
+.width-resize .my-layout .my-box {
+	padding: 30px;
+}
+.width-resize .hosMoContent .grid {
+	width: 870px;
+	margin-right: 30px;
+}
+.width-resize .hosMoContent .grid.view {
+	width: 297px;
+	margin: 0;
+}
+/* search.css */
+.width-resize .searchCont .feed-head em {
+	margin-top: 10px;
+}
+.width-resize .searchCont > section {
+	width: 950px;
+}
+.width-resize .searchCont .boardCard .img-size01 {
+	height: 159px;
+}
+.width-resize .searchCont .boardCard .img-size02 {
+	height: 263px;
+}
+.width-resize .searchCont [class*=boardCard-type] .img-size02 {
+	height: 110px;
+}
+/* mypatient.css */
+.width-resize .doctor-answer {
+	margin-top: 15px;
+}
+.width-resize .notice-group + .search,
+.width-resize .board-type01.qna-type .feed-body .text {
+	margin-top: 20px;
+}
+.width-resize .share-group {
+	margin-top: 50px;
+}
+.width-resize .notice-group {
+	margin-bottom: 30px;
+}
+.width-resize .board-type01 .feed-foot,
+.width-resize .board-type01.qna-type .feed-comment,
+.width-resize .board-type01.answer-type .feed-body {
+	padding: 20px 80px;
+}
+.width-resize .answer-type .feed-foot {
+	padding: 0 30px;
+}
+.width-resize .answer-type .feed-foot div {
+	padding: 20px 50px;
+}
+.width-resize .board-type01.qna-type .feed-body {
+	padding: 20px 80px;
+}
+.width-resize .info-list {
+	padding: 20px 0;
+}
+.width-resize .info-list .cont {
+	padding: 0 20px;
+}
+.width-resize .profile-my {
+	padding: 15px;
+}
+.width-resize .share-group .share-cont-group {
+	width: 943px;
+}
+.width-resize .info-list .tit {
+	width: 100px;
+}
+.width-resize .share-cont-top .search {
+	width: 433px;
+	margin: 0;
+}
+.width-resize .share-cont-top .search .textfield {
+	width: 266px;
+}
+.width-resize .share-cont-top .search .btn-sizeXL {
+	min-width: 80px;
+}

@@ -1,0 +1,1806 @@
+@charset 'UTF-8';
+/**/
+.message .btn-link.color01 {
+	vertical-align: top;
+	margin-left: 5px;
+}
+.message .btn-link.color01 i {
+	margin-top: 0;
+}
+/* UP3건강비서 - 내건강기록 */
+.healthCare-modal .checkbox {
+	display: block;
+	/*margin: 30px 0 10px 0;*/
+	margin: 25px 0 10px 0;
+	text-align: center;
+}
+.healthCare-modal .checkbox + img {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.healthCare-modal p.align-center {
+	/*margin-top: 30px;*/
+	margin-top: 25px;
+}
+.myProfile {
+	position: relative;
+	/*min-height: 160px;*/
+	min-height: 144px;
+	/*padding: 30px;*/
+	padding: 25px;
+	border: 1px solid #ccc;
+}
+.myProfile + .tab {
+	/*margin-top: 40px;*/
+	margin-top: 35px;
+	/*margin-bottom: 60px;*/
+	margin-bottom: 55px;
+}
+.myProfile .img {
+	overflow: hidden;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	/*width: 120px;*/
+	width: 108px;
+	/*height: 120px;*/
+	height: 108px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+}
+.myProfile .desc {
+	/*padding-left: 175px;*/
+	padding-left: 155px;
+}
+.myProfile strong {
+	display: block;
+	/*margin-bottom: 15px;*/
+	margin-bottom: 10px;
+	color: #000;
+	/*font-size: 22px;*/
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+.myProfile em {
+	display: block;
+	margin-bottom: 5px;
+}
+.myProfile em span {
+	color: #000;
+	/*font-size: 18px;*/
+	font-size: 16px;
+}
+.myProfile .bar:before {
+	/*height: 20px;*/
+	height: 15px;
+	/*margin: -4px 10px;*/
+	margin: -5px 10px;
+	background-color: #000;
+}
+.myProfile span {
+	color: #666;
+}
+.myProfile + .board-top {
+	/*margin-top: 40px;*/
+	margin-top: 35px;
+}
+/* healthForm */
+.healthForm {
+	/*margin-top: 20px;*/
+	margin-top: 15px;
+	border: 1px solid #ccc;
+}
+.healthForm.border {
+	border-width: 1px 0;
+}
+.healthForm .form-head {
+	position: relative;
+	/*padding: 15px 30px;*/
+	padding: 10px 25px;
+	background-color: #f2f2f2;
+}
+.form-head .btn {
+	position: absolute;
+	/*top: 15px;*/
+	top: 10px;
+	right: 30px;
+}
+.form-head a {
+	display: inline-block;
+	/*font-size: 22px;*/
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+.form-head [class*=icon-angle] {
+	width: 14px;
+}
+.form-head [class*=icon-angle]:before,
+.form-head [class*=icon-angle]:after {
+	width: 9px;
+	transition: all .3s;
+}
+.form-body {
+	display: none;
+	/*padding: 0 0 30px;*/
+	padding: 0 0 25px;
+}
+.form-body .btn-group {
+	/*margin-top: 30px;*/
+	margin-top: 25px;
+}
+.form-title {
+	position: relative;
+}
+.form-title .btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-weight: 400;
+}
+.healthForm .form-title {
+	/*padding: 20px 30px 10px;*/
+	/*padding: 15px 25px 10px;*/
+	padding: 10px 25px;
+	border-bottom: 1px solid #ccc;
+}
+.healthForm .healthForm-inner {
+	/*padding: 40px 40px 10px;*/
+	padding: 35px 35px 10px;
+}
+.healthForm .healthForm-inner > p {
+	/*margin-bottom: 35px;*/
+	margin-bottom: 30px;
+	color: #666;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.healthForm.border.active {
+	border-width: 1px;
+}
+.healthForm.active .form-body {
+	display: block;
+}
+.healthForm.active .form-head [class*=icon-angle] {
+	width: 14px;
+}
+.healthForm.active .form-head [class*=icon-angle]:before {
+	transform: rotate(-45deg);
+}
+.healthForm.active .form-head [class*=icon-angle]:after {
+	transform: rotate(45deg);
+}
+/* 실제 폼영역 */
+.healthForm .form-group {
+	padding: 10px 0;
+}
+.healthForm table .textfield {
+	/*width: 160px;*/
+	width: 144px;
+}
+.healthForm table .txt {
+	vertical-align: middle;
+	/*margin: 0 15px;*/
+	margin: 0 10px;
+	color: #999;
+}
+.healthForm td > .txt:first-child {
+	margin-left: 0;
+}
+.healthForm .bar:before {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	height: 50px;
+}
+.healthForm .table-wrap {
+	/*padding: 0 30px;*/
+	padding: 0 25px;
+}
+.healthForm table {
+	table-layout: fixed;
+}
+.healthForm table .borderT {
+	border-top: 1px solid #ccc;
+}
+.healthForm th,
+.healthForm td {
+	vertical-align: middle;
+	/*height: 70px;*/
+	height: 63px;
+	padding: 10px 0;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.healthForm th {
+	font-weight: 700;
+	text-align: left;
+}
+.healthForm th.verticalT {
+	vertical-align: top;
+	/*padding-top: 20px;*/
+	padding-top: 15px;
+}
+.healthForm th [class*=icon] {
+	/*margin-right: 20px;*/
+	margin-right: 15px;
+}
+.healthForm + .form-title {
+	/*margin: 60px 0 15px;*/
+	margin: 55px 0 10px;
+}
+.healthForm-type01 {
+	border-top-color: #000;
+}
+.bloodSugar-group.form-group {
+	/* padding: 0; */
+}
+.bloodSugar-group .select {
+	/*width: 160px;*/
+	width: 144px;
+}
+.bloodSugar-group .textfield {
+	/*margin-left: 8px;*/
+	margin-left: 5px;
+}
+.bloodSugar-group .add-area {
+	margin-top: 5px;
+}
+.bloodSugar-group .add-area  ul {
+	overflow: hidden;
+}
+.bloodSugar-group .add-area li {
+	float: left;
+	margin-top: 10px;
+	/*margin-right: 35px;*/
+	margin-right: 30px;
+}
+.bloodSugar-group .add-area li:first-child {
+	margin-left: 0;
+}
+.bloodSugar-group .btn-delete02 {
+	margin-left: 5px;
+}
+.checkList {
+	margin: -5px;
+}
+.checkList + .checkList {
+	/*margin-top: 12px;*/
+	margin-top: 10px;
+}
+.checkList .checkbox {
+	vertical-align: top;
+	/*width: 100px;*/
+	width: 90px;
+	/*height: 120px;*/
+	height: 108px;
+	margin: 5px;
+	/*padding: 20px 5px 10px;*/
+	padding: 15px 5px 10px;
+	border: 1px solid #ccc;
+}
+.checkList .label,
+.checkList .label img {
+	display: block;
+	margin: 0;
+}
+.checkList .label span {
+	display: block;
+	text-align: center;
+	line-height: 35px;
+}
+.checkList .label em {
+	display: inline-block;
+	vertical-align: middle;
+	color: #999;
+	/*font-size: 15px;*/
+	font-size: 14px;
+	line-height: 1.2;
+}
+.checkList .label img {
+	margin: 0 auto 5px;
+}
+.checkList .checked .label em {
+	color: #000;
+}
+.checkList.positive .checkbox.checked {
+	border-color: #48bb37;
+	box-shadow: inset 0 0 0 2px #48bb37;
+}
+.checkList.negative .checkbox.checked {
+	border-color: #051836;
+	box-shadow: inset 0 0 0 2px #051836;
+}
+/* 보기영역 */
+.healthFormView {
+	/*margin-top: 15px;*/
+	margin-top: 10px;
+	border-top: 1px solid #000;
+}
+.healthFormView > ul > li {
+	display: table;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.healthFormView .date,
+.healthFormView .view {
+	display: table-cell;
+	vertical-align: middle;
+}
+.healthFormView .date {
+	vertical-align: top;
+	/*width: 120px;*/
+	width: 108px;
+	border-right: 1px solid #ccc;
+}
+.healthFormView .date em {
+	display: block;
+	border-bottom: 1px solid #f2f2f2;
+	/*font-size: 24px;*/
+	font-size: 22px;
+	text-align: center;
+	line-height: 89px;
+	background-color: #f2f2f2;
+}
+.healthFormView .view .row {
+	overflow: hidden;
+	position: relative;
+	/*min-height: 90px;*/
+	min-height: 81px;
+	/*padding: 20px 30px;*/
+	padding: 15px 25px;
+}
+.healthFormView .view .option {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+.healthFormView .view .option .btn {
+	color: #666;
+}
+.healthFormView .view .option .btn + .btn:before {
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 8px;
+	margin: 0 9px;
+	background-color: #ccc;
+}
+.healthFormView .view .view-toggle {
+	display: none;
+}
+.healthFormView .view [class*=icon-angle] {
+	width: 15px;
+	margin-top: -1px;
+}
+.healthFormView .view [class*=icon-angle]:before,
+.healthFormView .view [class*=icon-angle]:after {
+	width: 9px;
+	height: 1px;
+	background-color: #666;
+	transition: all .3s;
+}
+.healthFormView .view .row.healthIcon {
+	/*padding-right: 175px;*/
+	padding-right: 157px;
+}
+.healthFormView .healthIcon ul {
+	overflow: hidden;
+	/*max-height: 50px;*/
+	max-height: 45px;
+}
+.healthFormView .healthIcon ul li {
+	display: inline-block;
+	/*margin: 5px 20px 5px 0;*/
+	margin: 5px 15px 5px 0;
+}
+.healthFormView .cont {
+	position: relative;
+}
+.healthFormView .tit {
+	position: absolute;
+	top: 6px;
+	left: 0;
+	color: #000;
+	/*font-size: 16px;*/
+	font-size: 15px;
+	font-weight: 700;
+}
+.healthFormView .tit [class*=icon] {
+	margin-right: 15px;
+}
+.healthFormView .val:before {
+	content: '';
+	position: absolute;
+	top: 12px;
+	left: 115px;
+	width: 1px;
+	height: 16px;
+	background-color: #666;
+}
+.healthFormView .val {
+	/*margin-left: 115px;*/
+	margin-left: 100px;
+	/*padding-left: 30px;*/
+	padding-left: 25px;
+	color: #666;
+}
+.healthFormView .val span {
+	display: inline-block;
+	/*margin-right: 40px;*/
+	margin-right: 35px;
+}
+.healthFormView .val em {
+	display: inline-block;
+	/*margin: 0 8px;*/
+	margin: 0 5px;
+	/*font-size: 24px;*/
+	font-size: 22px;
+	font-weight: 700;
+}
+.healthFormView .memo p {
+	word-break: keep-all;
+}
+.healthFormView .memo + .photo-list {
+	margin-top: 10px;
+}
+/* 앨범공통 */
+.photo-list {
+	/*margin-top: -3px;*/
+	margin-top: -5px;
+}
+.photo-list .item {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	/*width: 160px;*/
+	width: 144px;
+	/*height: 160px;*/
+	height: 144px;
+	/*margin: 3px;*/
+	margin: 5px;
+	border: 1px solid #ccc;
+	background-color: #f2f2f2;
+}
+.photo-list .checkbox ins {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+.photo-list .checkbox .label {
+	margin: 0;
+}
+.photo-list .checkbox {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.photo-list .checkbox02.checked {
+	border: 2px solid #ce020b;
+}
+/* 활성화 */
+.healthFormView li.active .date em {
+	border-color: #999;
+	color: #fff;
+	font-weight: 500;
+	background-color: #999;;
+}
+.healthFormView li.active  .view .view-toggle {
+	display: block;
+}
+.healthFormView li.active [class*=icon-angle]:before {
+	transform: rotate(-45deg);
+}
+.healthFormView li.active [class*=icon-angle]:after {
+	transform: rotate(45deg);
+}
+.healthFormView li.active .view .row {
+	border-bottom: 1px solid #ccc;
+}
+.healthFormView li.active .view .row:last-child {
+	border-bottom: 0;
+}
+.healthFormView li.active ul {
+	max-height: 100%;
+}
+/* 통계 */
+.healthFormView-stats {
+	/*margin-top: 30px;*/
+	margin-top: 25px;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+.healthFormView-stats .form-body {
+	display: block;
+}
+.healthFormView-stats .tit {
+	/*width: 65px;*/
+	width: 58px;
+	margin: 10px 0;
+	text-align: center;
+}
+.healthFormView-stats .tit [class*=icon] {
+	display: block;
+	margin: 0 auto;
+}
+.healthFormView-stats .row {
+	border-bottom: 1px solid #ccc;
+}
+.healthFormView-stats .row .btn-group {
+	position: absolute;
+	/*top: 20px;*/
+	top: 18px;
+	/*right: 30px;*/
+	right: 25px;
+	margin: 0;
+}
+.healthFormView-stats .row .btn-group .btn {
+	border-color: #000;
+	/*font-size: 15px;*/
+	font-size: 14px;
+	font-weight: 500;
+}
+.healthFormView-stats .row .btn-group .btn + .btn {
+	/*margin-left: 3px;*/
+	margin-left: 5px;
+}
+.healthFormView-stats .val {
+	/*margin-left: 90px;*/
+	margin-left: 80px;
+}
+.healthFormView-stats .val:before {
+	top: 5px;
+	bottom: 0;
+	left: 90px;
+	height: 100%;
+	background-color: #ccc;
+}
+.healthFormView-stats .val p {
+	margin-bottom: 10px;
+	/*font-size: 18px;*/
+	font-size: 16px;
+}
+.healthFormView-stats .val p.tips {
+	/*margin: 4px 0 0 -5px;*/
+	margin: 5px 0 0 -5px;
+	color: #999 ;
+	/*font-size: 14px;*/
+	font-size: 13px;
+}
+.healthFormView-stats .val p em {
+	margin: 0;
+	color: #000;
+	font-size: inherit;
+}
+.healthFormView-stats .val dl {
+	overflow: hidden;
+}
+.healthFormView-stats .val dl .bar:before {
+	vertical-align: middle;
+	height: 15px;
+	/*margin-bottom: 2px;*/
+	margin-bottom: 5px;
+	background-color: #999;
+}
+.healthFormView-stats .val dl dd.bar:before {
+	margin-left: 0;
+}
+.healthFormView-stats .val dt,
+.healthFormView-stats .val dd {
+	float: left;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.healthFormView-stats .val dt {
+	color: #999;
+}
+.healthFormView-stats .val dd {
+	/*margin-left: 9px;*/
+	margin-left: 5px;
+	color: #000;
+}
+.donut-graph-list:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.donut-graph-list {
+	/*margin: -45px -15px 0;*/
+	margin: -40px -10px 0;
+}
+.donut-graph-list li {
+	float: left;
+	/*margin: 45px 15px 0;*/
+	margin: 40px 10px 0;
+	text-align: center;
+}
+.donut-graph-list li .text {
+	/*margin-top: 20px;*/
+	margin-top: 15px;
+	color: #666;
+	/*font-size: 15px;*/
+	font-size: 14px;
+}
+/* donut-graph */
+.donut-graph .graph {
+	position: relative;
+	width: 94px;
+	height: 94px;
+	margin: 0 auto;
+}
+.donut-graph .graph .pie {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	clip: rect(0, 94px, 94px, 47px);
+}
+.donut-graph .graph .half-circle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 10px solid #47ba37;
+	border-radius: 50%;
+	clip: rect(0, 47px, 94px, 0);
+}
+.donut-graph .graph .right-side {
+	transform: rotate(0deg);
+}
+.donut-graph .graph .label {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 92px;
+	background: none;
+	transform: translate(-50%, -50%);
+}
+.donut-graph .graph .shadow {
+	width: 100%;
+	height: 100%;
+	border: 10px solid #f1f1f1;
+	border-radius: 50%;
+}
+.donut-graph.negative .graph .half-circle {
+	border-color: #ed1a2e;
+}
+.message .small {
+	/**/
+	display: inline-block;
+	/*margin-top: 15px;*/
+	margin-top: 10px;
+	/*font-size: 14px;*/
+	font-size: 13px;
+}
+.modal-healthShare .grid {
+	overflow: hidden;
+	/*margin: 30px 0;*/
+	margin: 25px 0;
+}
+/* 건강 상세 - 건강앨범 */
+.healthFormView-photo {
+	/*padding: 30px;*/
+	padding: 25px;
+	border: 1px solid #ccc;
+	border-top: 1px solid #000;
+}
+.healthFormView-photo .photo-list {
+	/*margin: -7px;*/
+	margin: -5px;
+}
+.healthFormView-photo .photo-list .item {
+	/*margin: 7px;*/
+	margin: 5px;
+}
+/* 병원에 건강기록 공유하기 팝업 */
+.modal-healthShare .grid .healthShare-group {
+	float: right;
+	/*width: 300px;*/
+	width: 270px;
+}
+.modal-healthShare .grid .healthShare-group:first-child {
+	float: left;
+	/*width: 525px;*/
+	width: 472px;
+}
+.healthShare-group .tit {
+	/*padding-bottom: 9px;*/
+	padding-bottom: 5px;
+	border-bottom: 1px solid #000;
+}
+.healthShare-group .tit strong,
+.healthShare-group .tit label {
+	color: #000;
+	/*font-size: 16px;*/
+	font-size: 15px;
+	font-weight: 700;
+}
+.healthShare-group .tit em {
+	display: inline-block;
+	/*margin-left: 4px;*/
+	margin-left: 5px;
+	color: #999;
+	font-weight: 400;
+}
+.healthShare-group .cont {
+	/*padding: 15px 0;*/
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+.healthShare-group .hostSearch {
+	/*margin-top: 15px;*/
+	margin-top: 10px;
+}
+.healthShare-group .hostSearch .form-group,
+.healthShare-group .hostSearch .select {
+	/*width: 395px;*/
+	width: 355px;
+}
+.healthShare-group .hostSearch .form-group {
+	display: inline-block;
+}
+.healthShare-group .txt {
+	display: inline-block;
+	vertical-align: middle;
+	/*margin: 0 20px;*/
+	margin: 0 15px;
+	color: #999;
+}
+.healthShare-group .boxTxt {
+	border: 1px solid #ccc;
+	color: #000;
+	/*font-size: 18px;*/
+	font-size: 16px;
+	text-align: center;
+	line-height: 48px;
+}
+.modal-healthShare .grid .healthShare-group.full {
+	width: 100%;
+}
+.modal-healthShare .grid .healthShare-group.full .space {
+	margin: 0 5px 0 -5px;
+}
+/* 병원공유 사진추가 팝업 */
+.modal-body .photo-list {
+	margin-top: 0;
+}
+.modal-body .photo-list .item {
+	/*width: 156px;*/
+	width: 140px;
+	/*height: 158px;*/
+	height: 142px;
+	margin: 1px;
+}
+/* 가족공유 리스트 */
+.profile-list .list {
+	display: table;
+	position: relative;
+	width: 100%;
+	/*margin-top: -1px;*/
+	/*padding: 10px 30px;*/
+	padding: 10px 25px;
+	border: 1px solid #ccc;
+}
+.profile-list .list > a {
+	display: table-row;
+}
+.profile-list .list + .list {
+	border-top: 0;
+}
+.profile-list .img {
+	display: table-cell;
+	overflow: hidden;
+	/*width: 86px;*/
+	width: 77px;
+	/*height: 86px;*/
+	height: 77px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+}
+.profile-list .cont {
+	display: table-cell;
+	vertical-align: middle;
+	/*min-height: 86px;*/
+	min-height: 77px;
+	/*padding: 0 30px;*/
+	padding: 0 25px;
+}
+.profile-list strong {
+	display: inline-block;
+	/*min-width: 120px;*/
+	min-width: 108px;
+	padding-right: 10px;
+	color: #000;
+	/*font-size: 18px;*/
+	font-size: 16px;
+}
+.profile-list .selectize-control {
+	/*width: 120px;*/
+	width: 108px;
+	margin-right: 10px;
+}
+.profile-list .selectize-input {
+	/*padding-right: 45px;*/
+	padding-right: 40px;
+}
+.profile-list em {
+	display: inline-block;
+	/*min-width: 120px;*/
+	min-width: 108px;
+	margin-right: 10px;
+	color: #54a3c8;
+	/*font-size: 16px;*/
+	font-size: 15px;
+	text-align: center;
+}
+.profile-list .txt {
+	color: #999;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.profile-list .right {
+	display: table-cell;
+	vertical-align: middle;
+	width: 25%;
+	text-align: right;
+}
+.profile-list .right .btn {
+	/*width: 110px;*/
+	width: 99px;
+	/*min-width: 110px;*/
+	min-width: 99px;
+}
+/* 공개범위 설정 팝업*/
+.modal-range > label {
+	width: 49%;
+	/*margin: 15px 0 0 0;*/
+	margin: 10px 0 0 0;
+}
+.modal-uploadPhoto {
+	/*margin-top: 20px;*/
+	margin-top: 15px;
+	/*padding: 15px 0;*/
+	padding: 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #ccc;
+}
+.modal-uploadPhoto .photo-list {
+	/*margin: -8px;*/
+	margin: -5px;
+}
+.modal-uploadPhoto .photo-list .item {
+	/*margin: 8px;*/
+	margin: 5px;
+}
+/* UP4- 우리동네주치의 */
+.content > .bg {
+	/*margin: -75px -10px 0 -10px;*/
+	/*margin: -70px -10px 0 -10px;*/
+	margin: -75px -10px 0 -10px;
+	background-color: #f2f2f2;
+}
+.gridBox {
+	overflow: hidden;
+	/*padding: 70px 0;*/
+	padding: 60px 0;
+}
+.gridBox > div {
+	float: left;
+	width: 50%;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+.gridBox .box-inner {
+	position: relative;
+	/*height: 220px;*/
+	height: 198px;
+	/*padding: 30px 30px 25px;*/
+	padding: 25px 25px 20px;
+}
+.gridBox > div + div {
+	border-left: 0;
+}
+.gridBox .heading {
+	/*margin-top: -8px;*/
+	margin-top: -5px;
+	/*margin-bottom: 22px;*/
+	margin-bottom: 20px;
+}
+.gridBox .title {
+	/*font-size: 22px;*/
+	font-size: 20px;
+	font-weight: 700;
+}
+.gridBox .myBox {
+	position: relative;
+}
+.gridBox .myBox .btn-link {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	color: #666;
+	/*font-size: 16px;*/
+	font-size: 15px;
+	font-weight: 400;
+}
+.gridBox .myBox .box-inner p {
+	position: relative;
+	/*padding-left: 50px;*/
+	padding-left: 45px;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.gridBox .myBox .icon-question01 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.gridBox .myBox p a {
+	display: inline-block;
+	overflow: hidden;
+	/*height: 40px;*/
+	height: 36px;
+	line-height: 1.3;
+}
+.gridBox em {
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	vertical-align: middle;
+	width: 50%;
+	/*height: 60px;*/
+	height: 54px;
+	border-width: 1px 1px 0 0;
+	border-style: solid;
+	border-color: #ccc;
+	/*font-size: 16px;*/
+	font-size: 15px;
+	text-align: center;
+	/*line-height: 58px;*/
+	line-height: 49px;
+}
+.gridBox em p {
+	color: #666;
+}
+.gridBox em a {
+	display: block;
+}
+.gridBox em + em {
+	right: 0;
+	border-right: 0;
+}
+.qna-group .qna-column a {
+	border-bottom: 0 !important;
+	text-decoration: underline;
+}
+.qna-group .qna-column {
+	position: relative;
+	/*padding-left: 75px;*/
+	padding-left: 70px;
+}
+.qna-group .qna-column:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 46px;
+	height: 40px;
+	background: url(/static/img/common/spr_icon.png) no-repeat 0 -301px;
+}
+.qna-group .qna-column p {
+	overflow: hidden;
+	margin-bottom: 10px;
+	/*font-size: 18px;*/
+	font-size: 16px;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	white-space: nowrap;
+}
+.qna-group .slick-dots {
+	bottom: -50px;
+}
+.qna-group .slick-dots li {
+	width: 10px;
+	height: 10px;
+}
+.qna-group .slick-dots li button {
+	width: 10px;
+	height: 10px;
+	padding: 0;
+	border: 3px solid #ccc;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.qna-group .slick-dots li button:before {
+	display: none;
+}
+.qna-group .slick-dots li.slick-active button {
+	border-color: #ed1a2e;
+}
+.modal-myZone .zone-setting {
+	margin-top: 10px;
+	/*font-size: 14px;*/
+	font-size: 13px;
+	text-align: right;
+}
+.modal-myZone .zone-setting .heading-depth04 {
+	/*margin-top: 20px;*/
+	margin-top: 15px;
+}
+.board-top .ox-label {
+	/*margin-top: 13px;*/
+	margin-top: 10px;
+}
+.ox-label strong {
+	color: #000;
+	/*font-size: 16px;*/
+	font-size: 15px;
+	font-weight: 700;
+}
+.ox-label span {
+	display: inline-block;
+	/*margin-left: 30px;*/
+	margin-left: 25px;
+	color: #797979;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.ox-label span i {
+	/*margin-right: 8px;*/
+	margin-right: 5px;
+}
+.ox-label span em {
+	display: inline-block;
+	/*margin-left: 8px;*/
+	margin-left: 5px;
+}
+.ox-label span em.color01 {
+	font-weight: 900;
+}
+.message-type02 {
+	/*margin-top: 40px;*/
+	margin-top: 35px;
+	/*padding-left: 45px;*/
+	padding-left: 40px;
+	text-align: left;
+}
+.message-type02 > a {
+	display: block;
+}
+.message-type02 .icon {
+	display: table-cell;
+}
+.message-type02 p {
+	display: table-cell;
+	vertical-align: middle;
+	/*padding-left: 35px;*/
+	padding-left: 30px;
+	/*font-size: 18px;*/
+	font-size: 16px;
+	text-align: left;
+}
+.message-type02 p strong {
+	/*font-size: 20px;*/
+	font-size: 18px;
+}
+/* formfield */
+.formfield {
+	border-bottom: 1px solid #ccc;
+}
+.formfield .ctg {
+	position: relative;
+	/*padding: 30px;*/
+	padding: 25px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #eee;
+	background-color: #fafafa;
+}
+.formfield .ctg .btn {
+	/*margin: 0 30px 0 6px;*/
+	margin: 0 25px 0 5px;
+}
+.formfield .ctg .selectize-control {
+	/*width: 250px;*/
+	width: 225px;
+}
+.formfield .ctg .checkbox {
+	width: auto;
+}
+.formfield .ctg .checkbox em {
+	display: inline-block;
+	/*margin-left: 6px;*/
+	margin-left: 5px;
+	font-weight: 700;
+}
+.formfield .ctg p {
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	margin-top: -10px;
+	color: #999;
+	/*font-size: 14px;*/
+	font-size: 13px;
+}
+.formfield .group {
+	/*padding: 30px;*/
+	padding: 25px;
+	border-top: 1px solid #eee;
+}
+.formfield .q-group input {
+	/*width: calc(100% - 30px);*/
+	width: calc(100% - 25px);
+}
+.formfield .i-group {
+	border-top: 0;
+}
+.formfield .i-group i {
+	/*margin-top: -15px;*/
+	margin-top: -10px;
+	/*margin-right: 16px;*/
+	margin-right: 15px;
+}
+.formfield .i-group input {
+	width: calc(100% - 38px);
+	/*margin-bottom: 20px;*/
+	margin-bottom: 15px;
+}
+.formfield .k-group .form-group {
+	/*width: 400px;*/
+	width: 360px;
+}
+.formfield .tags-group {
+	margin-top: 10px;
+}
+.formfield .textarea {
+	/*height: 240px;*/
+	height: 216px;
+}
+.formfield .health-add {
+	margin-bottom: 10px;
+}
+.formfield .health-add .file-added {
+	margin-left: 10px;
+}
+.formfield .health-add .file-added .label {
+	max-width: 100%;
+}
+.formfield .health-add span {
+	/*margin-right: 15px;*/
+	margin-right: 10px;
+	color: #666;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.message + .formfield {
+	/*margin-top: 40px;*/
+	margin-top: 35px;
+}
+/* 우리동네 건강상담 선택방 */
+.board-choice {
+	/*margin-top: 65px;*/
+	margin-top: 60px;
+	border-top: 1px solid #000;
+}
+.board-choice .item {
+	/*margin-bottom: 30px;*/
+	margin-bottom: 25px;
+	border-top: 1px solid #ddd;
+}
+.board-choice .item:first-child {
+	margin-top: 0;
+}
+.board-choice .head {
+	/*padding: 25px 30px 10px;*/
+	padding: 20px 25px 10px;
+	border-bottom: 1px solid #ddd;
+}
+.board-choice .head p {
+	color: #000;
+	/*font-size: 24px;*/
+	font-size: 22px;
+	letter-spacing: -1px;
+	line-height: 1.17;
+}
+.board-choice .head em {
+	font-weight: 700;
+}
+.board-choice .head .extra {
+	overflow: hidden;
+	margin-top: 5px;
+}
+.board-choice .extra span {
+	float: left;
+	width: 50%;
+	color: #999;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.board-choice .extra span + span {
+	text-align: right;
+}
+.board-choice .body {
+	overflow: hidden;
+	position: relative;
+	/*min-height: 120px;*/
+	min-height: 108px;
+	border-bottom: 1px solid #ddd;;
+}
+.board-choice .body .radio-wrap {
+	float: left;
+	vertical-align: top;
+	width: 50%;
+}
+.board-choice .body .radio-wrap + .radio-wrap {
+	border-left: 1px solid #ddd;
+}
+.board-choice .body .radio {
+	position: relative;
+	width: 100%;
+	/*padding: 20px;*/
+	padding: 15px;
+	border: 3px solid #fff;
+}
+.board-choice .radio ins {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-image: none;
+	transform: translate(-50%, -50%);
+}
+.board-choice .body .radio .img {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	/*width: 230px;*/
+	width: 207px;
+	/*height: 150px;*/
+	height: 135px;
+	/*margin-right: 30px;*/
+	margin-right: 25px;
+}
+.board-choice .radio em {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	color: #999;
+	/*font-size: 18px;*/
+	font-size: 16px;
+	word-break: keep-all;
+}
+.board-choice .radio :checked ~ ins {
+	z-index: 2;
+	background-image: url(/static/img/common/spr_checkbox.png);
+}
+.board-choice .radio.checked {
+	border-color: #ce020b;
+}
+.board-choice .radio.checked .label:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, .7);
+}
+.board-choice .end-dimmed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+}
+.board-choice .end-dimmed p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+.board-choice .end-dimmed a {
+	display: block;
+	/*margin-top: 23px;*/
+	margin-top: 20px;
+	color: #fff;
+	/*font-size: 18px;*/
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.board-choice .result {
+	margin: 0;
+}
+.board-choice .result .result-desc {
+	/*padding: 30px;*/
+	padding: 25px;
+	border-bottom: 1px solid #ddd;
+}
+.board-choice .graph {
+	overflow: hidden;
+}
+.board-choice .graph > p {
+	float: left;
+	color: #666;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.board-choice .graph .graph-bar {
+	float: right;
+	position: relative;
+	/*width: 1000px;*/
+	width: 900px;
+	/*height: 30px;*/
+	height: 27px;
+	background-color: #fe8e0b;
+}
+.board-choice .graph-bar i {
+	display: inline-block;
+	vertical-align: top;
+	/*height: 30px;*/
+	height: 27px;
+}
+.board-choice .graph-bar i:first-child {
+	background-color: #4ba4f5;
+}
+.board-choice .summury {
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 100%;
+	/*padding: 0 20px;*/
+	padding: 0 15px;
+}
+.board-choice .summury span {
+	float: left;
+	color: #fff;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.board-choice .summury span + span {
+	float: right;
+}
+.board-choice .radio.disabled .img {
+	border: 3px solid #4ba4f5;
+}
+.board-choice .radio-wrap:last-child .radio.disabled .img {
+	border-color: #fe8e0b;
+}
+/* 톡방 */
+.board-talk {
+	overflow: hidden;
+	/*height: 935px;*/
+	height: 841px;
+	/*margin-top: 65px;*/
+	margin-top: 60px;
+	border: 1px solid #ddd;
+	border-top-color: #000;
+}
+.board-talk .item {
+	float: left;
+	width: 50%;
+}
+.board-talk .talk-head {
+	/*height: 48px;*/
+	height: 43px;
+	/*padding: 10px 30px;*/
+	padding: 10px 25px;
+	border-bottom: 1px solid #ccc;
+	color: #000;
+	/*font-size: 18px;*/
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #f2f2f2;
+}
+.board-talk .talk-head p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	white-space: nowrap;
+}
+.board-talk .talk-head .icon-angle {
+	margin-left: 0;
+	transform: rotate(180deg);
+}
+.board-talk .talk-body,
+.board-talk .talk-body > .scrollbar {
+	/*height: 885px;*/
+	height: 796px;
+}
+.board-talk .scrollbar-inner {
+	/*padding: 0 30px 30px;*/
+	padding: 0 25px 25px;
+}
+.board-talk .talk-body {
+	position: relative;
+}
+.board-talk .talk-foot {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: -1px;
+}
+.board-talk .view-head {
+	display: block;
+	/*padding: 30px 0 27px;*/
+	padding: 25px 0 25px;
+	border-bottom: 1px solid #f1f1f1;
+}
+.board-talk .view-head .tags {
+	/*margin-bottom: 7px;*/
+	margin-bottom: 5px;
+}
+.board-talk .view-head p {
+	/*font-size: 24px;*/
+	font-size: 22px;
+	letter-spacing: -1px;
+	line-height: 1.3;
+}
+.board-talk .view-head .extra {
+	overflow: hidden;
+	/*margin-top: 8px;*/
+	margin-top: 5px;
+}
+.board-talk .view-head .extra span {
+	float: left;
+	vertical-align: top;
+	color: #999;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.board-talk .view-head .extra span + span {
+	float: right;
+}
+.board-talk .view-head .extra i {
+	top: 0;
+	/*margin-right: 7px;*/
+	margin-right: 5px;
+}
+.board-talk a.view-head {
+	/*padding: 25px 0 15px;*/
+	padding: 20px 0 10px;
+}
+.board-talk a.view-head p {
+	/*font-size: 20px;*/
+	font-size: 18px;
+}
+.board-talk .view-body {
+	/*padding: 30px 0;*/
+	padding: 25px 0;
+}
+.board-talk .view-body .tags-group {
+	/*margin-top: 30px;*/
+	margin-top: 25px;
+}
+.board-talk .view-body p {
+	margin: 5px 0;
+	color: #999;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.board-talk .item.reply .talk-head {
+	border-left: 1px solid #ccc;
+	background-color: #fff;
+}
+.board-talk .item.reply .talk-body {
+	border-left: 1px solid #ccc;
+}
+.board-talk .reply .talk-body > .scrollbar {
+	/*height: 655px;*/
+	height: 590px;
+}
+.search-type02 {
+	/*margin: 40px 0;*/
+	margin: 35px 0;
+	background-color: #f2f2f2;
+}
+.recruit-info-box {
+	/*margin-bottom: 30px;*/
+	margin-bottom: 25px;
+	/*padding: 8px 18px;*/
+	padding: 5px 15px;
+	border: 1px solid #ccc;
+}
+.recruit-info-box p {
+	display: inline-block;
+	vertical-align: sub;
+	/*font-size: 22px;*/
+	font-size: 20px;
+}
+.recruit-info-box p strong {
+	font-weight: 700;
+}
+.recruit-info-box p button {
+	position: relative;
+	width: 24px;
+	height: 24px;
+	border: none;
+	background: none;
+}
+.recruit-info-box p button:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 14px;
+	height: 14px;
+	background: url(/static/img/common/spr_icon.png) -192px -301px no-repeat;
+	transform: translate(-50%, -50%);
+}
+.recruit-info-box .delete-info-tip {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	/*height: 56px;*/
+	height: 50px;
+	/*margin-left: 20px;*/
+	margin-left: 15px;
+	/*padding: 0 50px 0 18px;*/
+	padding: 0 45px 0 15px;
+	border: 1px solid #000;
+	/*line-height: 54px;*/
+	line-height: 48px;
+}
+.recruit-info-box .delete-info-tip:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: -11px;
+	width: 11px;
+	height: 16px;
+	background: url(/static/img/common/spr_icon.png) -222px -301px no-repeat;
+	transform: translateY(-50%);
+}
+.recruit-info-box .delete-info-tip button {
+	position: absolute;
+	top: 50%;
+	right: 18px;
+	width: 20px;
+	height: 20px;
+	border: none;
+	background: none;
+	transform: translateY(-50%);
+}
+.recruit-info-box .delete-info-tip button:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 12px;
+	height: 12px;
+	background: url(/static/img/common/spr_icon.png) -208px -301px no-repeat;
+	transform: translate(-50%, -50%);
+}
+.recruit-type-select {
+	overflow: hidden;
+}
+.recruit-type-select li {
+	float: left;
+	/*width: 427px;*/
+	/*width: 384px;*/
+	width: 33.36%;
+	border: solid #ccc;
+	border-width: 1px 0 1px 1px;
+}
+.recruit-type-select li:last-child {
+	/*width: 426px;*/
+	width: 383px;
+	border-right: 1px solid #ccc;
+}
+.recruit-type-select li.active {
+	border-color: #000;
+}
+.recruit-type-select li.active + li {
+	border-left: 1px solid #000;
+}
+.recruit-type-select li a {
+	display: block;
+	position: relative;
+	/*padding: 13px 20px;*/
+	padding: 10px 15px;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.recruit-type-select li a:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 19px;
+	width: 16px;
+	height: 9px;
+	background: url(/static/img/common/spr_icon.png) -255px -301px no-repeat;
+	transform: translateY(-50%);
+}
+.recruit-type-select li.active a:after {
+	background: url(/static/img/common/spr_icon.png) -273px -301px no-repeat;
+}
+.recruit-detail-list {
+	display: none;
+	/*height: 155px;*/
+	height: 139px;
+	border: solid #ccc;
+	border-width: 0 1px 1px;
+	background: #fafafa;
+}
+.recruit-detail-list ul {
+	/*height: 154px;*/
+	height: 138px;
+	/*padding: 15px 25px;*/
+	padding: 15px 20px;
+	background: #fafafa;
+}
+.recruit-detail-list ul li {
+	display: inline-block;
+	width: 24%;
+	/*padding-bottom: 20px;*/
+	padding-bottom: 15px;
+}
+.recruit-detail-list ul li .label {
+	color: #999;
+	/*font-size: 14px;*/
+	font-size: 13px;
+}
+.recruit-detail-list ul .checkbox-type02 :checked ~ .label {
+	color: #ed1a2e;
+}
+.recruit-detail-list.col-group {
+	overflow: hidden;
+	padding: 0;
+}
+.recruit-detail-list.col-group .col01 {
+	float: left;
+	/*width: 33.45%;*/
+	width: 33.4%;
+	border-right: 1px solid #ccc;
+}
+.recruit-detail-list .col01 .scroll-inner {
+	/*height: 154px;*/
+	height: 138px;
+}
+.recruit-detail-list .col01 ul {
+	overflow: hidden;
+	height: auto;
+	padding: 0;
+}
+.recruit-detail-list .col01 li {
+	float: left;
+	width: 50%;
+	margin-bottom: -1px;
+	padding: 0;
+	border: 1px solid #ccc;
+	border-width: 0 1px 1px 0;
+}
+.recruit-detail-list .col01 li a {
+	display: block;
+	/*padding: 13px 15px;*/
+	padding: 10px 15px;
+	/*font-size: 16px;*/
+	font-size: 15px;
+}
+.recruit-detail-list .col01 li.active a {
+	border-color: #ce020b;
+	color: #fff;
+	background-color: #ed1a2e;
+}
+.recruit-detail-list .col01 li:nth-child(even) {
+	border-right: 0;
+}
+.recruit-detail-list.col-group .col02 {
+	float: right;
+	width: 66.55%;
+}
+.recruit-selected-list {
+	display: none;
+	overflow: hidden;
+	border: solid #ccc;
+	border-width: 0 1px 1px;
+	background: #fafafa;
+}
+.recruit-selected-list .left {
+	float: left;
+	/*width: 854px;*/
+	width: 769px;
+	/*height: 95px;*/
+	/*height: 85px;*/
+	/*height: 93px;*/
+	height: 85px;
+	border-right: 1px solid #ccc;
+}
+.recruit-selected-list .left ul {
+	/*height: 95px;*/
+	height: 85px;
+	/*padding: 20px 45px;*/
+	padding: 15px 40px;
+}
+.recruit-selected-list .left li {
+	display: inline-block;
+	/*margin-right: 20px;*/
+	margin-right: 15px;
+	/*padding-bottom: 16px;*/
+	padding-bottom: 15px;
+	color: #ed1a2e;
+	font-weight: 700;
+}
+.recruit-selected-list .left li button {
+	position: relative;
+	vertical-align: initial;
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	border: none;
+	background: none;
+}
+.recruit-selected-list .left li button:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 12px;
+	height: 12px;
+	background: url(/static/img/common/spr_icon.png) -208px -301px no-repeat;
+	transform: translate(-50%, -50%);
+}
+.recruit-selected-list .right {
+	float: right;
+	/*padding-right: 18px;*/
+	padding-right: 15px;
+	/*line-height: 93px;*/
+	line-height: 85px;
+}
+.recruit-selected-list .right button {
+	position: relative;
+	/*margin-right: 20px;*/
+	margin-right: 15px;
+	/*padding-left: 24px;*/
+	padding-left: 20px;
+	border: none;
+	color: #999;
+	/*font-size: 16px;*/
+	font-size: 15px;
+	background: none;
+}
+.recruit-selected-list .right button:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 18px;
+	height: 16px;
+	background: url(/static/img/common/spr_icon.png) -235px -301px no-repeat;
+	transform: translateY(-50%);
+}
+.recruit-detail-view .link-more-detail {
+	position: relative;
+	/*margin-left: 20px;*/
+	margin-left: 15px;
+	/*padding: 2px 24px 2px 12px;*/
+	padding: 5px 20px 5px 10px;
+	border: 1px solid #ccc;
+	color: #000;
+	/*font-size: 14px;*/
+	font-size: 13px;
+	font-weight: 700;
+}
+.recruit-detail-view .link-more-detail:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 7px;
+	height: 11px;
+	background: url(/static/img/common/spr_icon.png) -403px -44px no-repeat;
+	transform: translateY(-50%);
+}

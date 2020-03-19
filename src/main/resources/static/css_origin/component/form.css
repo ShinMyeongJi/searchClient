@@ -1,0 +1,526 @@
+@charset 'UTF-8';
+/*
+	Form
+	- width: full
+*/
+/* Label */
+.label {
+	vertical-align: middle;
+	font-size: inherit;
+}
+.form-group .label {
+	margin-left: 8px;
+}
+.form-group .label:first-child {
+	margin-left: 0;
+}
+.btn-group.align-justify > div > .label {
+	position: relative;
+	top: 6px;
+}
+/* Form text */
+.text-info {
+	position: relative;
+	margin-top: 6px;
+	/* padding-left: 19px; */
+	color: #999;
+	font-size: 14px;
+}
+/* .text-info:before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 0;
+	width: 14px;
+	height: 14px;
+	background: url(/static/img/common/spr_bullet.png) no-repeat 0 0;
+} */
+.text-invalid {
+	position: relative;
+	margin-top: 6px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	color: #ce020b;
+	font-size: 14px;
+}
+.text-invalid:before {
+	content: '*';
+	position: absolute;
+	top: 5px;
+	left: 0;
+	color: #ce020b;
+}
+.text-description {
+	margin-bottom: 35px;
+	font-size: 18px;
+}
+.text-description-alert {
+	position: relative;
+	padding-left: 30px;
+}
+.text-description-alert:before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	/*background-color: pink;*/
+}
+.tab + .text-description {
+	margin-top: 55px;
+}
+.form-group .alert-time {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	color: #ce020b;
+	font-size: 14px;
+	text-align: right;
+	letter-spacing: 0;
+}
+/* Textfield */
+.textfield,
+[type=text].select {
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	padding: 0 20px;
+	border: 1px solid #ccc;
+	color: #000;
+	font-size: 16px;
+	transition: color .2s, border-color .2s;
+}
+.textfield-invalid {
+	border-color: #ce020b !important;
+}
+.textfield:focus,
+[type=text].select:focus {
+	border-color: #000;
+}
+.textfield:disabled {
+	color: #000;
+	background-color: #f2f2f2;
+}
+.textfield.unit {
+	width: calc( 100% - 40px );
+}
+.textfield.unit + .txt {
+	display: inline-block;
+	width: 30px;
+	margin-left: 5px;
+	font-size: 16px;
+}
+/* Textfield: modify */
+.form-group .label + .textfield {
+	margin-left: 8px;
+}
+/* Textfield layer */
+.textfield-layer {
+	display: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: absolute;
+	top: 49px;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	max-height: 181px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+.textfield-layer .item {
+	display: block;
+	padding: 6px 20px;
+}
+.textfield-layer .item:focus,
+.textfield-layer .item:hover {
+	background-color: #f2f2f2;
+}
+.textfield-search:focus,
+.textfield-search:focus ~ .btn {
+	position: relative;
+	z-index: 11;
+}
+.textfield-search:focus ~ .textfield-layer {
+	display: block;
+}
+/* Textarea */
+.textarea {
+	display: block;
+	width: 100%;
+	height: 150px;
+	padding: 15px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	transition: border-color .2s;
+}
+.textarea:focus {
+	border-color: #000;
+}
+/* File, Radio, Checkbox */
+.file,
+.radio,
+.checkbox {
+	display: inline-block;
+	position: relative;
+	font-size: 0;
+}
+.radio,
+.checkbox {
+	margin-right: 20px;
+}
+.radio:last-child,
+.checkbox:last-child {
+	margin-right: 0;
+}
+.file .label,
+.radio .label,
+.checkbox .label {
+	font-size: 16px;
+}
+.file [type=file],
+.radio [type=radio],
+.radio [type=checkbox],
+.checkbox [type=radio],
+.checkbox [type=checkbox] {
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	border: none;
+	white-space: nowrap;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px,1px,1px,1px);
+}
+.radio .label,
+.checkbox .label {
+	margin-left: 15px;
+}
+.radio ins,
+.checkbox ins {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.radio :disabled ~ ins,
+.checkbox :disabled ~ ins {
+	opacity: .5;
+}
+.radio ins {
+	background-image: url(/static/img/common/spr_radio.png);
+}
+.checkbox ins,
+.radio-type03 ins {
+	background-image: url(/static/img/common/spr_checkbox.png);
+}
+.file-group .checkbox ins {
+	top: 1px;
+}
+.radio :checked ~ ins {
+	background-position: 0 -25px;
+}
+.checkbox :checked ~ ins,
+.radio-type03 :checked ~ ins {
+	background-position: 0 -26px;
+}
+.radio :focus ~ ins,
+.checkbox :focus ~ ins {
+	outline: 1px dotted #000;
+	outline: 2px auto Highlight;
+	outline: 2px auto -webkit-focus-ring-color;
+}
+/* .radio-type01 */
+/* .checkbox-type01 */
+.radio-type01 ins,
+.checkbox-type01 ins {
+	width: 14px;
+	height: 12px;
+	border-radius: 0;
+	background-color: transparent;
+	background-image: none;
+}
+.radio-type01 .label,
+.checkbox-type01 .label {
+	margin-left: 4px;
+}
+.radio-type01 :checked ~ .label,
+.checkbox-type01 :checked ~ .label {
+	color: #000;
+	font-weight: 700;
+}
+.radio-type01 :checked ~ ins,
+.checkbox-type01 :checked ~ ins {
+	background: url(/static/img/common/spr_icon.png) no-repeat -379px -65px;
+}
+/* .radio-type02 */
+/* .checkbox-type02 */
+.radio-type02 ins,
+.checkbox-type02 ins {
+	width: 20px;
+	height: 20px;
+	border-radius: 0;
+	background-color: transparent;
+	background-image: none;
+}
+.radio-type02 .label,
+.checkbox-type02 .label {
+	margin-left: 4px;
+}
+.radio-type02 :checked ~ .label,
+.checkbox-type02 :checked ~ .label {
+	color: #000;
+	font-weight: 700;
+}
+.radio-type02 ins,
+.checkbox-type02 ins {
+	background: url(/static/img/common/spr_icon.png) no-repeat -248px 0;
+}
+.radio-type02 :checked ~ ins,
+.checkbox-type02 :checked ~ ins {
+	background-position: -270px 0;
+}
+/* Radio: modify */
+.radio-group .radio {
+	margin-top: 13px;
+}
+.file-group:after,
+.radio-group:after,
+.checkbox-group:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.file-group[class^=col] li,
+.radio-group[class^=col] li,
+.checkbox-group[class^=col] li {
+	float: left;
+	margin-top: -1px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.file-group.col-size02 li,
+.radio-group.col-size02 li,
+.checkbox-group.col-size02 li {
+	width: 50%;
+}
+.file-group.col-size03 li,
+.radio-group.col-size03 li,
+.checkbox-group.col-size03 li {
+	width: 33.3333%;
+}
+.file-group.col-size04 li,
+.radio-group.col-size04 li,
+.checkbox-group.col-size04 li {
+	width: 25%;
+}
+.checkbox-group li {
+	height: 70px;
+	padding: 20px;
+}
+/* File group */
+.file-list {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 80%;
+	width: calc(100% - 140px - 11px);
+	height: 50px;
+	border: 1px solid #ccc;
+	transition: border-color .2s;
+}
+.file-list-invalid {
+	border-color: #ce020b !important;
+}
+.file-group .scroll-wrapper {
+	height: 50px;
+}
+.file-list .inner {
+	width: 100% !important;
+	padding: 11px 20px 9px !important;
+}
+.file-group .file {
+	max-width: 140px;
+	margin-left: 8px;
+}
+.file-group .file .btn {
+	min-width: 139px;
+	margin-left: 0;;
+}
+.file-added {
+	display: inline-block;
+	margin: 0 18px 8px 0;
+}
+.file-added .label {
+	display: inline-block;
+	overflow: hidden;
+	max-width: 150px;
+	font-size: 16px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	letter-spacing: 0;
+}
+.file-group .placeholder {
+	display: inline-block;
+	margin: 4px 0;
+	color: #999;
+}
+/* file group: modify */
+.radio-group + .file-group {
+	margin-top: 7px;
+}
+/* Textbox */
+.textbox {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	color: #999;
+	font-size: 14px;
+	line-height: 1.6;
+}
+.textbox .scroll-wrapper {
+	height: 200px;
+}
+.textbox .inner {
+	padding: 30px;
+}
+/* Form group */
+.form-group {
+	position: relative;
+}
+.group-style01 {
+	padding: 30px;
+	border: 1px solid #ccc;
+	background-color: #f2f2f2;
+}
+/* Form group: modify */
+.textbox + .form-group,
+.form-group + .form-group {
+	margin-top: 20px;
+}
+.select + .form-group,
+.table .form-group + .form-group {
+	margin-top: 10px;
+}
+.radio-group + .form-group {
+	margin-top: 7px;
+}
+/* Group block */
+.group-block .btn {
+	/*min-width: 100px;*/
+	margin-left: 6px;
+}
+.group-block .textfield,
+.group-block select.select:not(.selectized),
+.group-block .selectize-control {
+	width: 70%;
+	width: calc(100% - 100px - 8px);
+	margin-right: 0;
+}
+/* Radio group */
+.join-form .radio-group {
+	min-height: 50px;
+}
+/* Email group */
+/* .email-group > .select,
+.email-group > .textfield {
+	width: 30%;
+}
+.email-group > .label {
+	margin: 0 8px;
+}
+.email-group > .select {
+	float: right;
+	width: calc( 100% - 60% - 45px );
+} */
+/* Toggle */
+[data-toggle] {
+	display: none;
+}
+.radio.checked + [data-toggle],
+.checkbox.checked + [data-toggle] {
+	display: block;
+}
+/* formfield */
+.formfield {
+	margin-top: -5px;
+}
+.formfield.feed-form {
+	border: none;
+}
+.formfield .textfield,
+.formfield .textarea,
+.formfield .file-list,
+.formfield .select {
+	margin: 5px 0;
+}
+.formfield-type01 {
+	padding: 25px 30px;
+	border-top: 1px solid #000;
+}
+.formfield-type01 .form-group {
+	padding-left: 90px;
+}
+.formfield-type01 .form-group + .form-group {
+	margin-top: 15px;
+}
+.formfield-type01 .form-group .labeltxt {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 80px;
+	font-size: 18px;
+}
+/* Tip */
+.tip-group {
+	display: inline-block;
+	position: relative;
+}
+.tip-group .tip {
+	display: none;
+	position: absolute;
+	top: 33px;
+	left: 0;
+	z-index: 2;
+	width: 250px;
+	margin-left: -113px;
+	padding: 30px 23px;
+	border: 1px solid #000;
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #fff;
+}
+.tip-group.active .tip {
+	display: block;
+}
+.tip-group .tip:before {
+	content: '';
+	position: absolute;
+	top: -7px;
+	left: 50%;
+	width: 12px;
+	height: 7px;
+	margin-left: -6px;
+	background: url(/static/img/common/spr_etc.png) no-repeat 0 0;
+}
+.tip-group .btn-group {
+	display: block;
+	margin-top: 3px;
+	text-align: right;
+}
+.tip-group .btn {
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	padding: 0 5px;
+	border-color: #ce020b;
+	color: #ce020b;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 18px;
+	background-color: #fff;
+}

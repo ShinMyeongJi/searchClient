@@ -1,0 +1,152 @@
+@charset 'UTF-8';
+/* Table */
+.table table {
+	table-layout: fixed;
+	border-top: 1px solid #000;
+}
+.modal .table {
+	border-top-width: 1px;
+}
+.table table ~ p {
+	margin-top: 10px;
+}
+.table th,
+.table td {
+	vertical-align: middle;
+	text-align: center;
+}
+.table th {
+	padding: 17px 20px;
+	border-bottom: 1px solid #ccc;
+}
+.table td {
+	padding: 17px 20px 18px;
+	border-bottom: 1px solid #ccc;
+}
+.table thead th {
+	padding: 23px 20px;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+}
+.table tbody td {
+	height: 70px;
+	padding: 10px 20px;
+	color: #999;
+}
+.table tfoot th,
+.table tfoot td {
+	height: 70px;
+	color: #ce020b;
+	font-weight: 700;
+	background-color: #fafafa;
+}
+.table tr.bgColor td,
+.table .bgColor {
+	background-color: #fafafa;
+}
+.table tr.bgColor.color01 * {
+	color: #ce020b !important;
+}
+.table + .table {
+	margin-top: 30px;
+}
+.message + .table {
+	margin-top: 85px;
+}
+/* table-row */
+.table-row table {
+	border-top-color: #ccc ;
+}
+.table-row th,
+.table-row tbody td {
+	height: 70px;
+	padding: 10px 20px;
+	text-align: left;
+}
+.table-row th {
+	background-color: #f2f2f2;
+}
+.table-row th.verticalT {
+	vertical-align: top;
+	padding-top: 20px;
+}
+.table-row tbody td {
+	color: #000;
+}
+/* table-view */
+.table-view th {
+	width: 150px;
+	border-top: 1px solid #ccc;
+}
+.table-view td {
+	padding: 9.5px 20px;
+	text-align: left;
+}
+.table-fixed {
+	table-layout: fixed;
+}
+.table .td-form {
+	padding: 0 20px;
+}
+.table td > a:not(.btn) {
+	padding-bottom: 3px;
+	border-bottom: 1px solid;
+}
+.form-group + .table {
+	margin-top: 50px;
+}
+.table-type01 td.align-left > a {
+	vertical-align: middle;
+	padding: 0;
+	border-bottom: 0;
+}
+.table-type01 a .title {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	max-width: 100%;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	white-space: nowrap;
+}
+.table-type01 a > span.title {
+	vertical-align: top;
+}
+.table-type01 a > .tags + span.title,
+.table-type01 a > i + span.title {
+	vertical-align: middle;
+}
+.table-type01 a .tags + .title {
+	width: 75%;
+}
+.table-type01 .icon-questions {
+	margin-right: 15px;
+}
+.table-type01 [class^=color0] + .btn-sizeXXS {
+	margin: 0 9px;
+}
+/* margin */
+.boardCard + .table {
+	margin-top: 30px;
+}
+/* Join form */
+.join-form,
+.join-form th,
+.join-form td {
+	border: 0;
+}
+.join-form {
+	table-layout: fixed;
+	margin-top: 35px;
+}
+.join-form th {
+	vertical-align: top;
+	width: 150px;
+	padding: 13px 40px 33px 0;
+	text-align: left;
+	background-color: #fff;
+}
+.join-form tbody td {
+	padding: 0;
+	padding-bottom: 20px;
+}

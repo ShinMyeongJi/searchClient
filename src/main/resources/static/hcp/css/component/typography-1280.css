@@ -1,0 +1,254 @@
+@charset 'UTF-8';
+/* heading */
+.heading {
+	position: relative;
+}
+.heading .title {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #000;
+	font-weight: 700;
+	line-height: initial;
+}
+.heading .button {
+	vertical-align: top;
+}
+.heading .right {
+	position: absolute;
+	top: 4px;
+	right: 0;
+}
+.heading .right p {
+	color: #999;
+	font-size: 16px;
+}
+.heading .right .btn + .btn {
+	margin-left: 10px;
+}
+.heading .title span {
+	color: #999;
+	font-weight: 400;
+}
+.heading-depth01 .right {
+	top: 5px;
+}
+[class*=heading-depth]:first-child {
+	margin-top: 0;
+}
+[class*=heading-depth] + [class*=heading-depth] {
+	margin-top: 0;
+}
+.heading-depth01 {
+	padding-bottom: 75px;
+	text-align: center;
+}
+.heading-depth01 .title {
+	margin-bottom: 15px;
+}
+.heading-depth01 p {
+	color: #999;
+	font-size: 20px;
+	word-break: keep-all;
+	letter-spacing: -1px;
+	line-height: 1.4;
+}
+.heading-depth02 {
+	margin: 75px 0 20px;
+}
+.heading-depth03 {
+	margin: 32px 0 15px;
+}
+.heading-depth04 {
+	margin: 70px 0 15px;
+}
+.heading-depth01 .title {
+	font-size: 46px;
+	letter-spacing: -2px;
+}
+.heading-depth02 .title {
+	color: #000;
+	font-size: 22px;
+	letter-spacing: -1px;
+}
+.heading-depth03 .title {
+	font-size: 20px;
+	letter-spacing: -1px;
+}
+.heading-depth04 .title {
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+.heading-depth02 + .heading-depth03 {
+	margin-top: 38px;
+}
+.form-group + .heading-depth03,
+.table + .heading-depth03 {
+	margin-top: 70px;
+}
+.message + .heading-depth03 {
+	margin-top: 80px;
+}
+/* tag */
+.tags-group em {
+	display: inline-block;
+	margin-right: 9px;
+}
+.tags-group em .btn-delete {
+	margin: 0 0 0 5px;
+}
+.tags-group em .tags {
+	margin: 0;
+}
+.tags {
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 60px;
+	height: 24px;
+	margin-right: 9px;
+	padding: 0 5px;
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	line-height: 24px;
+	background-color: #f2f2f2;
+}
+[class*=tags-bg0] {
+	color: #fff !important;
+}
+.tags-bg01 {
+	background-color: #ed1a2e !important;
+}
+.tags-bg02 {
+	background-color: #333;
+}
+.tags-bg03 {
+	background-color: #ccc;
+}
+.tags-sizeL {
+	height: 26px;
+	line-height: 26px;
+}
+.tags-sizeS {
+	height: 20px;
+	margin: 0 8px;
+	font-size: 12px;
+	line-height: 20px;
+}
+/* list */
+.list li {
+	position: relative;
+	margin: 2px 0;
+	padding-left: 10px;
+	color: #666;
+	font-size: 14px;
+}
+.list li:before {
+	content: '';
+	position: absolute;
+	top: 9px;
+	left: 0;
+	width: 3px;
+	height: 3px;
+	background-color: #999;
+}
+/* list-type02 */
+.list.list-type02 li {
+	margin: 10px 0;
+	padding-left: 0;
+}
+.list.list-type02 li:before {
+	content: none;
+}
+/* lsit-bar */
+.list-bar:after,
+.list-bar:before {
+	content: '';
+	display: table;
+}
+.list-bar:after {
+	clear: both;
+}
+.list-bar li {
+	float: left;
+	color: #999;
+}
+.list-bar li + li:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 1px;
+	height: 10px;
+	margin: -4px 10px 0;
+	background-color: #ccc;
+}
+.list-bar li strong {
+	margin-right: 4px;
+}
+.list-bar li span.underLine,
+.list-bar li a.underLine {
+	text-decoration: underline;
+}
+.list-bar .btn {
+	min-width: 60px;
+	height: 20px;
+	margin: -2px 0 0 8px ;
+	padding: 0 8px;
+	border: 1px solid #ce020b;
+	color: #ce020b;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 18px;
+}
+.list-bar i {
+	margin: -3px 5px 0 0;
+}
+.bar:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 1px;
+	height: 10px;
+	margin: -4px 10px 0;
+	background-color: #ccc;
+}
+/* message */
+.message {
+	margin-bottom: 10px;
+	padding: 18px 30px;
+	background-color: #fafafa;
+}
+.message p {
+	font-size: 18px;
+}
+.message .list li {
+	color: #000;
+	font-size: 16px;
+}
+.message .list li:before {
+	top: 12px;
+}
+.message + .tab {
+	margin-top: 75px;
+}
+.message + .board-top {
+	margin-top: 70px;
+}
+.message .btn-link {
+	vertical-align: text-bottom;
+	margin-left: 13px;
+}
+.message-bg01 {
+	color: #fff;
+	background-color: #ff8c3c;
+}
+.message-bg01 .btn-link,
+.message-bg01 p strong {
+	color: #fff600;
+}
+.align-right + .message {
+	margin-top: 18px;
+}

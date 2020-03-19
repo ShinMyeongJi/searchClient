@@ -1,0 +1,355 @@
+@charset 'UTF-8';
+.mypage-group {
+	position: relative;
+}
+.mypage-group:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+/* aside */
+.mypage .aside {
+	float: left;
+	width: 220px;
+	border-top: 2px solid #ee2a3c;
+}
+.aside .parent > li > a {
+	display: block;
+	position: relative;
+	padding-right: 20px;
+	border-bottom: 1px solid #ccc;
+	color: #000;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 70px;
+	background-color: #fff;
+}
+.aside .parent li.active > a {
+	font-weight: 700;
+}
+.aside .parent > li > a [class*=icon-angle] {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(0, -50%);
+}
+.aside .child {
+	display: none;
+	padding: 17px 20px;
+	border-bottom: 1px solid #ccc;
+	background-color: #f5f5f5;
+}
+.aside .active .child {
+	display: block;
+}
+.aside .child > li > a {
+	display: block;
+	padding: 5px 0;
+	color: #666;
+	font-size: 16px;
+	line-height: initial;
+}
+.aside .child > li.active > a {
+	color: #ee2a3c;
+}
+/* mypage-cont */
+.mypage .mypage-cont {
+	float: right;
+	width: 1020px;
+}
+.mypage .myProfile strong {
+	margin-bottom: 0;
+}
+.mypage .myProfile .btn-change {
+	position: absolute;
+	top: 50%;
+	right: 50px;
+	min-width: auto;
+	transform: translate(0, -50%);
+}
+.mypage .myProfile .label,
+.mypage .myProfile.type01 .desc strong {
+	vertical-align: middle;
+	margin-right: 20px;
+}
+/* board-count */
+.board-count {
+	display: table;
+	width: 100%;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #ccc;
+}
+.board-count .left {
+	/* float: left; */
+	display: table-cell;
+	vertical-align: middle;
+	width: 720px;
+	padding-right: 40px;
+}
+.board-count .right {
+	/* float: right; */
+	display: table-cell;
+	vertical-align: middle;
+	width: 260px;
+}
+.board-count .count {
+	position: relative;
+	top: 50%;
+	border: 1px solid #ccc;
+}
+.board-count .count li {
+	display: table;
+	width: 100%;
+	border-top: 1px solid #ccc;
+}
+.board-count .count li:first-child {
+	border-top: none;
+}
+.board-count .count li > a {
+	display: table-cell;
+	position: relative;
+	padding: 0 20px;
+	color: #000;
+	font-size: 14px;
+	line-height: 36px;
+}
+.board-count .count li > a + a {
+	width: 50%;
+	border-left: 1px solid #ccc;
+}
+.board-count .count li > a strong {
+	position: absolute;
+	right: 20px;
+	color: #ee2a3c;
+	font-size: 18px;
+	text-decoration: underline;
+}
+.board-count .feed,
+.board-count .feed + .feed .feed-head,
+.board-count [class*=boardCard-],
+.board-count [class*=boardCard-] li,
+.board-count [class*=card] .item {
+	border: none;
+}
+/* feed */
+.board-count .feed {
+	margin: 0;
+}
+.board-count .feed-head {
+	padding: 20px 20px 20px 72px;
+	border-color: #ccc;
+}
+.board-count .feed-head p {
+	font-size: 18px;
+}
+.board-count .feed-head > [class*=icon-] {
+	top: 20px;
+	left: 20px;
+}
+.board-count .feed-list {
+	padding: 15px 0;
+}
+.board-count .feed-list li {
+	position: relative;
+	padding: 0 20px;
+	color: #666;
+	font-size: 16px;
+	line-height: 50px;
+}
+.board-count .feed-list .title {
+	color: #000;
+}
+.board-count .btn-link {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	color: #999;
+	font-weight: 400;
+	transform: translate(0, -50%);
+}
+.board-count .no-data {
+	position: relative;
+	height: 145px;
+	color: #666;
+	font-size: 16px;
+}
+.board-count .no-data .btn-link {
+	top: inherit;
+	right: 40px;
+	bottom: 20px;
+	text-decoration: underline;
+	transform: initial;
+}
+/* boardCard */
+.board-count .boardCard-type02 .item {
+	padding: 20px;
+}
+/* 계정관리 */
+.account-message {
+	width: 410px;
+	margin: 0 auto;
+}
+.account-message [class*=message-type] {
+	position: relative;
+	margin-bottom: 36px;
+	padding-top: 162px;
+	font-size: 18px;
+	text-align: center;
+}
+.account-message [class*=message-type]:before {
+	content: '';
+	position: absolute;
+	top: 45px;
+	left: 50%;
+	width: 80px;
+	height: 80px;
+	background: url(/static/img/join/spr_join.png) no-repeat;
+	background-position: -268px -31px;
+	background-size: 366px auto;
+	transform: translateX(-50%);
+}
+.account-message .btn-group {
+	margin-top: 20px;
+}
+.account-message .form-group + .btn-group {
+	margin-top: 30px;
+}
+/* form */
+.mypage .form-account {
+	display: inline-block;
+	/*width: 420px;*/
+	width: 540px;
+}
+.mypage .form-account + [class*=btn] {
+	margin-left: 7px;
+}
+.mypage .email-group .domain-id,
+.mypage .email-group .domain-address,
+.mypage .email-group .domain-select {
+	float: left;
+	position: relative;
+	margin-right: 10px;
+}
+.mypage .email-group .domain-id,
+.mypage .email-group .domain-address {
+	width: 205px;
+}
+.mypage .email-group .domain-select {
+	width: 350px;
+	margin-right: 0;
+}
+.mypage .email-group .domain-id .label {
+	position: absolute;
+	top: 7px;
+	right: 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.mypage .message + .healthForm {
+	margin-top: 40px;
+}
+/* 우리동네 설정 - 위치검색 */
+.mypage .input-search {
+	position: relative;
+	padding: 0;
+}
+.mypage [class*=input-] > .scrollbar {
+	display: none;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	height: 190px;
+	border-top: 1px solid #eee;
+	background-color: #fff;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+}
+.mypage [class*=input-] > .scrollbar ul {
+	padding: 10px 0;
+}
+.mypage [class*=input-] > .scrollbar li {
+	height: 34px;
+	padding: 0 20px;
+	color: #000;
+	line-height: 34px;
+	cursor: default;
+}
+.mypage [class*=input-] > .scrollbar li:hover,
+.mypage [class*=input-] > .scrollbar li:focus {
+	background-color: #f2f2f2;
+}
+.mypage [class*=input-] > .scrollbar li span {
+	margin-right: 10px;
+}
+.mypage [class*=input-] > .scrollbar li em {
+	color: #ed1a2e;
+}
+.mypage .table.mileage {
+	margin-bottom: 50px;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+.mypage .table.mileage tbody th,
+.mypage .table.mileage tbody td {
+	font-size: 18px;
+	text-align: center;
+}
+.mypage .table .icon-mileage {
+	margin-right: 15px;
+}
+.mypage .searchCont .search .radio.col-size02 .label {
+	width: 140px;
+}
+.agree-entire {
+	overflow: auto;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+.agree-entire.no-data {
+	padding: 85px 0;
+	font-size: 16px;
+}
+.mypage-group .form-group-list .form-group + .form-group {
+	margin-left: 40px;
+}
+/* Modi */
+.mypage .mypage-cont .type-choice .label {
+	font-weight: 500;
+}
+.mypage .mypage-cont .checkbox-group.col-size04 {
+	border-bottom: 1px solid #ccc;
+}
+.mypage .mypage-cont .checkbox-group.col-size04 li {
+	float: left;
+}
+.mypage .mypage-cont .checkbox-group.col-size04 li .label {
+	display: inline-block;
+	overflow: hidden;
+	max-width: 170px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.mypage .mypage-cont .checkbox-group.col-size04 li:nth-child(4n + 1) {
+	position: relative;
+}
+.mypage .mypage-cont .checkbox-group.col-size04 li:nth-child(4n + 1):before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 400%;
+	height: 1px;
+	background-color: #ccc;
+}
+.mypage .board-survey .card-type04.card-choice .card-foot p {
+	display: inline-block;
+	overflow: hidden;
+	overflow: hidden;
+	max-width: 270px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

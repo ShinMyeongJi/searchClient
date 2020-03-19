@@ -1,0 +1,77 @@
+@charset 'UTF-8';
+/* PROTOTYPE */
+.container {
+	overflow: hidden;
+}
+.PROTOTYPE {
+	position: relative;
+	min-width: 1280px;
+}
+.PROTOTYPE-bg {
+	overflow: hidden;
+	background-color: #333;
+}
+.PROTOTYPE-img {
+	display: block;
+	position: relative;
+	z-index: 5;
+}
+.PROTOTYPE-mobile .PROTOTYPE-img {
+	width: 320px;
+}
+.PROTOTYPE-mobile {
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 388px;
+	height: 709px;
+	margin: -354.5px 0 0 -194px;
+	background: url(/static/hcp/img/prototype/frame.png) no-repeat 0 0;
+}
+.PROTOTYPE-mobile .frame {
+	overflow: hidden;
+	position: absolute;
+	top: 92px;
+	left: 36px;
+	width: 320px;
+	height: 515px;
+	background-color: #fff;
+}
+.PROTOTYPE-mobile .scroll {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: relative;
+	width: 340px;
+	height: 464px;
+}
+.PROTOTYPE-mobile .bottom {
+	height: 51px;
+}
+/* PROTOTYPE03 */
+.preview-layer {
+	overflow: hidden;
+	position: absolute;
+	top: 503px;
+	left: 50%;
+	z-index: 6;
+	width: 1292px;
+	margin-left: -649px;
+}
+.preview-layer .PROTOTYPE-img {
+	float: right;
+}
+.preview-layer.active {
+	position: fixed;
+	top: 119px;
+}
+/* PROTOTYPE10 */
+.PROTOTYPE10:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -500%;
+	width: 1000%;
+	height: 1140px;
+	background-color: #f2f2f2;
+}

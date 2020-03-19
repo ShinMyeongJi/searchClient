@@ -1,0 +1,213 @@
+@charset 'UTF-8';
+/* tab */
+.tab {
+	position: relative;
+	margin-bottom: 50px;
+}
+.tab:before,
+.tab:after {
+	content: '';
+	display: table;
+}
+.tab:after {
+	clear: both;
+}
+.tab:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 1px;
+}
+.tab + .tab {
+	margin-top: -50px;
+}
+.tab li {
+	float: left;
+}
+.tab li:first-child a {
+	margin-left: 0;
+}
+.tab > li > span,
+.tab > li > a {
+	display: block;
+	position: relative;
+	height: 60px;
+	margin-bottom: -1px;
+	margin-left: -1px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	color: #666;
+	font-size: 18px;
+	text-align: center;
+	line-height: 58px;
+	background-color: #f2f2f2;
+}
+.tab li.current a {
+	position: relative;
+	z-index: 1;
+	border-color: #000;
+	color: #000;
+	font-weight: 500;
+	background-color: #fff;
+}
+/* tab-type */
+[class*=tab-type] li.current a {
+	color: #333;
+	background-color: #fff;
+}
+.tab-type01:before {
+	background-color: #ccc;
+}
+.tab-type01 li a {
+	margin-bottom: 0;
+}
+.tab-type01 li.current a {
+	border-top-width: 2px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #fff !important;
+	border-left: 1px solid #ccc;
+	color: #000;
+}
+.tab-type02 li a {
+	border: 0;
+	border-bottom: 2px solid #f2f2f2;
+	background-color: #fff;
+}
+.tab-type02 li.current a {
+	border-color: #ce020b;
+}
+.tab-type03 {
+	overflow: hidden;
+	position: relative;
+	margin-top: 60px;
+	border-right: 0;
+	border-left: 1px solid #eee;
+}
+.tab-type03:before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 1px;
+	background-color: #ccc;
+}
+.tab-type03:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 1px;
+	background-color: #ccc;
+}
+.tab-type03 li a,
+.tab-type03 li span {
+	margin: 0;
+	border-color: #eee;
+	/*border-bottom: 0;*/
+	/*border-left: 0;*/
+	border-top: 0;
+	background-color: #fff;
+}
+.tab-type03 li a,
+.tab-type03 li span {
+	border-left: 0;
+}
+.tab-type03 li.current a {
+	z-index: 0;
+	border-color: #eee;
+	color: #000;
+	background-color: #f1f1f1;
+}
+/* size */
+.tab-size01 li {
+	width: 100%;
+}
+.tab-size02 li {
+	width: 50%;
+}
+.tab-size03 li {
+	width: 33.333333%;
+}
+.tab-size04 li {
+	width: 25%;
+}
+.tab-size05 li {
+	width: 20%;
+}
+.tab-size06 li {
+	width: 16.66%;
+}
+/* form tab */
+.form-tab:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.form-tab li {
+	float: left;
+}
+.form-tab li .radio {
+	display: block;
+}
+.form-tab li .radio .label {
+	display: block;
+	position: relative;
+	height: 42px;
+	margin: 0;
+	margin-left: -1px;
+	border: 1px solid #ccc;
+	color: #999;
+	text-align: center;
+	line-height: 40px;
+}
+.form-tab li .radio :checked ~ .label {
+	z-index: 5;
+	border: 2px solid #ed1a2e;
+	line-height: 38px;
+}
+.form-tab li .radio ins {
+	position: relative;
+	top: -2px;
+	vertical-align: middle;
+	width: 24px;
+	height: 24px;
+	background: url(../../img/common/spr_icon.png) no-repeat 0 0;
+}
+.form-tab li .item01 .label ins {
+	background-position: -104px -52px;
+}
+.form-tab li .item02 .label ins {
+	background-position: -156px -52px;
+}
+.form-tab li .item03 .label ins {
+	background-position: -208px -52px;
+}
+.form-tab li .item01 :checked ~ .label ins {
+	background-position: -130px -52px;
+}
+.form-tab li .item02 :checked ~ .label ins {
+	background-position: -182px -52px;
+}
+.form-tab li .item03 :checked ~ .label ins {
+	background-position: -234px -52px;
+}
+.form-tab li .item01 :checked ~ .label {
+	color: #ed1a2e;
+}
+.form-tab li .item02 :checked ~ .label {
+	color: #ed1a2e;
+}
+.form-tab li .item03 :checked ~ .label {
+	color: #ed1a2e;
+}

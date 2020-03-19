@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+/* jQuery selectize - v0.12.6 | Copyright (c) 2013–2015 Brian Reavis & contributors | author: Brian Reavis <brian@thirdroute.com> | https://github.com/selectize/selectize.js | Apache License (v2) */
+.scrollbar > .scroll-element.scroll-y {
+	right: 0;
+}
+.scrollbar > .scroll-element .scroll-bar {
+	border-radius: 0;
+	background-color: #999;
+}
+.scrollbar:hover > .scroll-element .scroll-bar,
+.scrollbar > .scroll-element.scroll-draggable .scroll-bar {
+	opacity: 1;
+}
+.scrollbar > .scroll-element.scroll-y .scroll-bar {
+	left: -5px;
+	width: 5px;
+}
+.scrollbar > .scroll-element.scroll-y .scroll-element_outer {
+	top: 0;
+}
+.scrollbar > .scroll-element.scroll-y .scroll-element_size {
+	top: 0;
+}

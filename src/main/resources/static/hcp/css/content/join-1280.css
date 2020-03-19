@@ -1,0 +1,250 @@
+@charset 'UTF-8';
+/* Join */
+/* Step info */
+.step-info ol {
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 56px;
+	text-align: center;
+}
+.step-info ol:after {
+	content: '';
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	width: 60%;
+	height: 1px;
+	margin-left: -30%;
+	background-color: #ccc;
+}
+.step-info li {
+	display: inline-block;
+	position: relative;
+	padding-top: 45px;
+	color: #999;
+}
+.step-info li:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	margin-left: -20px;
+	background: url(/static/hcp/img/join/spr_step.png) no-repeat 0 0;
+}
+.step-info .step02:before {
+	background-position: -40px 0;
+}
+.step-info .step03:before {
+	background-position: -80px 0;
+}
+.step-info .step04:before {
+	background-position: -120px 0;
+}
+.step-info li + li {
+	margin-left: 101px;
+}
+.step-info .active {
+	color: #000;
+}
+.step-info .active:before {
+	background-position: 0 -40px;
+}
+.step-info .step02.active:before {
+	background-position: -40px -40px;
+}
+.step-info .step03.active:before {
+	background-position: -80px -40px;
+}
+.step-info .step04.active:before {
+	background-position: -120px -40px;
+}
+/* Join box */
+.join-box {
+	padding: 55px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.join-box .text {
+	font-size: 24px;
+	line-height: 1.4;
+}
+.join-box .text-sub {
+	margin-top: 10px;
+	color: #999;
+	line-height: 1.4;
+}
+/* Join box: modify */
+h2 + .join-box {
+	padding-top: 20px;
+	border-width: 0 0 1px;
+}
+/* Text img */
+[class*=text-img] {
+	position: relative;
+}
+[class*=text-img]:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.text-img01 {
+	padding-top: 95px;
+}
+.text-img01:before {
+	width: 69px;
+	height: 80px;
+	margin-left: -34.5px;
+	background-image: url(/static/hcp/img/join/img_text-img01.png);
+}
+.text-img02 {
+	padding-top: 92px;
+}
+.text-img02:before {
+	width: 78px;
+	height: 74px;
+	margin-left: -39px;
+	background-image: url(/static/hcp/img/join/img_text-img02.png);
+}
+.text-img03 {
+	padding-top: 105px;
+}
+.text-img03:before {
+	width: 78px;
+	height: 80px;
+	margin-left: -39px;
+	background-image: url(/static/hcp/img/join/img_text-img03.png);
+}
+.text-img04 {
+	padding-top: 115px;
+}
+.text-img04:before {
+	width: 91px;
+	height: 97px;
+	margin-left: -45px;
+	background-image: url(/static/hcp/img/join/img_text-img04.png);
+}
+.text-img05 {
+	padding-top: 115px;
+}
+.text-img05:before {
+	width: 91px;
+	height: 97px;
+	margin-left: -45px;
+	background-image: url(/static/hcp/img/join/img_text-img05.png);
+}
+.text-img06 {
+	padding-top: 115px;
+}
+.text-img06:before {
+	width: 107px;
+	height: 85px;
+	margin-left: -53px;
+	background-image: url(/static/hcp/img/join/img_text-img06.png);
+}
+/* Join link */
+.join-link {
+	margin-top: 55px;
+	color: #999;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+}
+.join-link a {
+	margin-left: 18px;
+	color: #000;
+	text-decoration: underline;
+}
+/* 로그인 */
+.content.login-content {
+	height: 100vh;
+	padding: 0;
+	background-color: transparent;
+}
+.content.login-content > .inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 490px !important;
+	padding: 25px 60px 60px;
+	background-color: #fff;
+	transform: translate(-50%, -50%);
+}
+.login-content .join-form th {
+	width: 80px;
+	padding-right: 10px;
+}
+.login-content .btn-group {
+	margin-top: 10px;
+}
+.login-link {
+	margin-top: 25px;
+	text-align: center;
+}
+.login-link a {
+	color: #999 ;
+	font-size: 14px;
+}
+.login-txt {
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	width: 100%;
+	color: #666;
+	text-align: center;
+}
+.no-borderAll {
+	padding-bottom: 0;
+	border: none;
+}
+.join-select-type {
+	overflow: hidden;
+	margin-top: 37px;
+}
+.join-select-type div {
+	width: 380px;
+	padding: 80px 0 60px;
+	border: 1px solid #ccc;
+	font-size: 24px;
+	text-align: center;
+}
+.join-select-type .active {
+	border-color: #ce020b;
+}
+.join-select-type div p {
+	padding-top: 110px;
+}
+.join-select-type div p span {
+	display: block;
+	margin-top: 9px;
+	color: #999;
+	font-size: 16px;
+}
+.join-select-type div a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 20px auto 0;
+	background: url(/static/hcp/img/join/img_arrow.png) 0 0 no-repeat;
+}
+.join-select-type .left {
+	float: left;
+}
+.join-select-type .left p {
+	background: url(/static/hcp/img/join/img_doctor.png) 50% 0 no-repeat;
+}
+.join-select-type .right {
+	float: right;
+}
+.join-select-type .right p {
+	background: url(/static/hcp/img/join/img_pharmacist.png) 50% 0 no-repeat;
+}
+h2.align-center + p {
+	font-size: 18px;
+	text-align: center;
+}

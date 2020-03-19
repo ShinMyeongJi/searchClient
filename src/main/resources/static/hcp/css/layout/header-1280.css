@@ -1,0 +1,200 @@
+/* header */
+.header {
+	position: relative;
+	z-index: 20;
+	width: 100%;
+	background-color: #fff;
+}
+.navbar-fixed .header {
+	position: fixed;
+}
+/* top */
+.header .top {
+	border-bottom: 1px solid #ccc;
+}
+.header .top .inner {
+	position: relative;
+	width: 1300px;
+	margin: 0 auto;
+	padding: 35px 350px 0 350px;
+}
+.header .logo {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	width: 178px;
+	height: 32px;
+	margin-top: -16px;
+}
+.main-srh .search {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	border: 3px solid #eb0028;
+}
+.main-srh .search input {
+	width: 100%;
+	height: 44px;
+	padding: 0 60px 0 20px;
+	border: 0;
+	font-size: 16px;
+	line-height: 44px;
+}
+.main-srh .search button {
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	width: 26px;
+	height: 26px;
+	margin-top: -13px;
+}
+.header .realtime-keyword {
+	position: relative;
+	padding-right: 300px;
+}
+.realtime-keyword .title {
+	color: #787878;
+	font-size: 14px;
+	line-height: 55px;
+}
+.realtime-keyword .title strong {
+	color: #212121;
+	font-size: 14px;
+}
+.realtime-keyword .keyword {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	width: 300px;
+	height: 54px;
+	background-color: #fff;
+}
+.realtime-keyword .keyword li {
+	height: 55px;
+	padding: 17px 30px 17px 8px;
+	font-size: 14px;
+}
+.realtime-keyword .keyword.active {
+	overflow: initial;
+	height: 275px;
+	margin-top: -1px;
+	border: 1px solid #ccc;
+}
+.realtime-keyword .keyword.active li {
+	padding: 17px 29px 17px 7px;
+}
+.realtime-keyword .keyword em.num {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 500;
+	text-align: center;
+	background-color: #ce020b;
+}
+.realtime-keyword .keyword .btn-open {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 20px;
+}
+.realtime-keyword .keyword .icon-arrow {
+	position: absolute;
+	top: 23px;
+	width: 15px;
+	height: 10px;
+	background: url(/static/hcp/img/common/spr_icon.png) no-repeat -334px -34px;
+}
+.header .top-menu {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 213px;
+	height: 67px;
+	margin-top: -33px;
+}
+.header .top-menu:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.top-menu li {
+	float: left;
+	margin-left: 30px;
+}
+.top-menu li:first-child {
+	margin-left: 0;
+}
+.top-menu li a {
+	display: block;
+	color: #999;
+	font-size: 12px;
+	text-align: center;
+}
+.top-menu [class^=icon-] {
+	display: block;
+	margin: 0 auto 9px;
+}
+/* notice banner */
+.notice-banner {
+	height: 80px;
+}
+.notice-banner.banner-color01 {
+	background: #ec1a34; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #ec1a34 0%, #ff6300 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #ec1a34 0%,#ff6300 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #ec1a34 0%,#ff6300 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec1a34', endColorstr='#ff6300',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.notice-banner.banner-color01:before {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 150px;
+	height: 80px;
+}
+.notice-banner.banner-color01:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 260px;
+	height: 80px;
+}
+/* Notice Banner */
+.notice-banner .inner {
+	position: relative;
+	width: 1280px;
+	margin: 0 auto;
+	padding: 13px 0 14px;
+	text-align: center;
+}
+.notice-banner .title {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+}
+.notice-banner .text {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+}
+.notice-banner .btn-close {
+	position: absolute;
+	right: 15px;
+	bottom: 0;
+	width: 25px;
+	height: 25px;
+	border: 0;
+	background-color: rgba(0, 0, 0, .4);
+}

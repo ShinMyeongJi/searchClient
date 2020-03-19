@@ -1,0 +1,1096 @@
+@charset 'UTF-8';
+.my-layout:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.my-layout .my-lnb,
+.my-layout .my-contents {
+	float: left;
+}
+.my-layout .my-lnb {
+	width: 300px;
+	padding: 35px 0 0 0;
+}
+.my-layout .my-lnb-body {
+	width: 260px;
+}
+.my-layout .my-lnb-body h2 {
+	height: 150px;
+	margin: 0;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 150px;
+	background: url(/static/hcp/img/mypage/my_lnb_bg.gif) no-repeat left top;
+}
+.my-layout .my-lnb-body h3 {
+	margin: 0;
+}
+.my-layout .my-lnb-list-wrap {
+	padding: 10px 25px 20px 25px;
+	background: #f6f6f6;
+}
+.my-layout .my-lnb-list-wrap .my-lnb-list li {
+	border-bottom: 1px solid #ddd;
+}
+.my-layout .my-lnb-list-wrap .my-lnb-list li a {
+	display: block;
+	height: 50px;
+	line-height: 2.9;
+}
+.my-layout .my-lnb-list-wrap .my-lnb-list li.selected a {
+	color: #ce020b;
+	font-weight: 500;
+}
+.my-layout .my-lnb-list-wrap h3 {
+	margin: 30px 0 10px 0;
+	font-size: 16px;
+}
+.my-layout .my-lnb-list-wrap .my-lnb-util {
+	padding: 20px;
+	background: #f0f0f0;
+}
+.my-layout .my-lnb-list-wrap .my-lnb-util a {
+	display: block;
+	color: #333;
+	font-size: 14px;
+	line-height: 2;
+}
+.my-layout .my-lnb-list-wrap .my-lnb-util .selected a {
+	color: #ce020b;
+	font-weight: 500;
+}
+.my-layout .heading + .tab {
+	margin: 20px 0 0 0;
+}
+.my-layout .tab + .board-top,
+.my-tab-s-menu + .board-top,
+.my-tab-s-menu + .board-header {
+	margin-top: 50px;
+}
+.my-layout .heading + .board-top {
+	margin-top: 10px;
+}
+.my-layout .heading-my-depth01 {
+	padding: 35px 0 50px 0;
+}
+.my-layout .my-contents {
+	width: 980px;
+}
+.my-layout .mypage-main > div:nth-child(2) ~ div {
+	margin-top: 50px;
+}
+.my-layout .mypage-main .my-info {
+	padding: 25px;
+	border: 1px solid #ccc;
+}
+.my-layout .mypage-main .my-info .feed-box .img {
+	overflow: hidden;
+	margin: 0 10px 0 0;
+	border-radius: 50%;
+}
+.my-layout .mypage-main .my-info .feed-box > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+.my-layout .mypage-main .my-info .feed-box > div a {
+	font-size: 24px;
+}
+.my-layout .mypage-main .my-info .feed-box > div a span {
+	font-weight: 300;
+}
+.my-layout .mypage-main .my-info .milige-box ul li {
+	display: inline-block;
+	font-size: 22px;
+}
+.my-layout .mypage-main .my-info .milige-box ul li + li:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 1px;
+	height: 20px;
+	margin: -4px 20px 0 30px;
+	background-color: #ccc;
+}
+.my-layout .mypage-main .my-info .milige-box ul li span:first-child:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 42px;
+	height: 36px;
+	margin: -4px 10px 0;
+}
+.my-layout .mypage-main .my-info .milige-box ul li a {
+	padding: 0 0 0 20px;
+	color: #ce020b;
+	font-size: 22px;
+}
+.my-layout .mypage-main .my-info .milige-box ul li span.ico-milige01:before {
+	background: url(/static/hcp/img/mypage/ico_milige01.png) no-repeat 50% 50%;
+}
+.my-layout .mypage-main .my-info .milige-box ul li span.ico-milige02:before {
+	background: url(/static/hcp/img/mypage/ico_milige02.png) no-repeat 50% 50%;
+}
+.my-layout .mypage-main .my-menu {
+	padding: 10px 0 0 0;
+}
+.my-layout .mypage-main .my-menu > ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.my-layout .mypage-main .my-menu > ul > li {
+	float: left;
+	width: 49.5%;
+	margin-top: 10px;
+	padding: 25px;
+	border: 1px solid #ccc;
+}
+.my-layout .mypage-main .my-menu > ul > li:nth-child(even) {
+	float: right;
+}
+.my-layout .mypage-main .my-menu .t-ccell span,
+.my-layout .mypage-main .my-menu .t-ccell a {
+	float: left;
+}
+.my-layout .mypage-main .my-menu .t-ccell span {
+	padding: 0 15px 0 0;
+	color: #999;
+	font-size: 14px;
+	font-weight: 500;
+}
+.my-layout .mypage-main .my-menu .t-ccell span.one-line {
+	padding-top: 10px;
+}
+.my-layout .mypage-main .my-menu .t-ccell a {
+	float: right;
+	font-size: 34px;
+	text-align: right;
+	line-height: 1.2;
+}
+.my-layout .mypage-main .my-menu .t-ccell + .t-ccell:before {
+	content: '';
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+	width: 1px;
+	height: 35px;
+	margin: 3px 15px 0;
+	background-color: #ccc;
+}
+.my-layout .mypage-main .my-qna-list-wrap {
+	border: 1px solid #ccc;
+}
+.my-layout .mypage-main .my-qna-list-header ul:after,
+.my-layout .mypage-main .my-qna-list-header ul li:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.my-layout .mypage-main .my-qna-list-header ul li {
+	float: left;
+	width: 50%;
+	height: 62px;
+	padding: 12px 25px 0 25px;
+	border-bottom: 1px solid #ccc;
+}
+.my-layout .mypage-main .my-qna-list-header ul li > span {
+	float: left;
+	margin: 8px 0 0 0;
+}
+.my-layout .mypage-main .my-qna-list-header ul li > span:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	margin: -1px 5px 0 0;
+}
+.my-layout .mypage-main .my-qna-list-header ul li.status-wrap > div.status {
+	padding: 5px 0 0 0;
+}
+.my-layout .mypage-main .my-qna-list-header ul li.status-wrap > div.status span {
+	display: inline-block;
+	vertical-align: middle;
+	color: #999;
+}
+.my-layout .mypage-main .my-qna-list-header ul li.status-wrap > div.status span.ing {
+	color: #ce020b;
+	font-weight: 700;
+}
+.my-layout .mypage-main .my-qna-list-header ul li.status-wrap > div.status .dot {
+	width: 35px;
+	height: 5px;
+	background: url(/static/hcp/img/mypage/dot.png) no-repeat 50% 50%;
+}
+.my-layout .mypage-main .my-qna-list-header ul li.status-wrap > span:before {
+	background: url(/static/hcp/img/mypage/ico_status.png) no-repeat 50% 50%;
+}
+.my-layout .mypage-main .my-qna-list-header ul li.time-wrap > span:before {
+	background: url(/static/hcp/img/mypage/ico_clock.png) no-repeat 50% 50%;
+}
+.my-layout .mypage-main .my-qna-list-header ul li > div {
+	float: right;
+	;
+}
+.my-layout .mypage-main .my-qna-list-header ul li .tit {
+	color: #666;
+	font-size: 14px;
+	font-weight: 400;
+}
+.my-layout .mypage-main .my-qna-list-header ul li.time-wrap > div {
+	color: #ce020b;
+	font-size: 22px;
+	font-weight: 700;
+}
+.my-layout .mypage-main .my-qna-list-header ul li + li {
+	border-left: 1px solid #ccc;
+}
+.my-layout .mypage-main .my-qna-list {
+	padding: 30px;
+}
+.my-layout .mypage-main .my-qna-list ul li.answer {
+	position: relative;
+	padding: 15px 0 0 0;
+	line-height: 2;
+}
+.my-layout .mypage-main .my-qna-list ul li.answer span {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 90%;
+	color: #666;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	white-space: nowrap;
+}
+.my-layout .mypage-main .my-qna-list ul li.answer .icon-answer {
+	margin-right: 20px;
+}
+.my-layout .mypage-main .new-contents .title {
+	height: auto;
+	margin-bottom: 0;
+}
+.my-layout .mypage-main .new-contents .tags-group {
+	margin-bottom: 20px;
+}
+.my-layout .mypage-main .my-event .my-boardCard-type05 > li {
+	width: 100%;
+}
+.my-layout .mypage-main .my-event .my-boardCard-type05 .title strong {
+	display: block;
+	white-space: nowrap;
+}
+.my-layout .mypage-main .my-event .my-boardCard-type05 .item-foot span {
+	color: #999;
+	font-weight: 300;
+}
+/* .my-layout .my-board-top-ty01 .total {
+	margin-top: 10px;
+	color: #000;
+	font-size: 20px;
+	word-spacing: 0;
+}
+.my-layout .my-board-top-ty01 .total .total-num {
+	margin-left: 0;
+	color: #ce020b;
+} */
+.my-layout .my-boardCard-type03 li {
+	float: left;
+	width: calc((100% - 30px) /3);
+	margin-right: 15px;
+	border-bottom: none;
+}
+.my-layout .my-boardCard-type03 li:last-child {
+	margin-right: 0;
+}
+.my-layout .my-boardCard-type03 li .title {
+	height: 21px;
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+}
+.my-layout .my-boardCard-type03 li .item-foot {
+	color: #fff;
+	font-weight: 200;
+}
+.my-layout .my-boardCard-type03 .item-body {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	height: 70px;
+	padding: 13px 15px;
+}
+.my-layout .my-boardCard-type03 .dimmed:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	background: rgba(0,0,0,.6);
+}
+.my-layout .my-boardCard-type03 .dimmed:before {
+	display: none;
+}
+.my-layout .my-boardCard-type03 + .tab {
+	margin-top: 50px;
+}
+.my-layout .my-boardCard-type03 .tag-label,
+.my-layout .my-boardCard-type03 .btn {
+	position: absolute;
+	top: 0;
+}
+.my-layout .my-boardCard-type03 .tag-label {
+	left: 0;
+	padding: 3px 10px 2px 10px;
+	color: #fff;
+	font-size: 13px;
+	background: #ce020b;
+}
+.my-layout .my-boardCard-type03 .btn {
+	top: 10px;
+	right: 10px;
+}
+.my-layout .my-boardCard-type04 {
+	border-top: 1px solid #ccc;
+}
+.my-layout .my-boardCard-type04 li {
+	float: none;
+	width: 100%;
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+.my-layout .my-boardCard-type04 .item {
+	padding-left: 20px;
+}
+.my-layout .my-boardCard-type04 .item-img {
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
+}
+.my-layout .my-boardCard-type04 .item-img + .item-body {
+	width: calc(100% - 270px);
+}
+.my-layout .my-boardCard-type04 .item-body {
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
+	height: 110px;
+}
+.my-layout .my-boardCard-type04 .my-ico-mark {
+	position: absolute;
+	top: 50%;
+	right: 25px;
+	margin-top: -10px;
+}
+.my-layout .my-boardCard-type04 .checkbox + .item-body {
+	width: calc(100% - 50px);
+	height: auto;
+	padding: 0 0;
+}
+.my-layout .my-boardCard-type04 .item-body-tp02 .txt {
+	height: auto;
+}
+.my-layout .my-boardCard-type04 .item-body-tp02 .date {
+	display: block;
+	padding: 10px 0 10px 0;
+	color: #999;
+}
+.my-layout .my-boardCard-type04 .item-body-tp02 .origin-subject {
+	text-decoration: underline;
+}
+.my-layout .my-boardCard-type05 {
+	padding-top: 20px;
+	border-top: 1px solid #ccc;
+}
+.my-layout .my-boardCard-type05 > li {
+	float: left;
+	width: 49.4%;
+	border: 1px solid #ccc;
+}
+.my-layout .my-boardCard-type05 > li:nth-child(even) {
+	float: right;
+}
+.my-layout .my-boardCard-type05 > li:nth-child(2n) ~ li {
+	margin-top: 10px;
+}
+.my-layout .my-boardCard-type05 .item {
+	padding: 0 0;
+}
+.my-layout .my-boardCard-type05 .item-img {
+	width: 190px;
+	height: 190px;
+	border-width: 0;
+}
+.my-layout .my-boardCard-type05 .item-img img {
+	width: 190px;
+	height: 190px;
+}
+.my-layout .my-boardCard-type05 .item-body {
+	height: auto;
+	min-height: auto;
+	padding: 25px 20px 20px  20px;
+}
+.my-layout .my-boardCard-type05 .item-img + .item-body {
+	width: calc(100% - 190px);
+}
+.my-layout .my-boardCard-type05 .item-foot {
+	padding: 15px 0 0 0;
+	font-size: 15px;
+}
+.my-layout .my-boardCard-type05 .item-foot span {
+	color: #ce020b;
+	font-weight: 500;
+}
+.my-layout .my-boardCard-type05  .title {
+	height: auto;
+}
+.my-layout .my-boardCard-type05  .title strong {
+	display: -webkit-box;
+	height: 2.5em;
+	white-space: inherit;
+	line-height: 1.3;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.my-layout .my-boardCard-type05 .my-ev-date {
+	padding: 0 0 10px 0;
+	color: #999;
+	font-size: 14px;
+}
+.my-layout .my-boardCard-type05 .my-ev-date span {
+	padding: 0 0 0 5px;
+	color: #ce020b;
+	font-weight: 700;
+}
+.my-layout .my-boardCard-type05 .checkbox {
+	position: absolute;
+	top: 19px;
+	right: 15px;
+}
+.my-layout .my-event .my-boardCard-type05 {
+	padding-top: 2px;
+	border-top: none;
+}
+.my-layout .my-boardCard-type06 {
+	border-top: 1px solid #ccc;
+}
+.my-layout .my-boardCard-type06 .item {
+	padding: 20px 20px;
+}
+.my-layout .my-boardCard-type06 .item-img {
+	width: 312px;
+	height: 177px;
+	border-width: 1px;
+}
+.my-layout .my-boardCard-type06 .item-body {
+	height: auto;
+	min-height: auto;
+	padding: 0 0 0 20px;
+}
+.my-layout .my-boardCard-type06 .item-body .title {
+	margin-bottom: -5px;
+}
+.my-layout .my-boardCard-type06 .item-body .title strong {
+	max-width: 90%;
+}
+.my-layout .my-boardCard-type06 .item-img + .item-body {
+	width: calc(100% - 312px);
+}
+.my-layout .my-boardCard-type06 .item-foot {
+	bottom: 0;
+}
+.my-layout .my-boardCard-type06 .detail-list {
+	position: relative;
+}
+.my-layout .my-boardCard-type06 .detail-list p.tit {
+	font-size: 18px;
+}
+.my-layout .my-boardCard-type06 .detail-list ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.my-layout .my-boardCard-type06 .detail-list ul {
+	padding: 15px 0 0 0;
+}
+.my-layout .my-boardCard-type06 .detail-list ul li {
+	float: left;
+	width: 70%;
+	padding: 0 0 5px 0;
+	font-size: 15px;
+}
+.my-layout .my-boardCard-type06 .detail-list ul li span {
+	display: inline-block;
+	width: 80px;
+	color: #999;
+}
+.my-layout .my-boardCard-type06 .detail-list ul li:nth-child(even) {
+	width: 30%;
+}
+.my-layout .my-boardCard-type06 .detail-list ul li:last-child {
+	width: 70%;
+}
+.my-layout .my-boardCard-type06  .my-ico-like-wrap {
+	position: absolute;
+	right: 20px;
+	bottom: 5px;
+}
+.my-layout .my-boardCard-type06 .checkbox {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.my-layout .my-ico-like-wrap span {
+	color: #999;
+	font-size: 14px;
+	font-weight: 700;
+}
+.my-layout .my-ico-like-wrap span:before {
+	content: '';
+	display: inline-block;
+	clear: both;
+	vertical-align: middle;
+	width: 20px;
+	height: 18px;
+	margin: -3px 8px 0 5px;
+	background-image: url(/static/hcp/img/mypage/ico_like.png);
+	background-position: -20px 0;
+}
+.my-layout .my-ico-like-wrap span.my-ico-like {
+	margin: 0 20px 0 0;
+	color: #ce020b;
+}
+.my-layout .my-ico-like-wrap span.my-ico-like:before {
+	background-position: 0 0;
+}
+.my-layout .tags-line > span {
+	min-width: auto;
+}
+.my-layout .tags-line > span + span:before {
+	content: '';
+	display: inline-block;
+	clear: both;
+	vertical-align: middle;
+	width: 1px;
+	height: 12px;
+	margin: -3px 5px 0 5px;
+	background: #ccc;
+}
+.my-layout .my-ico-mark ins {
+	height: 18px;
+	background-image: url(/static/hcp/img/mypage/ico_mark.png);
+}
+.my-layout .my-ico-mark :checked ~ ins {
+	background-position: 0 -18px;
+}
+.my-layout .my-tab-s-menu {
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+.my-layout .my-tab-s-menu ul li {
+	display: inline-block;
+}
+.my-layout .my-tab-s-menu ul li + li:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 1px;
+	height: 10px;
+	margin: -4px 10px 0;
+	background-color: #ccc;
+}
+.my-layout .my-tab-s-menu ul li a {
+	color: #999;
+}
+.my-layout .my-tab-s-menu ul li.selected a {
+	color: #000;
+	font-weight: 700;
+}
+.my-layout .board-header:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.my-layout .board-header {
+	padding: 10px 20px 10px 20px;
+	border-top: 1px solid #000;
+}
+.my-layout .boardView-tp02 .view-head {
+	padding: 0;
+}
+.my-layout .boardView-tp02 .view-head div {
+	margin: 0;
+	padding: 0 30px 0 30px;
+}
+.my-layout .boardView-tp02 .view-head .title {
+	padding: 20px 30px 20px 30px;
+}
+.my-layout .boardView-tp02 .-ly-2x > * {
+	height: 60px;
+	font-size: 16px;
+}
+.my-layout .board-type02 .feed-info .my-list-bar-tp02 {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0 0 0;
+	font-weight: 300;
+}
+.my-layout .board-type02 .feed-tp01 .my-btn-qna {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	margin-top: -13px;
+}
+.my-layout .board-type02 .my-label-kind {
+	display: inline-block;
+	width: 80px;
+	color: #989898;
+	text-align: center;
+}
+.my-layout .my-question-txt {
+	padding: 10px 10px 10px 0;
+}
+.my-layout .my-question-txt + .-ly-2x > span {
+	padding: 10px;
+}
+.my-layout .my-answer-txt {
+	margin-bottom: 15px;
+	padding: 25px;
+	color: #666;
+	background: #fafafa;
+}
+.my-layout .my-answer-txt p {
+	padding: 10px 0 0 0;
+	text-align: right;
+}
+.my-layout .my-answer-txt p span {
+	padding-right: 10px;
+	color: #000;
+	font-weight: 500;
+}
+.my-layout .my-answer-view + .my-answer-txt {
+	position: relative;
+	top: 40px;
+	margin-bottom: 50px;
+}
+.my-layout .my-info-txt-box {
+	width: 100%;
+	padding: 30px;
+	background: #f2f2f2;
+}
+.my-layout .my-info-txt-box .my-info-txt-header {
+	padding: 0 0 10px 0;
+	font-size: 20px;
+}
+.my-layout .my-info-txt-box .my-info-txt-header span {
+	font-weight: 700;
+}
+.my-layout .my-info-txt-box .list li {
+	color: #222;
+	font-size: 16px;
+}
+.my-layout .my-box {
+	padding: 60px;
+	border: 1px solid #ccc;
+}
+.my-layout .my-box .text {
+	font-size: 24px;
+	line-height: 1.4;
+}
+.my-layout .my-box .text-sub {
+	margin-top: 10px;
+	color: #999;
+	line-height: 1.4;
+}
+.my-layout .my-box [class*=my-box-ico] {
+	position: relative;
+	text-align: center;
+}
+.my-layout .my-box [class*=my-box-ico]:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.my-layout .my-box-ico01 {
+	padding-top: 110px;
+}
+.my-layout .my-box-ico02 {
+	padding-top: 40px;
+	text-align: left !important;
+}
+.my-layout .my-box-ico03 {
+	padding-top: 30px;
+}
+.my-layout .my-box-ico01:before {
+	width: 59px;
+	height: 80px;
+	margin-left: -39px;
+	background-image: url(/static/hcp/img/mypage/ico_my_box.png);
+}
+.my-layout .my-box .my-pw-form {
+	width: 500px;
+	margin: 0 auto;
+}
+.my-layout .my-box .my-pw-form th {
+	width: 125px;
+	padding: 13px 25px 33px 0;
+}
+.my-layout .my-box .join-form td {
+	vertical-align: top;
+}
+.my-layout .my-box .join-form td.first {
+	padding-right: 10px;
+}
+.my-layout .my-box .btn-group {
+	margin-top: 30px;
+}
+.my-layout .my-box + .btn-group {
+	position: relative;
+}
+.my-layout .my-box + .btn-group .my-mem-out-btn {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.my-layout .my-pw-change {
+	padding: 150px 0 150px 0;
+}
+.my-layout .my-mem-out-info {
+	margin: 0 0 15px 0;
+	padding: 30px;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+.my-layout .my-mem-out-info .list li {
+	color: #999;
+	font-size: 16px;
+}
+.my-layout .my-form-g-box {
+	width: 300px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+}
+.my-layout .my-form-g-box .text-invalid {
+	text-align: left;
+}
+.my-layout .comment + .my-info-txt-box {
+	margin-top: 40px;
+}
+.my-layout .my-milige-date-group {
+	padding: 30px 0 50px 0;
+}
+.my-layout .my-milige-date-group .date-group {
+	margin-right: 0;
+}
+.my-layout .my-milige-date-group .datepicker-input {
+	width: 150px;
+}
+.my-layout .my-milige-date-group em {
+	margin: 0 10px;
+}
+.my-layout .my-milige-date-group span + button {
+	margin-left: 7px;
+}
+.my-layout .my-milige-info-txt {
+	padding: 30px 0 0 0;
+	color: #999;
+	text-align: center;
+}
+.my-layout .my-milige-info-txt span {
+	color: #ce020b;
+}
+.my-layout .my-info-modify-top {
+	display: table;
+	width: 100%;
+}
+.my-layout .my-info-modify-top + hr {
+	margin-top: 50px;
+}
+.my-layout .my-info-modify-top > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+.my-layout .my-info-modify-top .my-photo-box {
+	font-size: 24px;
+	font-weight: 700;
+}
+.my-layout .my-info-modify-top .my-photo-box > span {
+	display: inline-block;
+	vertical-align: middle;
+}
+.my-layout .my-info-modify-top .my-photo-box > span img {
+	width: 108px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.my-layout .my-info-modify-top .my-photo-box .my-photo {
+	position: relative;
+	width: 108px;
+	height: 108px;
+	margin-right: 30px;
+}
+.my-layout .my-info-modify-top .my-photo-box .my-photo .file {
+	position: absolute;
+	right: -10px;
+	bottom: 0;
+	width: 48px;
+	height: 48px;
+	border: none;
+	text-indent: -10000px;
+	background: url(/static/hcp/img/mypage/ico_camera.png) no-repeat;
+	background-size: 100%;
+}
+.my-layout .my-info-modify-top .btn {
+	width: auto;
+}
+.my-layout .my-use-milige {
+	padding: 25px;
+	border: 1px solid #ccc;
+}
+.my-layout .my-use-milige > span {
+	display: inline-block;
+	vertical-align: middle;
+	color: #d1292f;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+.my-layout .my-use-milige > span {
+	width: 60%;
+}
+.my-layout .my-use-milige > span:first-child {
+	width: 38%;
+	color: #000;
+	font-size: 20px;
+}
+.my-layout .my-use-milige > span:first-child:after {
+	content: '';
+	display: inline-block;
+	clear: both;
+	vertical-align: middle;
+	width: 1px;
+	height: 15px;
+	margin: 0 0 0 80px;
+	background: #ccc;
+}
+.my-layout .my-terms-scroll {
+	height: 250px;
+	margin-bottom: 10px;
+	padding: 25px;
+	border: 1px solid #ccc;
+}
+.my-layout .my-marketing-group {
+	margin: 15px 0 0 0;
+	padding: 15px;
+	background: #f6f6f6;
+}
+.my-layout .my-marketing-group li + li {
+	margin-top: 7px;
+}
+.my-layout .my-fb-board a {
+	font-size: 20px;
+	font-weight: 500;
+}
+.my-layout .my-fb-board .feed-info .list-bar li {
+	font-size: 16px;
+	font-weight: 300;
+}
+.my-layout .my-ico-label {
+	font-weight: 700;
+}
+.my-layout .my-label-red {
+	color: #ce020b;
+}
+.my-layout .my-ico-ty-01:before,
+.label-red:before {
+	content: '';
+	display: inline-block;
+	clear: both;
+	vertical-align: middle;
+	width: 26px;
+	height: 22px;
+	margin: 0 10px 0 0;
+}
+.my-layout .my-ico-ty-01:before {
+	background-image: url(/static/hcp/img/mypage/ico_ty_01.png);
+}
+.my-layout .my-label-red:before {
+	background-position: 0 -22px;
+}
+.my-layout .-ly-table {
+	display: table;
+	width: 100%;
+}
+.my-layout .-ly-table > * {
+	display: table-cell;
+	vertical-align: middle;
+}
+.my-layout .-ly-2x > * {
+	width: 50%;
+}
+.my-layout .-ly-float-lr:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.my-layout .-ly-float-lr > span {
+	float: right;
+}
+.my-layout .-ly-float-lr > span:first-child {
+	float: left;
+}
+.my-layout .my-btn-imp {
+	content: '';
+	display: block;
+	clear: both;
+	vertical-align: middle;
+	width: 80px;
+	height: 66px;
+	margin: 0 auto 0 auto;
+	padding: 30px 0 0 0;
+	background: #ce020b url(/static/hcp/img/mypage/ico_imp.png) no-repeat 50% 30px;
+}
+.my-layout .my-imp-comment .textarea {
+	width: 100%;
+	padding-right: 150px;
+}
+.my-layout .my-imp-comment .btn-group {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.my-layout .my-tab-type03 > li > a,
+.my-layout .my-tab-type03 > li > span {
+	height: 52px;
+	border: 1px solid #ccc;
+	color: #666;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: -.5px;
+	line-height: 50px;
+	background-color: #fff;
+}
+.my-layout .my-tab-type03 > li > a span {
+	color: #ce020b;
+}
+.my-layout .my-tab-type03 > li + li > a {
+	border-left: 0;
+}
+.my-layout .my-tab-type03 .active {
+	border: 1px solid #ce020b;
+	color: #fff;
+	background-color: #ce020b;
+}
+.my-layout .my-tab-type03 .active span {
+	color: #fff;
+}
+.my-layout .my-table-type02 tbody td {
+	padding: 10px 10px;
+}
+.my-layout .my-table-type02 thead th {
+	padding: 23px 10px;
+}
+.my-layout .my-table-type02 td.align-left > a {
+	vertical-align: middle;
+	padding: 0;
+	border-bottom: 0;
+}
+.my-layout .my-table-type02 a .title {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 79%;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	white-space: nowrap;
+}
+.my-layout .my-fl {
+	float: left;
+}
+.my-layout .my-fr {
+	float: right;
+}
+.my-layout .my-f-bold {
+	font-weight: 700 !important;
+}
+.my-layout .my-btn-color05 {
+	border-color: #ccc;
+	color: #fff;
+	background-color: #ccc;
+}
+.my-layout .my-table-tp01 table {
+	border-top-color: #000;
+}
+.my-layout .my-table-tp01 table th,
+.my-table-tp01 table td {
+	text-align: center;
+}
+.my-layout .my-table-tp01 table th + th,
+.my-table-tp01 table th + td,
+.my-table-tp01 table td + td {
+	border-left: 1px solid #ccc;
+}
+.my-layout .my-table-tp01 table td .my-subject {
+	font-size: 20px;
+	font-weight: 500;
+}
+.my-layout .my-bg-gray {
+	background: #f9f9f9;
+}
+.my-layout .my-f-gray {
+	color: #999 !important;
+}
+.my-layout .my-f-black {
+	color: #000 !important;
+}
+.my-layout .my-f-gray02 {
+	color: #333 !important;
+}
+.my-layout .my-f-16 {
+	font-size: 16px !important;
+}
+.my-layout .my-f-12 {
+	font-size: 12px !important;
+}
+.my-layout .my-f-13 {
+	font-size: 13px !important;
+}
+.my-layout .my-f-14 {
+	font-size: 14px !important;
+}
+.my-layout .my-f-15 {
+	font-size: 15px !important;
+}
+.my-layout .form-label {
+	padding: 0 10px 0 0;
+}
+.my-layout .btn-type02 {
+	min-width: 120px;
+	height: 50px;
+	padding: 0 20px !important;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 48px;
+}
+.my-contents .my-boardCard-type04 .item-img {
+	width: 216px;
+	height: 110px;
+}
+.my-layout .no-data {
+	margin-bottom: 50px;
+	padding: 50px;
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+	color: #999;
+	text-align: center;
+}

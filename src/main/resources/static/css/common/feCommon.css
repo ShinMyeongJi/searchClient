@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+/* feCommon.css | IDOP CONSUMER PC */
+/* Common */
+@import url('base.css');
+@import url('common.css');
+/* Layout */
+@import url('../layout/layout.css');
+@import url('../layout/navbar.css');
+@import url('../layout/footer.css');
+/* Component */
+@import url('../component/board.css');
+@import url('../component/button.css');
+@import url('../component/card.css');
+@import url('../component/comments.css');
+@import url('../component/form.css');
+@import url('../component/icon.css');
+@import url('../component/map.css');
+@import url('../component/mypage.css');
+@import url('../component/tab.css');
+@import url('../component/table.css');
+@import url('../component/typography.css');
+/* Vendor */
+@import url('../vendor/modal.css');
+@import url('../vendor/modal-modify.css');
+@import url('../vendor/select.css');
+@import url('../vendor/select-modify.css');
+@import url('../vendor/scrollbar.css');
+@import url('../vendor/scrollbar-modify.css');
+@import url('../vendor/slick.css');
+@import url('../vendor/slick-theme.css');
+@import url('../vendor/video-js.min.css');
+@import url('../vendor/videojs-resolution-switcher.min.css');
+@import url('../vendor/video-js-modify.css');
+/* Content */
+@import url('../content/main.css'); /* 메인 */
+@import url('../content/join.css'); /* 회원가입 */
+@import url('../content/content.css'); /* 병원상세 */
+@import url('../content/content2.css'); /* 콘텐츠 */
+@import url('../content/health_info.css'); /* 건강정보 */
+@import url('../content/search.css'); /* 통합검색 */

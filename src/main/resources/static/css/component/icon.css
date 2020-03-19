@@ -1,0 +1,412 @@
+@charset 'UTF-8';
+/* icon */
+[class*=icon-] {
+	display: inline-block;
+	position: relative;
+	top: -2px;
+	vertical-align: middle;
+	background-image: url(/static/img/common/spr_icon.png);
+	background-repeat: no-repeat;
+}
+.icon-data {
+	width: 60px;
+	height: 60px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -82px -78px;
+}
+.icon-link {
+	width: 5px;
+	height: 9px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -403px -11px;
+}
+.icon-mediaPlay01 {
+	width: 40px;
+	height: 40px;
+	background: url(/static/img/common/spr_icon.png) no-repeat 0 -39px;
+	background-size: 205px auto;
+}
+.icon-mediaPlay02 {
+	width: 80px;
+	height: 80px;
+	background: url(/static/img/common/spr_icon.png) no-repeat 0 -78px;
+}
+.icon-mediaPlay03 {
+	width: 24px;
+	height: 24px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -375px -160px;
+}
+.icon-question01 {
+	width: 32px;
+	height: 32px;
+	/*margin-right: 20px;*/
+	margin-right: 10px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -288px -78px;
+}
+.icon-file {
+	top: 0;
+	width: 25px;
+	height: 25px;
+	background: url(/static/img/common/spr_icon.png) no-repeat -217px -246px;
+}
+[class*=icon-arrow] {
+	width: 7px;
+	height: 14px;
+	margin: 0 5px;
+	background: none;
+}
+[class*=icon-arrow]:before,
+[class*=icon-arrow]:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 8px;
+	height: 2px;
+	border-radius: 20px;
+	background-color: #121212;
+}
+[class*=icon-arrow]:before {
+	top: 4px;
+	transform: rotate(45deg);
+}
+[class*=icon-arrow]:after {
+	bottom: 3px;
+	transform: rotate(-45deg);
+}
+/* 화살표 */
+[class*=icon-angle] {
+	top: -1px;
+	width: 6px;
+	height: 10px;
+	margin: 0 5px;
+	background: none;
+}
+[class*=icon-angle]:before,
+[class*=icon-angle]:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 6px;
+	height: 2px;
+	border-radius: 20px;
+	background-color: #121212;
+}
+[class*=icon-angle]:before {
+	top: 2px;
+	transform: rotate(45deg);
+}
+[class*=icon-angle]:after {
+	bottom: 2px;
+	transform: rotate(-45deg);
+}
+/* 뱡향 */
+[class*=icon-angle].bottom {
+	width: 10px;
+	height: 7px;
+	margin: -3px 5px 0;
+}
+[class*=icon-angle].bottom:before {
+	top: 50%;
+	left: 0;
+}
+[class*=icon-angle].bottom:after {
+	top: 50%;
+	right: 0;
+	left: inherit;
+}
+/* 화살표 색상*/
+.icon-angle01:before,
+.icon-angle01:after {
+	background-color: #666;
+}
+.icon-angle02:before,
+.icon-angle02:after {
+	background-color: #999;
+}
+.icon-angle03:before,
+.icon-angle03:after {
+	background-color: #ce020b;
+}
+.icon-angle04:before,
+.icon-angle04:after {
+	background-color: #fff;
+}
+.icon-angle05:before,
+.icon-angle05:after {
+	background-color: #009bd3;
+}
+/* 1px 화살표 */
+[class*=icon-angle].thin {
+	width: 9px;
+	height: 11px;
+	margin: -1px 6px 0;
+}
+[class*=icon-angle].thin:before,
+[class*=icon-angle].thin:after {
+	width: 9px;
+	height: 1px;
+}
+[class*=icon-angle].thin.small:before,
+[class*=icon-angle].thin.small:after {
+	width: 6px;
+	height: 1px;
+}
+[class*=icon-angle].thin.small:before {
+	top: 4px;
+}
+[class*=icon-angle].thin.bottom {
+	width: 15px;
+	height: 8px;
+}
+.icon-arrow02:before,
+.icon-arrow02:after {
+	background-color: #fff;
+}
+.icon-arrow03 {
+	top: -3px;
+	width: 9px;
+	height: 16px;
+	margin: 0 5px;
+}
+.icon-arrow03:before,
+.icon-arrow03:after {
+	width: 11px;
+	height: 2px;
+	background-color: #999;
+}
+.icon-record {
+	width: 81px;
+	height: 107px;
+	background-position: 0 -192px;
+}
+.icon-tip {
+	width: 14px;
+	height: 14px;
+	margin: 0 5px;
+	background-position: -286px -52px;
+}
+.icon-locate {
+	width: 15px;
+	height: 22px;
+	background-position: -302px -44px;
+}
+.icon-locate02 {
+	width: 20px;
+	height: 26px;
+	background-position: -320px -50px;
+}
+.icon-setting {
+	width: 13px;
+	height: 13px;
+	margin: 0 4px;
+	background-position: -357px -78px;
+}
+.icon-setting01 {
+	width: 32px;
+	height: 32px;
+	background-position: -323px -78px;
+}
+.icon-bloodSugar {
+	width: 30px;
+	height: 30px;
+	background-position: -32px -160px;
+}
+.icon-bloodPressure {
+	width: 30px;
+	height: 30px;
+	background-position: -64px -160px;
+}
+.icon-weight {
+	width: 30px;
+	height: 30px;
+	background-position: 0 -160px;
+}
+.icon-alert {
+	width: 60px;
+	height: 76px;
+	background-position: -83px -192px;
+}
+.icon-alert01 {
+	width: 70px;
+	height: 82px;
+	background-position: -145px -192px;
+}
+.icon-report {
+	width: 18px;
+	height: 16px;
+	background-position: -342px -60px;
+}
+.icon-location01 {
+	width: 15px;
+	height: 22px;
+	background-position: -362px -54px;
+}
+.icon-count {
+	width: 22px;
+	height: 14px;
+	margin-right: 5px;
+	background-position: -119px -140px;
+}
+.icon-answer {
+	width: 33px;
+	height: 32px;
+	background-position: -48px -301px;
+}
+.icon-good {
+	width: 17px;
+	height: 17px;
+	background-position: -82px -140px;
+}
+.icon-doctor {
+	width: 16px;
+	height: 15px;
+	background-position: -101px -140px;
+}
+.icon-answer01 {
+	width: 20px;
+	height: 20px;
+	background-position: -96px -160px;
+}
+.icon-answer02 {
+	width: 20px;
+	height: 20px;
+	background-position: -118px -160px;
+}
+.icon-answer03 {
+	width: 20px;
+	height: 20px;
+	background-position: -140px -160px;
+}
+.icon-answer01-s {
+	width: 19px;
+	height: 17px;
+	background-position: -162px -160px;
+}
+.icon-answer02-s {
+	width: 19px;
+	height: 17px;
+	background-position: -183px -160px;
+}
+.icon-answer03-s {
+	width: 19px;
+	height: 17px;
+	background-position: -204px -160px;
+}
+.icon-import {
+	width: 16px;
+	height: 20px;
+	background-position: -379px -93px;
+}
+.icon-feed {
+	width: 20px;
+	height: 20px;
+	background-position: -357px -93px;
+}
+.icon-feed01 {
+	width: 20px;
+	height: 20px;
+	background-position: -357px -93px;
+}
+.icon-alam {
+	width: 26px;
+	height: 26px;
+	background-position: -288px -114px;
+}
+.icon-mileage {
+	width: 26px;
+	height: 26px;
+	background-position: -316px -114px;
+}
+.icon-mypageTit01 {
+	width: 28px;
+	height: 26px;
+	background-position: -225px -160px;
+}
+.icon-mypageTit02 {
+	width: 28px;
+	height: 26px;
+	background-position: -255px -160px;
+}
+.icon-mypageTit03 {
+	width: 28px;
+	height: 26px;
+	background-position: -285px -160px;
+}
+.icon-mypageTit04 {
+	width: 28px;
+	height: 26px;
+	background-position: -315px -160px;
+}
+.icon-mypageTit05 {
+	width: 28px;
+	height: 26px;
+	background-position: -345px -160px;
+}
+.icon-subscribe {
+	width: 38px;
+	height: 41px;
+	background-position: -275px -192px;
+}
+.icon-scholarship {
+	width: 56px;
+	height: 52px;
+	background-position: -217px -192px;
+}
+.icon-question02 {
+	width: 18px;
+	height: 23px;
+	background-position: -82px -301px;
+}
+.icon-notice01 {
+	width: 22px;
+	height: 22px;
+	background-position: -344px -118px;
+}
+.icon-notice02 {
+	width: 22px;
+	height: 22px;
+	background-position: -368px -118px;
+}
+.table .icon-notice01,
+.table .icon-notice02 {
+	margin-right: 20px;
+}
+.icon-call {
+	width: 14px;
+	height: 14px;
+	background-position: -143px -140px;
+}
+.icon-detail01 {
+	width: 24px;
+	height: 24px;
+	background-position: -83px -276px;
+}
+.icon-ask01 {
+	width: 24px;
+	height: 24px;
+	background-position: -109px -276px;
+}
+.icon-hospital01 {
+	width: 20px;
+	height: 20px;
+	background-position: -104px -301px;
+}
+.current .icon-hospital01 {
+	background-position: -104px -323px;
+}
+.icon-pharmacy01 {
+	width: 20px;
+	height: 20px;
+	background-position: -126px -301px;
+}
+.current .icon-pharmacy01 {
+	background-position: -126px -323px;
+}
+.icon-search02 {
+	width: 20px;
+	height: 20px;
+	background-position: -148px -301px;
+}
+.icon-point02 {
+	width: 20px;
+	height: 20px;
+	background-position: -170px -301px;
+}

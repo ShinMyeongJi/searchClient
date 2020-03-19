@@ -1,0 +1,434 @@
+@charset 'UTF-8';
+.join .idpw-group .textfield {
+	margin-bottom: 10px;
+}
+.join .btn-group .btn {
+	box-shadow: 5px 5px 8px -1px #ccc;
+}
+.join-message .btn-group {
+	margin-top: 20px;
+}
+.id-info + .text-invalid {
+	margin: 10px 0 30px;
+}
+.join-message .form-group + .form-group {
+	margin-top: 10px;
+}
+.join-message .form-group + .btn-group {
+	margin-top: 30px;
+}
+.join-message .form-group .text-invalid {
+	margin-top: 5px;
+}
+/* Join */
+.navbar-join {
+	margin-top: 74px;
+}
+.navbar-join .inner {
+	overflow: hidden;
+	border-bottom: 2px solid #ed1a2e;
+}
+.navbar-join h1 {
+	float: right;
+	margin-top: 15px;
+}
+.navbar-join h2 {
+	float: left;
+	margin-bottom: 19px;
+	font-size: 48px;
+	font-weight: 700;
+}
+.content.join {
+	padding: 0 10px 74px;
+}
+.join-wrap {
+	margin-top: 51px;
+}
+.join-wrap:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.join .join-wrap h3 {
+	margin: 0 0 33px;
+	font-size: 32px;
+	font-weight: 400;
+	text-align: center;
+}
+.join .join-wrap h3 + p + p {
+	margin: 3px 0 10px;
+}
+.join .join-wrap h3 + p + p a {
+	border-bottom: 1px solid;
+	color: #0068b3;
+}
+.join-wrap h3 strong {
+	font-weight: 700;
+}
+.join-wrap .join-left,
+.join-wrap .join-right {
+	width: 50%;
+}
+.join-wrap .join-left {
+	float: left;
+	padding: 0 109px 0 110px;
+	border-right: 1px solid #ccc;
+}
+.join-wrap .join-right {
+	float: right;
+	padding: 0 110px;
+}
+.join-form .email-group .domain-id,
+.join-form .email-group .domain-address {
+	/*width: 205px;*/
+	width: 195px;
+}
+.join-form .email-group .domain-id {
+	float: left;
+	position: relative;
+}
+.join-form .email-group .domain-id .label {
+	position: absolute;
+	top: 7px;
+	/*right: 20px;*/
+	right: -25px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.join-form .email-group .domain-address {
+	float: right;
+}
+.join-form .email-group .domain-select {
+	margin-top: 10px;
+}
+.join-form .agree-group {
+	margin-top: 37px;
+}
+.agree-group .form-group + .form-group {
+	margin-top: 18px;
+}
+.agree-group .form-group .open-agreement {
+	position: absolute;
+	top: -2px;
+	right: 0;
+	width: 90px;
+	height: 35px;
+	border: 1px solid #999;
+	text-align: center;
+	line-height: 33px;
+}
+.agree-group .form-group-list {
+	margin: 21px 0 17px;
+	padding: 22px 0 28px;
+	border: solid #ccc;
+	border-width: 1px 0;
+}
+.join-form .btn-group {
+	margin-top: 21px;
+}
+.join-right p {
+	margin-bottom: 55px;
+	font-size: 18px;
+	text-align: center;
+}
+.join-right li {
+	margin-top: 10px;
+}
+.join-right li a {
+	display: block;
+	height: 90px;
+	padding-left: 79px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 88px;
+}
+.join-right li a span {
+	position: relative;
+	padding-left: 59px;
+}
+.join-right li a span:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 42px;
+	height: 42px;
+	background: url(/static/img/join/spr_join.png) no-repeat;
+	transform: translateY(-50%);
+}
+.join-right .type-n:before {
+	background-position: 0 0;
+}
+.join-right .type-f:before {
+	background-position: -44px 0;
+}
+.join-right .type-k:before {
+	background-position: -88px 0;
+}
+/* 로그인 */
+.join .btn-console {
+	margin-top: 40px;
+	text-align: center;
+}
+.join .btn-console a {
+	display: inline-block;
+	position: relative;
+	margin-left: 16px;
+	padding-left: 17px;
+	font-size: 16px;
+}
+.join .btn-console a:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 1px;
+	height: 12px;
+	background: #121212;
+	transform: translateY(-50%);
+}
+.join .btn-console a:first-child {
+	margin-left: 0;
+	padding-left: 0;
+}
+.join .btn-console a:first-child:before {
+	display: none;
+}
+/* 이메일 인증 */
+.join-cert {
+	padding: 72px 105px 50px;
+	text-align: center;
+}
+.join-cert .message {
+	position: relative;
+	padding-top: 65px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.join-cert .message:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 55px;
+	height: 39px;
+	background: #eee;
+	background: url(/static/img/join/spr_join.png) -132px 0 no-repeat;
+	transform: translateX(-50%);
+}
+.join-cert .message-txt {
+	margin-top: 25px;
+	font-size: 16px;
+}
+.join-cert .sub-txt {
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.join-cert .btn-group {
+	margin-top: 40px;
+}
+.join-cert .form-group.group-block {
+	margin-top: 40px;
+}
+.join-cert .form-group.group-block .form-group {
+	display: inline-block;
+	width: calc(100% - 120px - 8px);
+	margin-right: 0;
+}
+.join-cert .form-group.group-block .form-group .textfield {
+	width: 100%;
+}
+.join-cert .form-group.group-block .btn {
+	width: 120px;
+	min-width: auto;
+	margin-left: 6px;
+	padding: 0 10px;
+	font-size: 16px;
+}
+.join-cert .text-invalid {
+	text-align: left;
+}
+/* 아이디찾기 */
+.join-message {
+	width: 420px;
+	margin: 0 auto;
+}
+.join-message [class*=message-type] {
+	position: relative;
+	margin-bottom: 56px;
+	padding-top: 206px;
+	padding-left: 0;
+	border-top: 0;
+	font-size: 18px;
+	text-align: center;
+}
+.join-message [class*=message-type] strong {
+	font-weight: 700;
+}
+.join-message [class*=message-type]:before {
+	content: '';
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	width: 120px;
+	height: 120px;
+	background: url(/static/img/join/spr_join.png) no-repeat;
+	transform: translateX(-50%);
+}
+.join-message .message-type01:before {
+	background-position: 0 -44px;
+}
+.join-message .message-type02:before {
+	background-position: -122px -44px;
+}
+.join-message .message-type03:before {
+	background-position: -244px -44px;
+}
+.join-message .message-type05:before {
+	background-position: 0 -214px;
+}
+.join-message .message-type03 {
+	border: none;
+}
+.join-message .id-info {
+	height: 110px;
+	padding: 38px 0;
+	border: solid #666;
+	border-width: 2px 0 1px;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+.join-message .text {
+	margin: 85px 0 30px;
+	font-size: 18px;
+	text-align: center;
+}
+.join-message .text-type02 {
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: 700;
+}
+/* 회원가입완료 */
+.join-message .message-type04 {
+	padding-top: 231px;
+	font-size: 24px;
+}
+.join-message .message-type04 strong {
+	font-weight: 700;
+}
+.join-message .message-type04:before {
+	top: 95px;
+	width: 109px;
+	height: 109px;
+	background-position: -366px -44px;
+}
+/* 약관관련 */
+.agreement-cont {
+	color: #666;
+	font-size: 16px;
+}
+.agreement-cont .title {
+	margin: 50px 0 10px;
+	color: #000;
+	font-size: 18px;
+	font-weight: 700;
+}
+.agreement-cont h2.title {
+	font-size: 22px;
+}
+.agree-entire .agreement-cont .title:first-child {
+	margin-top: 0;
+}
+.agreement-cont h2.title + p,
+.agreement-cont h2.title + p + p {
+	margin-bottom: 15px;
+	color: #000;
+}
+.agreement-cont p,
+.agreement-cont table {
+	margin: 10px 0;
+}
+.agreement-cont li {
+	margin: 5px 0;
+}
+.agreement-cont ul ul {
+	margin: 0 20px;
+}
+.agreement-cont table th,
+.agreement-cont table td {
+	padding: 20px 15px;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+.agreement-cont table th {
+	color: #000;
+}
+.agreement-cont thead th,
+.agreement-cont tbody tr:first-child > * {
+	border-top: 2px solid #000;
+}
+.agreement-cont thead + tbody tr:first-child > * {
+	border-top: 1px solid #ccc;
+}
+.agreement-cont tr > :first-child {
+	border-left: 0;
+}
+.agreement-cont tr > :last-child {
+	border-right: 0;
+}
+/* 제휴업체 */
+.join-banner {
+	overflow: hidden;
+	margin: 25px 0 0 -25px;
+}
+.join-banner li {
+	float: left;
+	margin: 38px 0 0 25px;
+}
+.join-banner li a,
+.join-banner li img,
+.join-banner li span {
+	display: block;
+}
+.join-banner li a {
+	width: 410px;
+}
+.join-banner li span {
+	margin-top: 15px;
+	font-size: 16px;
+	text-align: center;
+}
+/* 일반회원 전환 */
+.join-wrap .join-left.join-left-type02 {
+	float: none;
+	margin: 0 auto;
+	border-right: 0;
+}
+.join-message .group-block .btn {
+	min-width: 100px;
+}
+/* join-job */
+.join-job {
+	margin-top: 20px;
+}
+.join-job .col-group {
+	margin-top: 10px;
+}
+.join-job .col-group .select {
+	float: left;
+	width: 49%;
+}
+.join-job .col-group div.select ~ .select {
+	float: right;
+	margin-left: 0;
+}
+/* join-marketing */
+.join-marketing .checkbox {
+	width: 49%;
+	margin: 0 0 18px 0;
+}

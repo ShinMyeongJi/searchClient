@@ -1,0 +1,144 @@
+@charset 'UTF-8';
+.grid:before,
+.grid:after {
+	content: '';
+	display: table;
+}
+.grid:after {
+	clear: both;
+}
+/* grid row */
+.grid-row:before,
+.grid-row:after {
+	content: '';
+	display: table;
+}
+.grid-row:after {
+	clear: both;
+}
+.grid-size02 .grid-col {
+	width: 50%;
+}
+.grid-size03 .grid-col {
+	width: 33.333%;
+}
+.grid-size04 .grid-col {
+	width: 25%;
+}
+.grid-size05 .grid-col {
+	width: 20%;
+}
+.grid-size06 .grid-col {
+	width: 16.666%;
+}
+.grid-size07 .grid-col {
+	width: 14.285%;
+}
+.grid-size08 .grid-col {
+	width: 12.5%;
+}
+/* grid col */
+.grid-col {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.grid-col.fr {
+	float: right;
+}
+.grid-col.grid-size01 {
+	width: 15%;
+}
+.grid-col.grid-size02 {
+	width: 25%;
+}
+.grid-col.grid-size03 {
+	width: 33.333%;
+}
+.grid-col.grid-size04 {
+	width: 40%;
+}
+.grid-col.grid-size05 {
+	width: 50%;
+}
+.grid-col.grid-size06 {
+	width: 60%;
+}
+.grid-col.grid-size07 {
+	width: 66.666%;
+}
+.grid-col.grid-size08 {
+	width: 75%;
+}
+.grid-col.grid-size09 {
+	width: 85%;
+}
+/* grid table */
+.grid-table .grid-row {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+.grid-table .grid-col {
+	display: table-cell;
+	float: none;
+	vertical-align: top;
+	width: 100%;
+	padding: 0;
+}
+.grid-table .grid-col.grid-size01 {
+	width: 10%;
+}
+.grid-table .grid-col.grid-size02 {
+	width: 20%;
+}
+.grid-table .grid-col.grid-size03 {
+	width: 30%;
+}
+.grid-table .grid-col.grid-size04 {
+	width: 40%;
+}
+.grid-table .grid-col.grid-size06 {
+	width: 60%;
+}
+.grid-table .grid-col.grid-size07 {
+	width: 70%;
+}
+.grid-table .grid-col.grid-size08 {
+	width: 80%;
+}
+.grid-table .grid-col.grid-size09 {
+	width: 90%;
+}
+/* grid line */
+[class*=grid-line] .grid-col:before,
+[class*=grid-line] .grid-col:after {
+	content: '';
+}
+.grid-line01 .grid-col:before {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 1px;
+	background-color: #ddd;
+}
+.grid-line01 .grid-col:first-child:before {
+	display: none;
+}
+.grid-line02 {
+	margin-top: 37px;
+}
+.grid-line02 .grid-col:before {
+	position: absolute;
+	top: 50%;
+	bottom: 0;
+	left: 0;
+	width: 1px;
+	height: 144px;
+	margin-top: -72px;
+	background-color: #ddd;
+}
+.grid-line02 .grid-col:first-child:before {
+	display: none;
+}

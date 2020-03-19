@@ -1,0 +1,194 @@
+@charset 'UTF-8';
+/* Button */
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	color: #000;
+	text-align: center;
+	white-space: nowrap;
+	background-color: transparent;
+}
+.btn {
+	cursor: pointer;
+}
+.btn:disabled,
+.btn.disabled {
+	border-color: #ccc;
+	color: #fff;
+	background-color: #ccc;
+	cursor: default;
+}
+/* Type */
+[class*=btn-type] {
+	padding: 0 40px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+[class*=btn-type] + [class*=btn-type],
+.btn-group .label + [class*=btn-type] {
+	margin-left: 8px;
+}
+.btn-type01 {
+	min-width: 140px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 48px;
+}
+/* Color */
+.btn-color01 {
+	border-color: #ce020b;
+	color: #fff;
+	background-color: #ce020b;
+}
+.btn-color02 {
+	border-color: #333;
+	color: #fff;
+	background-color: #333;
+}
+.btn-color03 {
+	color: #999;
+	background-color: #fff;
+}
+.btn-color04 {
+	border-color: #ce020b;
+	color: #ce020b;
+	background-color: #fff;
+}
+/* Size */
+.btn-full {
+	width: 100%;
+}
+[class*=btn-size] {
+	min-width: auto;
+}
+.btn-sizeXL {
+	min-width: 120px;
+	height: 70px;
+	padding: 0 10px;
+	font-size: 18px;
+	line-height: 68px;
+}
+.btn-sizeM {
+	height: 40px;
+	padding: 0 20px;
+	font-size: 16px;
+	line-height: 38px;
+}
+.btn-sizeS {
+	min-width: 100px;
+	height: 30px;
+	padding: 0 20px;
+	font-size: 14px;
+	line-height: 28px;
+}
+.btn-sizeXXS {
+	min-width: 60px;
+	height: 20px;
+	padding: 0 5px;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 18px;
+}
+.btn-sizeXS {
+	height: 26px;
+	padding: 0 5px;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 24px;
+}
+/* Group */
+.btn-group {
+	margin-top: 60px;
+	text-align: center;
+}
+.boardView + .btn-group + .heading {
+	margin-top: 75px;
+	margin-bottom: 20px;
+}
+.modal .paging + .btn-group {
+	/*margin-top: 20px;*/
+}
+.btn-group.align-justify > div {
+	float: left;
+}
+.btn-group.align-justify > div + div {
+	float: right;
+}
+.btn-group.align-justify div [class^=color0] {
+	display: inline-block;
+	margin-top: 15px;
+}
+.heading + .btn-group {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+/* btn link */
+.btn-link {
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+}
+.btn-link i {
+	margin: -3px 0 0 5px;
+}
+.btn-link.underline {
+	border-bottom: 1px solid;
+}
+/* Group: modify */
+.join-box .btn-group {
+	margin-top: 25px;
+}
+hr + .btn-group {
+	margin-top: 60px;
+}
+/* Delete */
+.btn-delete {
+	width: 12px;
+	height: 12px;
+	margin-left: 8px;
+	border: 0;
+	background: url(/static/hcp/img/common/spr_bullet.png) no-repeat -15px 0;
+}
+/* Delete: modify */
+.file-group .btn-delete {
+	position: relative;
+	top: 1px;
+}
+/* btn-rating */
+.btn-rating {
+	overflow: hidden;
+}
+.btn-rating > a {
+	float: left;
+	width: 11px;
+	height: 21px;
+	color: transparent;
+	background-image: url(/static/hcp/img/common/spr_rating.png);
+	background-repeat: no-repeat;
+	background-position: 0 -22px;
+}
+.btn-rating a:nth-child(even) {
+	width: 15px;
+	background-position: -10px -22px;
+}
+.btn-rating a.active {
+	background-position: 0 0;
+}
+.btn-rating a:nth-child(even).active {
+	background-position: -10px 0;
+}
+.btn-down {
+	overflow: hidden;
+	min-width: 140px;
+	text-align: left;
+}
+.btn-down .icon {
+	float: right;
+	margin-top: 14px;
+}
+.table .btn-down {
+	width: 225px;
+	margin: 3px 0;
+}
