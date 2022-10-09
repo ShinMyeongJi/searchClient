@@ -8,8 +8,8 @@ import com.pcn.demo.search.service.form.SolrSearchForm;
  * @section 클래스작성정보
  *    |    항  목        	|       	내  용       			|
  *    | :--------: 	| -----------------------------	|
- *    | Company 	| PCN
- *    | Author 		| rnd
+ *    | Company 	| 
+ *    | Author 		| 
  *    | Date 		| 2019. 7. 30.
  *    | 작업자 		| rnd, Others...
  * @section 상세설명
